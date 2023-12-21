@@ -1,0 +1,3 @@
+[submodule "themes/flewidity"]
+	path = themes/flewidity
+	url = git@github.com:flewid/flewidity.git
