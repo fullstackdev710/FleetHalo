@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Params.lang }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    {{ if or (.Params.math) (.Site.Params.math) }}
+        {{- partial "math.html" . -}}
+    {{ end }}
+  <head>
+    {{ partial "header.html" . }}  
+   
+  </head>
 
-<head>
-  {{ partial "header.html" . }}
+  <body>
 
-</head>
+    <div id="all">     
 
-<body>
+      {{ partial "breadcrumbs.html" . }}
+        <div id="content">
+            <div class="container">
 
-  <div id="all">
+                <div class="row">
 
-    {{ partial "breadcrumbs.html" . }}
-    <div id="content">
-      <div class="container">
+                    <!-- *** LEFT COLUMN *** -->
 
-        <div class="row">
+                    <div class="col-md-12" id="blog-post">
 
-          <!-- *** LEFT COLUMN *** -->
+                        <div id="post-content">
+                          {{ .Content }}
+                        </div>
+                        <!-- /#post-content -->
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
 
-          <div class="col-md-12" id="blog-post">
+                    </div>
+                  
 
-            <div id="post-content">
-              {{ .Content }}
+                </div>
+                <!-- /.row -->
+
             </div>
-            <!-- /#post-content -->
-            {{ if .Site.DisqusShortname }}
-            <div id="comments">
-              {{ template "_internal/disqus.html" . }}
-            </div>
-            {{ end }}
-
-          </div>
-
-
+            <!-- /.container -->
         </div>
-        <!-- /.row -->
+        <!-- /#content -->
 
-      </div>
-      <!-- /.container -->
+        {{ partial "footer.html" . }}
+
     </div>
-    <!-- /#content -->
+    <!-- /#all -->
 
-    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
 
-  </div>
-  <!-- /#all -->
-
-  {{ partial "scripts.html" . }}
-
-</body>
-
+  </body>
 </html>
