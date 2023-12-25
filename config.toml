@@ -95,35 +95,37 @@ date_format = "Mon, Jan 2, 2006"
 
 # Main menu
 [[menu.main]]
-name       = "Home"
-identifier = "menu.home"
+name       = "Our Solutions"
+identifier = "menu.solutions"
 url        = "/"
-weight     = 1
+weight     = 10
+
+[[menus.main]]
+name = 'Benefits'
+identifier = "menu.benefits"
+pageRef = '/solutions/benefits'
+parent = 'solutions'
+weight = 1
+
+[[menus.main]]
+name = 'Industries'
+identifier = "menu.industries"
+pageRef = '/solutions/industries'
+parent = 'solutions'
+weight = 2
 
 
 [[menu.main]]
-name       = "About"
+name       = "Our Products"
 identifier = "menu.about"
 url        = "about/"
-weight     = 2
+weight     = 20
 
 [[menu.main]]
-name       = "Services"
+name       = "Our Company"
 identifier = "menu.Services"
 url        = "services/"
-weight     = 3
-
-[[menu.main]]
-name       = "Blog"
-identifier = "menu.blog"
-url        = "blog/"
-weight     = 4
-
-[[menu.main]]
-identifier = "contact"
-name       = "Contact"
-url        = "contact/"
-weight     = 5
+weight     = 30
 
 
 [params.heros]
