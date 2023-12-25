@@ -11,7 +11,7 @@ defaultContentLanguage = "en"
 [params.enable]
  # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    googleMapsApiKey = "AIzaSyDnCjrDpQwQLK4UFpop5EjgIr0jpT-UY_g"
 
     latitude = "-12.043333"
     longitude = "-77.028333"
@@ -93,8 +93,6 @@ date_format = "Mon, Jan 2, 2006"
 [permalinks]
 "/" = "/:filename"
 
-
-
 # Main menu
 [[menu.main]]
 name       = "Home"
@@ -130,26 +128,13 @@ weight     = 5
 
 [params.heros]
 enable = true
-title = "Heading"
-subtitle = "Subheading"
-
-[[menu.herobar]]
-weight = 1
-name = "Phone"
-url = "#"
-pre = "Get Started"
-
-[[menu.herobar]]
-weight = 3
-name = "Schedule a Demo"
-url = "#"
-pre = "Schedule a Demo"  
-
-[[menu.herobar]]
-weight = 4
-name = "Contact Us"
-url = "#contact"
-pre = "Contact Us"
+title = "GPS fleet tracking software"
+subtitle = "Our GPS fleet tracking software can help businesses improve productivity and efficiency while also uncovering potential cost savings."
+details = "Track assets in the field, improve fleet operations and more. See GPS fleet tracking software in action."
+btnText = "See plans & pricing"
+btnLink = "#"
+linkText = "Get a demo"
+linkLink = "#"
 
 [params.features]
 enable = true
@@ -157,10 +142,11 @@ title = "What We Do"
 subtitle = "Get out of the business of being in the business."
 cols = 3 # Default: 3, Available values 2,3,4,6
 
-[params.WheretoBuy]
+[params.HomeOverview]
 enable = true
-title = "Where to Buy"
-subtitle = "Where to Buy Lorum spum text business of being in the business."
+title = "Increase fleet visibility with GPS fleet tracking"
+image = "/img/us-device-group-fleettracking.png"
+text = "Get a near real-time, 360-degree view of your fleet’s daily operations, so you can help reduce costs, increase productivity, stay on top of vehicle maintenance, and make the most of every business day."
 
 [params.howtouse]
 enable = true

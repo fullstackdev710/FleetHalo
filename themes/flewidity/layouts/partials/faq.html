@@ -1,0 +1,44 @@
+<style>
+   #faq-wrapper {
+      max-width: 640px;
+      margin: auto;
+   }
+
+   .accordion-button:not(.collapsed)::after {
+      background-image: var(--bs-accordion-btn-icon);
+   }
+
+   .accordion-button:focus {
+      box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+   }
+</style>
+
+<div class="container">
+   <div class="row">
+      <div class="row align-items-center" id="faq-wrapper">
+         <h1>
+            Frequently asked questions
+         </h1>
+         <div class="accordion accordion-flush">
+            {{ range .Site.Data.faq }}
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="faq-{{ .weight}}">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse{{ .weight}}" aria-expanded="false" aria-controls="faq-collapse{{ .weight}}">
+                     {{ .title }}
+                  </button>
+               </h2>
+               <div id="faq-collapse{{ .weight}}" class="accordion-collapse collapse" aria-labelledby="faq-{{ .weight}}" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                     {{ .description}}
+                  </div>
+               </div>
+            </div>
+
+            {{ end }}
+
+         </div>
+      </div>
+   </div>
+   <!-- /.row -->
+</div>

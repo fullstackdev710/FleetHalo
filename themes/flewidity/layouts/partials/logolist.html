@@ -1,0 +1,16 @@
+<style>
+   .logolist .logo-item {
+      width: 23%;
+      max-width: 200px;
+   }
+</style>
+
+<div class="container">
+   <div class="row align-items-center flex-wrap justify-content-between">
+      {{ range .Site.Data.logolist }}
+
+      <img class="logo-item" src="{{ .image }}" alt="{{.alt}}">
+
+      {{ end }}
+   </div>
+</div>

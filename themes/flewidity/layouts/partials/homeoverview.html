@@ -1,0 +1,29 @@
+<div class="container">
+   <div class="row align-items-center">
+      <div class="col-md-7">
+         <h1>{{ .Site.Params.HomeOverview.title }}</h1>
+         <p>{{ .Site.Params.HomeOverview.text }}</p>
+      </div>
+      <div class="col-md-5">
+         <img src="{{ .Site.Params.HomeOverview.image }}" style="width:100%" alt="{{ .Site.Params.HomeOverview.title }}">
+      </div>
+   </div>
+   <hr>
+   <div class="row">
+      <div class="row align-items-center">
+         {{ range .Site.Data.homeoverview }}
+
+         <div class="col-md-5">
+            <img src="{{ .image }}" style="width:100%" alt="{{.alt}}">
+         </div>
+         <div class="col-md-7">
+            <h2>{{ .title | safeHTML }}</h2>
+            <p>{{ .description | safeHTML }}</p>
+            <a class="btn-default" href="{{.url | safeHTML }}">{{.buttontext | safeHTML }}</a>
+         </div>
+
+         {{ end }}
+      </div>
+   </div>
+   <!-- /.row -->
+</div>

@@ -5,7 +5,12 @@ a.nav-item.nav-link {
   padding: 10px 30px !important;
   font-weight: 400;
 }
-
+.text-bigger {
+  font-size: 1.4em;
+}
+.home-hero-block {
+  max-width: 640px;
+}
 #heading-breadcrumbs {
   background: url("../img/blue-smooth-wall-textured-background.webp") center
     center repeat;
@@ -121,6 +126,10 @@ a.nav-item.nav-link {
   .btnsectHero {
     width: 80%;
     margin: 0 auto;
+    flex-flow: column;
+  }
+  .home-hero-block * {
+    text-align: center;
   }
 
   .gitems {
@@ -137,6 +146,7 @@ a.nav-item.nav-link {
 
   section {
     margin: 0px 0;
+    padding: 40px 0px;
   }
 
   section.trustPartSection {
@@ -509,11 +519,6 @@ section.recentClientSection {
   position: relative;
 }
 
-section h2 {
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
 section.recentClientSection h2 {
   color: #fff;
   text-transform: uppercase;
@@ -545,11 +550,6 @@ section.recentClientSection:after {
   margin: 1%;
   align-items: center;
   justify-content: center;
-}
-
-div#footer {
-  background: #1b1d1f;
-  padding: 40px 0;
 }
 
 .leftabout,
@@ -988,8 +988,6 @@ ul.lgrp p {
   text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
-  text-align: center;
-  color: #fff;
 }
 
 .herotitlesection {
@@ -999,10 +997,23 @@ ul.lgrp p {
   justify-content: center;
 }
 
-.herotitlesection h4 {
+.link-default-white {
   color: #fff;
-  font-size: 32px;
-  font-weight: 400;
+  position: relative;
+}
+.link-default-white::after {
+  content: url(data:image/svg+xml;charset=utf8,%3Csvg%20width=%2220%22%20height=%2220%22%20viewBox=%220%200%2020%2020%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpolyline%20fill=%22none%22%20stroke=%22white%22%20stroke-width=%222%22%20points=%227%204%2013%2010%207%2016%22%20/%3E%3C/svg%3E);
+  position: absolute;
+  right: -20px;
+  top: 0;
+  transition: right 0.15s;
+  color: #fff;
+}
+.link-default-white:hover {
+  color: #fff;
+}
+.link-default-white:hover::after {
+  right: -25px;
 }
 
 .btn-default {
@@ -1011,22 +1022,21 @@ ul.lgrp p {
   display: inline-block;
   letter-spacing: 1px;
   padding: 14px 35px;
-  text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 40px;
+  border: solid var(--grey) 2px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   font-size: 20px;
-  border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
   text-decoration: none;
 }
 
 .btn-default:hover {
-  background: var(--primary-accent);
+  background: var(--grey);
   color: #fff;
 }
 
@@ -1055,7 +1065,10 @@ ul.lgrp p {
 }
 
 .btnsectHero {
-  margin-top: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .box-simple {
@@ -1445,7 +1458,7 @@ section.contactus {
 }
 .backtotop a {
   color: #fff;
-  background: #6aadf0;
+  background: #6d747e;
   padding: 6px 12px;
   border-radius: 2px;
   z-index: 1;
