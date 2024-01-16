@@ -1,0 +1,10 @@
+weight: 2
+name: "Regulatory Plan"
+description: "Going beyond the basics, the Regulatory plan adds crucial functionalities like Hours of Service, IFTA, and Temperature Monitoring. Tailored for regulatory compliance, it assists fleets in meeting various compliance standards."
+color: "#C83D28"
+featurenotes: "All Base features plus"
+features:
+  - Hours of Serive
+  - IFTA
+  - Temperature Monitoring
+  - Helps fleets meet compliance regulations

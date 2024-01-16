@@ -1,0 +1,35 @@
+<style>
+	#home-hero-bg-video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -100;
+		height: 600px;
+		object-fit: cover;
+	}
+</style>
+
+<section class="m-0 p-0">
+	<div class="home-hero">
+		<video autoplay muted loop id="home-hero-bg-video">
+			<source src="/videos/home-hero.mp4" type="video/mp4">
+		</video>
+		<div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+			<div class="herotitlesection">
+				<div class="container">
+					<div class="home-hero-block">
+						<h1 class="mb-3 text-white">{{ .Site.Params.heros.title }}</h1>
+						<p class="mb-3 text-bigger text-white">{{ .Site.Params.heros.subtitle }}</p>
+						<div class="mb-3 btnsectHero">
+							<a class="btn-default" href="{{ .Site.Params.heros.btnLink }}">{{ .Site.Params.heros.btnText }}</a>
+							<a class="link-default-white" href="{{ .Site.Params.heros.linkLink }}">{{ .Site.Params.heros.linkText }}</a>
+						</div>
+						<p class="text-white">{{ .Site.Params.heros.details }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

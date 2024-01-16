@@ -11,18 +11,10 @@
    <hr>
    <div class="row">
       <div class="row align-items-center">
-         {{ range .Site.Data.homeoverview }}
-
-         <div class="col-md-5">
-            <img src="{{ .image }}" style="width:100%" alt="{{.alt}}">
-         </div>
-         <div class="col-md-7">
-            <h2>{{ .title | safeHTML }}</h2>
-            <p>{{ .description | safeHTML }}</p>
-            <a class="btn-default" href="{{.url | safeHTML }}">{{.buttontext | safeHTML }}</a>
-         </div>
-
-         {{ end }}
+         <picture class="css-1jaw6c9" data-testid="picture">
+            <source srcset="/img/home-overview.svg" media="(max-width: 599.9px)">
+            <img src="/img/home-overview.svg" alt="geotab illustration" data-testid="imageColumn" class=" css-v9pghg">
+         </picture>
       </div>
    </div>
    <!-- /.row -->

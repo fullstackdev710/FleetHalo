@@ -1,0 +1,10 @@
+weight: 1
+name: "Base Plan"
+description: "Ideal for getting started, the Base plan includes essential features such as GPS location, VIN, Driver ID, basic IOX support, and harsh braking detection."
+color: "#0078D3"
+features:
+  - GPS Location
+  - VIN
+  - Driver ID
+  - Basic IOX Support
+  - Harsh Braking Detection

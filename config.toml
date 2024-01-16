@@ -94,47 +94,103 @@ date_format = "Mon, Jan 2, 2006"
 "/" = "/:filename"
 
 # Main menu
-[[menu.main]]
-name       = "Our Solutions"
-identifier = "menu.solutions"
-url        = "/"
-weight     = 10
+[menu]
+    [[menu.main]]
+    name       = "Our Solutions"
+    identifier = "menu.solutions"
+    url        = ""
+    weight     = 1
 
-[[menus.main]]
-name = 'Benefits'
-identifier = "menu.benefits"
-pageRef = '/solutions/benefits'
-parent = 'solutions'
-weight = 1
+    [[menu.main]]
+    name = 'Benefits'
+    identifier = "menu.solutions.benefits"
+    url = 'solutions/benefits'
+    parent = 'menu.solutions'
+    weight = 1
 
-[[menus.main]]
-name = 'Industries'
-identifier = "menu.industries"
-pageRef = '/solutions/industries'
-parent = 'solutions'
-weight = 2
+    [[menu.main]]
+    name = 'Industries'
+    identifier = "menu.solutions.industries"
+    url = 'solutions/industries'
+    parent = 'menu.solutions'
+    weight = 2
+
+    [[menu.main]]
+    name = 'Consulting'
+    identifier = "menu.solutions.consulting"
+    url = 'solutions/consulting'
+    parent = 'menu.solutions'
+    weight = 3
+
+    [[menu.main]]
+    name = 'Installation'
+    identifier = "menu.solutions.installation"
+    url = 'solutions/installation'
+    parent = 'menu.solutions'
+    weight = 4
 
 
-[[menu.main]]
-name       = "Our Products"
-identifier = "menu.about"
-url        = "about/"
-weight     = 20
+    [[menu.main]]
+    name       = "Our Products"
+    identifier = "menu.products"
+    url        = "products/"
+    weight     = 2
 
-[[menu.main]]
-name       = "Our Company"
-identifier = "menu.Services"
-url        = "services/"
-weight     = 30
+    [[menu.main]]
+    name = 'Hardware'
+    identifier = "menu.products.hardware"
+    url = 'products/hardware'
+    parent = 'menu.products'
+    weight = 1
 
+    [[menu.main]]
+    name = 'Software'
+    identifier = "menu.products.software"
+    url = 'products/software'
+    parent = 'menu.products'
+    weight = 2
+
+    [[menu.main]]
+    name = 'Add-ons'
+    identifier = "menu.products.addons"
+    url = 'products/addons'
+    parent = 'menu.products'
+    weight = 3
+
+    [[menu.main]]
+    name = 'Screenshots'
+    identifier = "menu.products.screenshots"
+    url = 'products/screenshots'
+    parent = 'menu.products'
+    weight = 4
+
+    [[menu.main]]
+    name       = "Our Company"
+    identifier = "menu.company"
+    url        = "company/"
+    weight     = 3
+
+    [[menu.main]]
+    name = 'Partners'
+    identifier = "menu.company.partners"
+    url = 'company/partners'
+    parent = 'menu.company'
+    weight = 1
+
+    [[menu.main]]
+    name = 'Contact'
+    identifier = "menu.company.contact"
+    url = 'company/contact'
+    parent = 'menu.company'
+    weight = 2
 
 [params.heros]
 enable = true
-title = "GPS fleet tracking software"
-subtitle = "Our GPS fleet tracking software can help businesses improve productivity and efficiency while also uncovering potential cost savings."
-details = "Track assets in the field, improve fleet operations and more. See GPS fleet tracking software in action."
-btnText = "See plans & pricing"
-btnLink = "#"
+title = "A Single Platform for Maximizing Fleet Efficiency"
+subtitle = "Access practical insights and suggestions to enhance your fleet's efficiency, safety, and sustainability, all driven by AI and data analytics."
+details = "Our smart GPS fleet management system is designed to enhance business productivity and efficiency, while also revealing opportunities for cost reduction"
+btnText = "View Subscription Plans"
+btnLink = "/products/software/"
 linkText = "Get a demo"
 linkLink = "#"
 
@@ -144,11 +200,14 @@ title = "What We Do"
 subtitle = "Get out of the business of being in the business."
 cols = 3 # Default: 3, Available values 2,3,4,6
 
+[params.softwareplans]
+enable = true
+
 [params.HomeOverview]
 enable = true
-title = "Increase fleet visibility with GPS fleet tracking"
-image = "/img/us-device-group-fleettracking.png"
-text = "Get a near real-time, 360-degree view of your fleet’s daily operations, so you can help reduce costs, increase productivity, stay on top of vehicle maintenance, and make the most of every business day."
+title = "Powering safe, sustainable, and efficient connected fleets and assets"
+image = "/img/us-device-group-fleettracking.webp"
+text = "Obtain a detailed, real-time overview of your fleet's daily operations, allowing you to reduce costs, increase productivity, stay ahead of vehicle maintenance, and maximize the efficiency of every business day."
 
 [params.howtouse]
 enable = true

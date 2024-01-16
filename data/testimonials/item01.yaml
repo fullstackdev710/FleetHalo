@@ -1,5 +1,8 @@
 weight: 1
 image: "/img/testimonial-logo.png"
-alt: "CMC Logistics"
-title: "Distribution"
-content: "Food & Beverage, Retail, Private Fleets, Delivery, For-hire Carriers."
+alt: "image"
+title: "Reduce Costs"
+features:
+  - Leverage efficiency insights and accurate fuel tracking
+  - Increase route and dispatch productivity
+  - Maximize vehicle uptime with predictive maintenance

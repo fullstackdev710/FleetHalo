@@ -1,0 +1,9 @@
+weight: 5
+image: "/img/testimonial-logo.png"
+alt: "image"
+title: "Expand Value"
+features:
+  - Manage OEM connected vehicles and mixed fleets in one place.
+  - Integrate any third-party device, camera, asset and more.
+  - Leverage API's for real-time data and synchronization
+  - Build your own custom applications

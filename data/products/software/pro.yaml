@@ -1,0 +1,9 @@
+weight: 3
+name: "Pro Plan"
+description: "Elevate your fleet management with the Pro plan, encompassing all the features of the Regulatory plan and adding support for engine, accelerometer data, and EV data. It's a comprehensive solution for those seeking advanced insights."
+color: "#25477B"
+featurenotes: "All Regulatory features plus"
+features:
+  - Engine Data
+  - Accelerometer data
+  - EV Support

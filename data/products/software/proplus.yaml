@@ -1,0 +1,10 @@
+weight: 4
+name: "ProPlus Plan"
+description: "Offering the pinnacle of functionality, the ProPlus plan includes Active Tracking, a lifetime warranty, and premium services such as EV data. This plan is designed for those who demand the utmost in telematics capabilities."
+color: "#0F850F"
+featurenotes: "All Pro features plus"
+features:
+  - Active Tracking
+  - Lifetime Warranty
+  - Advanced IOX support
+  - Geotab data connector
