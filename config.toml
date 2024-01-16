@@ -211,7 +211,7 @@ text = "Obtain a detailed, real-time overview of your fleet's daily operations, 
 
 [params.howtouse]
 enable = true
-title = "How to Use" 
+title = "Commercial telematics platform global fleets depend on" 
 
 [params.contact]
 enable = true
