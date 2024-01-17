@@ -37,3 +37,31 @@ other = "{{ .Count }} Words"
 
 [lastModified]
 other = "Last updated"
+
+# Request demo#
+[contactFirstName]
+other = "First Name"
+
+[contactLastName]
+other = "Last Name"
+
+[contactTitle]
+other = "Title(optional)"
+
+[contactCompanyName]
+other = "Company Name"
+
+[contactFleetSize]
+other = "Fleet Size"
+
+[contactCountry]
+other = "Country"
+
+[contactCity]
+other = "City"
+
+[contactEmail]
+other = "Email"
+
+[contactPhoneNumber]
+other = "Phone Number"

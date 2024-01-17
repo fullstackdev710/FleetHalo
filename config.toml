@@ -193,7 +193,7 @@ details = "Our smart GPS fleet management system is designed to enhance business
 btnText = "View Subscription Plans"
 btnLink = "/products/software/"
 linkText = "Get a demo"
-linkLink = "#"
+linkLink = "/request-demo"
 
 [params.features]
 enable = true
