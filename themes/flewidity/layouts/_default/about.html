@@ -6,28 +6,36 @@
 {{ end }}
 
 <head>
-    {{ partial "header.html" . }}
+   {{ partial "header.html" . }}
 
 </head>
 
 <body>
-    <div id="all">
-        {{ partial "breadcrumbs.html" . }}
+   <div id="all">
+      {{ partial "breadcrumbs.html" (dict "title" .Title "bgImg" .Params.BackgroundImage "bgImgMobile" .Params.BackgroundMobileImage) }}
 
-        <div class="container" id="about">
+      <section>
+         <div class="container" id="about">
             <div class="row">
-                <div class="col-md-7">
-                    {{ .Content }}
-                </div>
-                <div class="col-md-5">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" style="width:100%">
-                </div>
+               <div class="col-md-7">
+                  {{ .Content }}
+               </div>
+               <div class="col-md-5">
+                  <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" style="width:100%">
+               </div>
 
             </div>
-        </div>
+         </div>
+      </section>
 
-        {{- partial "footer.html" . -}}
-    </div>
+      <section class="cta bg-grey-light py-5 my-0">
+         <div class="container" id="cta">
+            {{- partial "cta.html" . -}}
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
 </body>
 
 </html>

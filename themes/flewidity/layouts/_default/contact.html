@@ -10,13 +10,14 @@
 </head>
 
 <body>
-   {{ partial "breadcrumbs.html" . }}
+   {{ partial "breadcrumbs.html" (dict "title" .Title "bgImg" .Params.BackgroundImage "bgImgMobile" .Params.BackgroundMobileImage) }}
    <div class="container">
       <div class="row">
-         <div class="col-md-8">
+         {{ .Content }}
+         <div class="col-md-8 d-none">
             <section class="m-0">
-               {{ .Content }}
-               {{ if isset .Site.Params "formspree_action" }}
+               {{ if isset .Site.Params.Enable "formspree_action" }}
+
                <div class="heading">
                   <h3>{{ i18n "contactForm" }}</h3>
                </div>
@@ -49,7 +50,7 @@
                      </div>
                      {{ end }}
                      <div class="col-sm-12 text-center">
-                        <button type="submit" class="btn btn-template-main"><i class="far fa-envelope"></i>{{ i18n "contactSend" }}</button>
+                        <button type="submit" class="btn btn-template-main">Submit</button>
                      </div>
                   </div>
                   <!-- /.row -->
@@ -58,7 +59,7 @@
             </section>
          </div>
 
-         <div class="col-md-4">
+         <div class="col-md-4 d-none">
             <div class="rightaboutCont">
                {{ with .Site.Params.footerContactus}}
                <h6>{{ .title }}</h6>

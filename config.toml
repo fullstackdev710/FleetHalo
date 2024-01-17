@@ -25,6 +25,7 @@ defaultContentLanguage = "en"
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io endpoint url
+
 formspree_action = "https://formspree.io/sample/of/endpoint"
 contact_form_ajax = true
 
@@ -61,9 +62,9 @@ title = "More Information"
 [params.footerContactus]
 title = "Contact"
 address = "Adress: 6-XXX City Road OTTAWA, ONTARIO K2L 1T9 CANADA"
-tel = "Tel: +1 987-654-3210"
-url = "mailto:contact@us.ca"
-text = "contact@us.ca"
+tel = "(888) 214-1051"
+url = "mailto:info@fleethalo.com"
+text = "info@fleethalo.com"
 
 
 [[params.socialIcons]]
