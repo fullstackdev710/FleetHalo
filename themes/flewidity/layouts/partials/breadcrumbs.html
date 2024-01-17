@@ -81,10 +81,16 @@
    </picture>
    <div class="MuiGrid-root css-e6a885" data-testid="gradient-overlay"></div>
    <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <h1 class="text-center">{{ .title }}</h1>
+      <div class="home-hero-block">
+         <h1 class="mb-3 text-white">{{ .title }}</h1>
+         {{ with .intro }}
+         <p class="mb-3 text-bigger text-white">{{ . }}</p>
+         {{ end }}
+         {{ if .btnText }}
+         <div class="mb-3 btnsectHero">
+            <a class="btn-default" href="{{ .btnLink }}">{{ .btnText }}</a>
          </div>
+         {{ end }}
       </div>
    </div>
 </div>

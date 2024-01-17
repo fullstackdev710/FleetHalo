@@ -45,6 +45,10 @@ a {
    --bs-accordion-active-color: #important;
    --bs-accordion-active-bg: #979795;
 }
+.nav-pills {
+   --bs-nav-pills-link-active-color: #ffffff !important;
+   --bs-nav-pills-link-active-bg: #1C2F52 !important;
+}
 // Sizes
 $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};

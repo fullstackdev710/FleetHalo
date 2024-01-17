@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" (dict "title" .Title "intro" .Params.Intro "btnText" .Params.btnText "btnLink" .Params.btnLink "bgImg" .Params.BackgroundImage "bgImgMobile" .Params.BackgroundMobileImage) }}
+
+      <section>
+         <div class="container">
+            {{/* Fleet Productivity */}}
+            <h2 class="text-center my-3">
+               Fleet Productivity
+            </h2>
+            <nav>
+               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-driver-tab" data-bs-toggle="tab" data-bs-target="#nav-driver" type="button" role="tab" aria-controls="nav-driver" aria-selected="true">Driver Tracking</button>
+                  <button class="nav-link" id="nav-asset-tab" data-bs-toggle="tab" data-bs-target="#nav-asset" type="button" role="tab" aria-controls="nav-asset" aria-selected="false">Asset Tracking</button>
+                  <button class="nav-link" id="nav-routing-dispatching-tab" data-bs-toggle="tab" data-bs-target="#nav-routing-dispatching" type="button" role="tab" aria-controls="nav-routing-dispatching" aria-selected="false">Routing & Dispatching</button>
+                  <button class="nav-link" id="nav-reports-tab" data-bs-toggle="tab" data-bs-target="#nav-reports" type="button" role="tab" aria-controls="nav-reports" aria-selected="false">Fleet Management Reports</button>
+               </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="nav-driver" role="tabpanel" aria-labelledby="nav-driver-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Driver Tracking Software and Tools</p>
+                        <p>
+                           Utilize our comprehensive array of driver tracking tools and management software, designed to assist you in effectively monitoring and analyzing driver behavior within your fleet.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/driver-tracking.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-asset" role="tabpanel" aria-labelledby="nav-asset-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Asset tracking system</p>
+                        <p>
+                           Enhance the utilization and productivity of your fleet with Fleethalo's asset tracking software, providing real-time tracking and management for trailers, containers, generators, and more.
+                        </p>
+                        <p>
+                           Gain the peace of mind of always knowing the location of your high-value assets.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/asset-tracking.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-routing-dispatching" role="tabpanel" aria-labelledby="nav-routing-dispatching-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Routing and Optimization Software</p>
+                        <p>
+                           Maximize productivity and minimize travel time and distance with our vehicle routing management tool. Streamline your fleet operations and cut costs by directing your vehicles along the most efficient routes using our sophisticated routing and dispatching solutions.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/routing-and-dispatching.svg" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-reports" role="tabpanel" aria-labelledby="nav-reports-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Improve productivity, efficiency, Safety and more with valuable insights derived from your data.</p>
+                        <p>
+                           Customize reports tailored to your fleet's specific requirements. Gain essential insights into your fleet operations, maintenance demands, and expenses to boost performance outcomes.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/fleet-management-reports.svg" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            {{/* Fleet Safety */}}
+            <h2 class="text-center mb-3 mt-5">
+               Fleet Safety
+            </h2>
+            <nav>
+               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-insurance-tab" data-bs-toggle="tab" data-bs-target="#nav-insurance" type="button" role="tab" aria-controls="nav-insurance" aria-selected="true">Fleet Insurance</button>
+                  <button class="nav-link" id="nav-safety-tab" data-bs-toggle="tab" data-bs-target="#nav-safety" type="button" role="tab" aria-controls="nav-safety" aria-selected="false">Driver Safety Reporting</button>
+                  <button class="nav-link" id="nav-coaching-tab" data-bs-toggle="tab" data-bs-target="#nav-coaching" type="button" role="tab" aria-controls="nav-coaching" aria-selected="false">Driver Coaching</button>
+                  <button class="nav-link" id="nav-dash-cams-tab" data-bs-toggle="tab" data-bs-target="#nav-dash-cams" type="button" role="tab" aria-controls="nav-dash-cams" aria-selected="false">Dash Cams</button>
+               </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="nav-insurance" role="tabpanel" aria-labelledby="nav-insurance-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Cut commercial fleet insurance premiums</p>
+                        <p>
+                           Utilize your Fleethalo data to secure savings through behavior-based insurance premiums that reward your fleet's safe driving practices. Capitalize on the integration of your safe driving records and Fleethalo telematics to achieve reduced insurance rates for your commercial fleet in collaboration with our insurance partners.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/fleet-insurance.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-safety" role="tabpanel" aria-labelledby="nav-safety-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Driver Safety Reporting</p>
+                        <p>
+                           Gain insights into driver safety trends, pinpoint opportunities for driver coaching, and establish safety alerts. Our Safety Dashboard offers a concise summary of your fleet's highest-risk drivers and their overall safety rating. It enables reporting on crucial fleet metrics like speeding, abrupt braking, reverse driving, seat belt usage, and other important factors.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/driver-safety-reporting.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-coaching" role="tabpanel" aria-labelledby="nav-coaching-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Utilize integrated driver coaching solutions to encourage positive driving habits and meet your fleet objectives.</p>
+                        <p>
+                           Continuously observe and record instances of dangerous driving behaviors such as speeding, abrupt braking, and severe cornering. Establish a system of alerts and get immediate notifications for any detected hazardous driving actions. Analyze trend reports to pinpoint drivers in your fleet who require more training. Utilize Fleethalo’s driver coaching resources to foster a safety-first culture and collaborate with your drivers towards achieving safer driving practices.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/driver-coaching.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-dash-cams" role="tabpanel" aria-labelledby="nav-dash-cams-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Remove uncertainty from collisions and vital traffic situations with our effortlessly integrated, AI-enhanced dash camera systems.</p>
+                        <p>
+                           Provide crucial video evidence for incidents like collisions and insurance disputes with our advanced dash cam solutions. Enhance security and gain comprehensive safety insights, including theft prevention, by connecting up to five cameras to monitor vehicle interiors, equipment, and other high-value items. These dash cams are instrumental in reducing risk and enhancing driver performance by recording critical events such as cell phone usage, smoking, tailgating, and signs of driver fatigue. Access real-time trip data, alongside images and videos, directly through the MyGeotab platform, seamlessly integrating all aspects of fleet management and monitoring.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/dash-cams.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            {{/* Fleet Optimization */}}
+            <h2 class="text-center mb-3 mt-5">
+               Fleet Optimization
+            </h2>
+            <nav>
+               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-keyless-tab" data-bs-toggle="tab" data-bs-target="#nav-keyless" type="button" role="tab" aria-controls="nav-keyless" aria-selected="true">Keyless</button>
+                  <button class="nav-link" id="nav-fuel-management-tab" data-bs-toggle="tab" data-bs-target="#nav-fuel-management" type="button" role="tab" aria-controls="nav-fuel-management" aria-selected="false">Fleet fuel management</button>
+                  <button class="nav-link" id="nav-maintenance-tab" data-bs-toggle="tab" data-bs-target="#nav-maintenance" type="button" role="tab" aria-controls="nav-maintenance" aria-selected="false">Fleet Maintenance</button>
+                  <button class="nav-link" id="nav-benchmarking-tab" data-bs-toggle="tab" data-bs-target="#nav-benchmarking" type="button" role="tab" aria-controls="nav-benchmarking" aria-selected="false">Fleet Benchmarking</button>
+               </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="nav-keyless" role="tabpanel" aria-labelledby="nav-keyless-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Halo’s Keyless solution</p>
+                        <p>
+                           Discover a scalable, digital key solution designed for seamless vehicle sharing among multiple drivers, eliminating the need for physical key exchanges. This innovative system not only enables fleet operators to manage their fleet remotely but also ensures secure vehicle access for pooled and shared fleets. With the added advantage of keyless entry, even in areas beyond cellular coverage, drivers can reliably access vehicles, providing a streamlined and efficient fleet management experience.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/keyless.jpeg" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-fuel-management" role="tabpanel" aria-labelledby="nav-fuel-management-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Reduce expenses and enhance efficiency with our fuel management solution.</p>
+                        <p>
+                           Access in-depth reports on fuel economy and idling through our intuitive dashboard, allowing you to closely monitor your fleet's fuel consumption and idle times. By tracking total miles driven via vehicle odometer readings, you gain a comprehensive view of your fleet's efficiency. Additionally, the Green Fleet Dashboard provides essential insights into your CO2 emissions, helping you maintain an environmentally responsible operation.
+                        </p>
+                        <p>
+                           Further enhance your fleet management with real-time driver feedback mechanisms. Our system discourages fuel-inefficient driving practices, such as speeding and abrupt acceleration, by providing immediate verbal feedback and buzzer alerts directly to drivers. This proactive approach not only contributes to lowering fuel costs but also promotes safer, more sustainable driving habits across your fleet.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/fleet-fuel-management.svg" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-maintenance" role="tabpanel" aria-labelledby="nav-maintenance-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Maintenance Solutions</p>
+                        <p>
+                           Embrace a proactive strategy for fleet maintenance with Fleethalo’s advanced fleet maintenance software, tailored to boost uptime and minimize costs. This system simplifies the process of identifying and prioritizing essential maintenance tasks at an early stage, aiding in the prevention of excessive vehicle wear and significant downtime reduction. By enabling early detection of potential issues, you can ensure that your fleet remains in top condition.
+                        </p>
+                        <p>
+                           The software provides immediate access to active diagnostic faults and critical engine data, facilitating prompt identification and prioritization of necessary vehicle repairs. Additionally, Engine Status Reports are a key feature, allowing you to detect early signs of engine health issues. This early detection is crucial in preventing breakdowns and avoiding more costly repairs later, thereby streamlining your fleet management and maintaining operational efficiency.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/fleet-maintenance.webp" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-benchmarking" role="tabpanel" aria-labelledby="nav-benchmarking-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Discover new areas for operational improvement and identify potential shortcomings by benchmarking your fleet against comparable ones.</p>
+                        <p>
+                           Fleet benchmarking stands as a reliable method for assessing and enhancing operations by analyzing a fleet’s driving patterns. It allows you to measure current performance and monitor progress towards set goals. The use of telematics in this process is vital; it enables users to collect a broad range and variety of data. This data collection is instrumental in setting distinct goals for your fleet and making informed adjustments as needed.
+                        </p>
+                        <p>
+                           Our benchmarking approach involves comparing your fleet vehicles against others with similar size, composition, and driving patterns within the expansive Geotab ecosystem. This comparison spans various geographies, providing a comprehensive perspective on where your fleet stands. By understanding these metrics, you can pinpoint areas for improvement or cost reduction, ultimately delivering tangible value to your organization.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/solutions/fleet-benchmarking.jpeg" class="mx-auto" alt="Driver Tracking" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="cta bg-grey-light py-5 my-0">
+         <div class="container" id="cta">
+            {{- partial "cta.html" . -}}
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>

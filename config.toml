@@ -99,7 +99,7 @@ date_format = "Mon, Jan 2, 2006"
     [[menu.main]]
     name       = "Our Solutions"
     identifier = "menu.solutions"
-    url        = ""
+    url        = "solutions"
     weight     = 1
 
     [[menu.main]]
