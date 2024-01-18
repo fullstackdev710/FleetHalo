@@ -47,6 +47,10 @@ paginate = 10
 author = ""
 description = ""
 favicon = "img/favicon_io/favicon.ico"  # path to a .ico to use as favicon
+faviconApple = "img/favicon_io/apple-touch-icon.png"
+favicon32 = "img/favicon_io/favicon-32x32.png"
+favicon16 = "img/favicon_io/favicon-16x16.png"
+manifest = "img/favicon_io/site.webmanifest"
 logo = ""  # url or path to a logo to put in the header
 logoImg = "img/logo-blue_bg.webp"
 logoFooterImg = "img/logo-black_bg.webp"
@@ -61,7 +65,6 @@ title = "More Information"
 
 [params.footerContactus]
 title = "Contact"
-address = "Adress: 6-XXX City Road OTTAWA, ONTARIO K2L 1T9 CANADA"
 tel = "(888) 214-1051"
 url = "mailto:info@fleethalo.com"
 text = "info@fleethalo.com"
@@ -99,89 +102,65 @@ date_format = "Mon, Jan 2, 2006"
     [[menu.main]]
     name       = "Our Solutions"
     identifier = "menu.solutions"
-    url        = "solutions"
+    url        = "/solutions"
     weight     = 1
 
     [[menu.main]]
-    name = 'Benefits'
-    identifier = "menu.solutions.benefits"
-    url = 'solutions/benefits'
-    parent = 'menu.solutions'
-    weight = 1
-
-    [[menu.main]]
-    name = 'Industries'
-    identifier = "menu.solutions.industries"
-    url = 'solutions/industries'
-    parent = 'menu.solutions'
-    weight = 2
-
-    [[menu.main]]
-    name = 'Consulting'
-    identifier = "menu.solutions.consulting"
-    url = 'solutions/consulting'
-    parent = 'menu.solutions'
-    weight = 3
-
-    [[menu.main]]
-    name = 'Installation'
-    identifier = "menu.solutions.installation"
-    url = 'solutions/installation'
-    parent = 'menu.solutions'
-    weight = 4
-
+    name       = "Industries"
+    identifier = "menu.industries"
+    url        = "/industries"
+    weight     = 2
 
     [[menu.main]]
     name       = "Our Products"
     identifier = "menu.products"
-    url        = "products/"
-    weight     = 2
+    url        = "/products/"
+    weight     = 3
 
     [[menu.main]]
     name = 'Hardware'
     identifier = "menu.products.hardware"
-    url = 'products/hardware'
+    url = '/products/hardware'
     parent = 'menu.products'
     weight = 1
 
     [[menu.main]]
     name = 'Software'
     identifier = "menu.products.software"
-    url = 'products/software'
+    url = '/products/software'
     parent = 'menu.products'
     weight = 2
 
     [[menu.main]]
-    name = 'Add-ons'
-    identifier = "menu.products.addons"
-    url = 'products/addons'
+    name = 'Marketplace'
+    identifier = "menu.products.marketplace"
+    url = '/products/marketplace'
     parent = 'menu.products'
     weight = 3
 
     [[menu.main]]
     name = 'Screenshots'
     identifier = "menu.products.screenshots"
-    url = 'products/screenshots'
+    url = '/products/screenshots'
     parent = 'menu.products'
     weight = 4
 
     [[menu.main]]
     name       = "Our Company"
     identifier = "menu.company"
-    url        = "company/"
-    weight     = 3
+    weight     = 4
 
     [[menu.main]]
-    name = 'Partners'
-    identifier = "menu.company.partners"
-    url = 'company/partners'
+    name = 'About us'
+    identifier = "menu.company.about"
+    url = '/company/about'
     parent = 'menu.company'
     weight = 1
 
     [[menu.main]]
-    name = 'Contact'
+    name = 'Contact us'
     identifier = "menu.company.contact"
-    url = 'company/contact'
+    url = '/company/contact'
     parent = 'menu.company'
     weight = 2
 

@@ -24,7 +24,7 @@
                </div>
                <div id="contact-message"></div>
 
-               <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax" {{ else }}{{ end }} method="post" action="{{ .Site.Params.formspree_action }}">
+               <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax" {{ else }}{{ end }} method="post" action="{{ .Site.Params.Enable.formspree_action }}">
                   <div class="row gy-3">
                      <div class="col-sm-6">
                         <div class="form-group">

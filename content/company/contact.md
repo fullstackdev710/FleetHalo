@@ -1,7 +1,8 @@
 ---
 title: "Contact Us"
-backgroundImage: "/img/page-hero-img.jpg"
-backgroundMobileImage: "/img/page-hero-img-m.jpg"
+backgroundImage: "/img/contact-hero.webp"
+backgroundMobileImage: "/img/contact-hero.webp"
+thankyouMsg: "Thank you for choosing FleetHalo. We appreciate the opportunity to serve you and contribute to the success of your fleet management endeavors."
 layout: contact
 ---
 
@@ -13,6 +14,4 @@ Thank you for considering FleetHalo for your telematics and fleet management nee
 
 Our dedicated team is ready to answer any inquiries, provide information, and support you in optimizing your fleet operations. Whether you have questions about our services, pricing, or custom solutions, we are here to help. Your satisfaction is our priority, and we strive to respond promptly to all inquiries.
 
-If you would like to experience FleetHalo in action, we also offer personalized demonstrations. Click here to request a demo.
-
-Thank you for choosing FleetHalo. We appreciate the opportunity to serve you and contribute to the success of your fleet management endeavors.
+If you would like to experience FleetHalo in action, we also offer personalized demonstrations. Click _[here](/request-demo/)_ to request a demo.

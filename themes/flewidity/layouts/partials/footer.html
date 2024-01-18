@@ -35,7 +35,9 @@
         <div class="rightabout">
           {{ with .Site.Params.footerContactus}}
           <h6>{{ .title }}</h6>
-          <p class="adress">{{ .address }}</p>
+          {{ with .address }}
+          <p class="adress">{{ . }}</p>
+          {{ end }}
           <span>{{ .tel }}</span><br />
           Email: <a href="{{ .url }}">{{ .text }}</a>
           {{ end }}

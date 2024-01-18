@@ -24,8 +24,14 @@
                      <div class="industry-item">
                         <a href="{{ .Permalink }}">
                            {{ if .image }}
-                           <img src="{{ .image | relURL }}" class="img-thumb" alt="" width="640" height="360" style="width: 100%; max-width: 570px;" />
-                           {{ else }} <img src='{{ "img/placeholder.jpg" | relURL }}' class="img-responsive" alt=""> {{ end }}
+                           <div class="img-wrapper">
+                              <img src="{{ .image | relURL }}" class="img-thumb" alt="" width="640" height="360" style="width: 100%; max-width: 570px;" />
+                           </div>
+                           {{ else }}
+                           <div class="img-wrapper">
+                              <img src='{{ "img/placeholder.jpg" | relURL }}' class="img-responsive" alt="">
+                           </div>
+                           {{ end }}
                            <h2>{{ .title | safeHTML }}</h2>
                         </a>
                      </div>

@@ -1,7 +1,7 @@
 ---
 title: "About Us"
-backgroundImage: "/img/page-hero-img.jpg"
-backgroundMobileImage: "/img/page-hero-img-m.jpg"
+backgroundImage: "/img/about-hero.webp"
+backgroundMobileImage: "/img/about-hero.webp"
 layout: about
 ---
 
