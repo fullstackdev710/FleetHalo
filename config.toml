@@ -46,7 +46,7 @@ paginate = 10
 [params]
 author = ""
 description = ""
-favicon = "favicon.ico"  # path to a .ico to use as favicon
+favicon = "img/favicon_io/favicon.ico"  # path to a .ico to use as favicon
 logo = ""  # url or path to a logo to put in the header
 logoImg = "img/logo-blue_bg.webp"
 logoFooterImg = "img/logo-black_bg.webp"
