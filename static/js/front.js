@@ -37,7 +37,7 @@ function contactFormAjax() {
 
         $("#contact-message")
           .html(
-            '<div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for getting in touch. We will get back to you soon!</div>'
+            '<div class="alert alert-success" role="alert"><button type="button" class="close me-3" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for expressing interest in FleetHalo\'s telematics software! We have received your request for a demo and will be in touch shortly to schedule a personalized session.</div>'
           )
           .fadeIn();
       },

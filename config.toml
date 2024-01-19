@@ -26,7 +26,7 @@ defaultContentLanguage = "en"
     #
     # Enable the contact form by entering your Formspree.io endpoint url
 
-formspree_action = "https://formspree.io/sample/of/endpoint"
+formspree_action = "https://formspree.io/f/xoqgvzkr"
 contact_form_ajax = true
 
     enableRecaptchaInContactForm = true
@@ -100,7 +100,7 @@ date_format = "Mon, Jan 2, 2006"
 # Main menu
 [menu]
     [[menu.main]]
-    name       = "Our Solutions"
+    name       = "Solutions"
     identifier = "menu.solutions"
     url        = "/solutions"
     weight     = 1
