@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>Achieve Matchless Efficiency in Your Distribution Network</h2>
+               </div>
+               <div class="col-md-6">
+                  <p>
+                     Minimize expenses and enhance driver safety through live fleet tracking, instant alerts, and comprehensive reports. Gain clear visibility and insights, leading to reduced fleet costs and heightened driver safety. Deliver precise updates to customers leveraging FleetHalo's advanced technology for optimal scalability and adaptability.
+                  </p>
+               </div>
+            </div>
+            <hr>
+         </div>
+      </section>
+
+      <section class="bar background-white">
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center">
+                  <h2>Key Features</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/ETA.svg" | relURL }}' />
+                     </div>
+                     <h3>Accurate ETA’s</h3>
+                     <p>Ensure Precise Delivery Estimates for Customers with Real-Time Vehicle Tracking</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/Idle.svg" | relURL }}' />
+                     </div>
+                     <h3>Track idling</h3>
+                     <p>Get notified about excessive vehicle idling and monitor idling trends through tailored reports.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/routing.svg" | relURL }}' />
+                     </div>
+                     <h3>Route Optimization</h3>
+                     <p>Boost operational efficiency by optimizing routes at the start of each day.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="m-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/industries/courier-delivery/courier-middle-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h2 class="mb-3 text-white">
+                           The FleetHalo Advantage
+                        </h2>
+                        <ul class="mb-3 text-white">
+                           <li>Full oversight of workforce, assets, and expenses</li>
+                           <li>Efficient dispatch, navigation, and route optimization</li>
+                           <li>Collision alerts and driver safety assessments</li>
+                           <li>Cutting-edge GPS technology</li>
+                           <li>In-depth dashboard analytics</li>
+                           <li>Flexible platform for seamless data integration</li>
+                           <li>Extensive selection of Marketplace Apps and Add-Ons</li>
+                        </ul>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq">
+         <div class="container">
+            <div class="row">
+               <div class="row align-items-center" id="faq-wrapper">
+                  <h1>
+                     Frequently asked questions
+                  </h1>
+                  <div class="accordion accordion-flush">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-1">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
+                              How can fleet management solutions help the courier industry?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Optimizing courier fleet routes is crucial for reducing transport mileage and fuel costs, especially when managing thousands of daily jobs. Beyond just starting the day, top-performing courier fleets excel in dynamically adapting to new job assignments, traffic disruptions, and driver challenges.
+                              </p>
+                              <p>
+                                 Real-time tracking to identify the nearest driver for job assignments, coupled with dynamic dispatch and communication, is vital for delivering exceptional customer service. Fleet management solutions empower operations teams with the necessary visibility and insights for effective planning, action, and response.
+                              </p>
+                              <p>
+                                 Given the high utilization and mileage of courier vehicles, managing the fleet’s total cost of ownership is essential for maximizing ROI and minimizing unwarranted expenses. Utilizing fleet maintenance software for proactive maintenance strategies can significantly reduce vehicle downtime and associated costs.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
+                              Which of FleetHalo's solutions are applicable to the courier and delivery industry?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 With the integration of Geotab GO devices in your fleet vehicles, and the powerful MyGeotab open telematics platform complemented by solutions from the Geotab Marketplace, you gain comprehensive visibility and control, optimizing all aspects of your courier and delivery fleet operations:
+                              </p>
+                              <h3>Enhance Productivity and Customer Service:</h3>
+                              <ul>
+                                 <li>Monitor real-time vehicle locations with detailed breadcrumb trails.</li>
+                                 <li>Set up exception rules to boost driver productivity.</li>
+                                 <li>Access detailed trip and activity reporting.</li>
+                                 <li>Use dynamic dispatch and two-way messaging for efficient communication.</li>
+                                 <li>Streamline and optimize routing for faster deliveries.</li>
+                              </ul>
+                              <h3>Optimize Fleets and Reduce Fuel Costs:</h3>
+                              <ul>
+                                 <li>Elevate fuel economy and lower fuel expenses.</li>
+                                 <li>Reduce CO2 emissions for a more sustainable operation.</li>
+                                 <li>Minimize idle times to save fuel and reduce wear.</li>
+                                 <li>Decrease incidents of speeding for better fuel efficiency.</li>
+                                 <li>Leverage engine diagnostics for optimal vehicle performance.</li>
+                                 <li>Schedule preventative maintenance to avoid breakdowns and costly repairs.</li>
+                              </ul>
+                              <h3>Enhance Fleet Safety:</h3>
+                              <ul>
+                                 <li>Generate risk and safety reports for informed decision-making.</li>
+                                 <li>Utilize in-vehicle, proactive coaching with customized messaging for driver improvement.</li>
+                                 <li>Receive immediate accident notifications.</li>
+                                 <li>Monitor seat belt usage for compliance and safety.</li>
+                                 <li>Set up safety alerts for risky behaviors like harsh braking, cornering, and reversing.</li>
+                              </ul>
+                              <h3>Manage Compliance Efficiently:</h3>
+                              <ul>
+                                 <li>Conduct vehicle inspections to ensure safety and Duty of Care compliance.</li>
+                                 <li>Adhere to UNI EN 12830:2001 standards.</li>
+                                 <li>Streamline processes and reduce paperwork for better efficiency.</li>
+                              </ul>
+                              <p>
+                                 This integrated approach ensures your fleet operates at peak efficiency, providing exceptional service while maintaining safety and compliance.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
+                              What are the best practices for delivery fleet management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>In the burgeoning e-commerce landscape, delivery fleets face increasing demands to ensure prompt, cost-efficient, and environmentally friendly delivery of goods. Fleet management software plays a crucial role in enhancing operational efficiency, enabling you to refine your fleet management systems for optimal customer service and minimized costs.</p>
+                              <p>
+                                 Key best practice techniques that fleet management software assists with include:
+                              </p>
+                              <ul>
+                                 <li><strong>Rightsizing Vehicles:</strong> Tailoring the size and type of vehicles to match their specific operational roles, ensuring they are perfectly suited for their duty cycles.</li>
+                                 <li><strong>Minimizing Vehicle Downtime:</strong> Implementing strategies for preventive maintenance and quick repairs, thereby reducing the time vehicles are out of service.</li>
+                                 <li><strong>Optimizing Routes:</strong> Utilizing advanced routing algorithms to determine the most efficient paths, saving time and fuel while increasing delivery speeds.</li>
+                                 <li><strong>Improving Fleet Compliance:</strong> Ensuring all vehicles meet regulatory standards and compliance requirements, thereby avoiding penalties and ensuring smooth operations.</li>
+                                 <li><strong>Promoting Efficient and Safe Driving:</strong> Establishing a culture that prioritizes fuel-efficient and safe driving habits among drivers, contributing to cost savings and enhanced safety.</li>
+                              </ul>
+                              <p>
+                                 By leveraging these techniques through fleet management software, you can significantly boost the effectiveness of your delivery operations, meeting the high expectations of the e-commerce era.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
+                              How can fleet management solutions help the delivery industry?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Fleet management solutions are instrumental in streamlining the allocation and optimization of thousands of daily tasks for delivery fleets, ensuring efficient delivery operations and minimizing transport mileage. These solutions offer dynamic adaptability throughout the day, enabling delivery fleets to promptly respond to new job allocations, traffic disruptions, and any driver issues that arise.
+                              </p>
+                              <p>
+                                 Key features and benefits of delivery fleet management solutions include:
+                              </p>
+                              <ul>
+                                 <li><strong>Real-time GPS Tracking:</strong> Instantly identify the nearest driver for any given job, enhancing job allocation efficiency.</li>
+                                 <li><strong>Dynamic 2-Way Messaging:</strong> Communicate with drivers in real-time to dispatch and relay messages rapidly, bolstering customer service.</li>
+                                 <li><strong>Operational Visibility and Insights:</strong> Equip your fleet operations team with the necessary tools and information to plan, implement, and swiftly address challenges.</li>
+                                 <li><strong>High Utilization and Mileage Management:</strong> Delivery vehicles, often covering significant distances, benefit from close monitoring of their total cost of ownership, maximizing ROI and curbing unnecessary expenditures.</li>
+                                 <li><strong>Proactive Fleet Maintenance:</strong> Utilize fleet maintenance software to proactively manage vehicle servicing, thereby reducing downtime and associated costs.</li>
+                              </ul>
+                              <p>
+                                 By integrating these aspects, delivery fleet management solutions not only enhance the efficiency and responsiveness of your operations but also contribute to the overall improvement in cost management and vehicle maintenance.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-5">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
+                              How can telematics improve courier service security and productivity?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 FleetHalo enhances the safety and efficiency of delivery and courier fleets in the following ways:
+                              </p>
+                              <h3>
+                                 Safety Improvements:
+                              </h3>
+                              <ul>
+                                 <li><strong>Risk and Safety Reports:</strong> Analyzes driving patterns to identify risks and suggest improvements.</li>
+                                 <li><strong>In-Vehicle Driver Coaching:</strong> Provides real-time advice to help drivers correct risky behaviors like harsh braking or sharp turns.</li>
+                                 <li><strong>Accident Notifications:</strong> Alerts fleet managers immediately in the event of a vehicle accident.</li>
+                                 <li><strong>Seat Belt Use Detection:</strong> Monitors and ensures driver safety through seat belt usage compliance.</li>
+                                 <li><strong>Safety Alerts for Reckless Driving:</strong> Issues alerts for behaviors such as hard braking and sharp turns, indicating potentially unsafe driving.</li>
+                              </ul>
+                              <h3>
+                                 Productivity and Customer Service Enhancements:
+                              </h3>
+                              <ul>
+                                 <li><strong>Real-Time Vehicle Tracking:</strong> Offers a comprehensive view of the fleet’s locations on a map in real time, enhancing dispatch and operational efficiency.</li>
+                                 <li><strong>Itinerary Data and Exception Rules:</strong> Improves driver productivity by setting and monitoring standards for driving behavior and route adherence.</li>
+                                 <li><strong>Trip and Activity Reports:</strong> Provides detailed insights into each vehicle's operations, aiding in decision-making and operational optimization.</li>
+                                 <li><strong>Two-Way Messaging:</strong> Enables dynamic communication between fleet managers and drivers for immediate updates and instructions.</li>
+                                 <li><strong>Route Optimization:</strong> Analyzes and optimizes routes for efficiency, reducing travel time and improving customer service with timely deliveries.</li>
+                              </ul>
+                              <p>
+                                 FleetHalo's array of tools and reports significantly contribute to increasing the safety and productivity of delivery and courier fleets, leading to enhanced customer service.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-6">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
+                              Is FleetHalo's fleet management solution useful even if our vehicles follow the same routes?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Fleet management, even on consistent routes, involves various dynamic factors that can be effectively managed and optimized with MyGeotab. The key benefits of utilizing MyGeotab for fleet management include:
+                              </p>
+                              <ul>
+                                 <li><strong>Regulatory Compliance:</strong> Ensures that your fleet adheres to the latest regulations, reducing the risk of penalties and improving overall compliance.</li>
+                                 <li><strong>Enhanced Asset and Load Safety:</strong> Provides improved monitoring and management tools to ensure the safety of both the fleet assets and the cargo they transport.</li>
+                                 <li><strong>Increased Productivity:</strong> Maximizes the efficiency of each vehicle and driver, leading to more effective use of resources and time.</li>
+                                 <li><strong>Fleet Optimization:</strong> Employs data-driven insights to optimize fleet operations, from route planning to vehicle maintenance, ensuring that the fleet operates at its highest potential.</li>
+                                 <li><strong>Reduced Fuel Costs:</strong> Offers tools and insights for better fuel management, helping to minimize fuel consumption and costs, which is critical in managing a cost-effective fleet.</li>
+                              </ul>
+                              <p>
+                                 Overall, MyGeotab provides a comprehensive solution to enhance various aspects of fleet management, leading to more efficient, safe, and cost-effective operations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-7">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
+                              What is FleetHalo's delivery software solution?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Using Geotab's software, delivery time estimates are refined through constant tracking of the vehicle fleet. By monitoring idle times, it becomes possible to identify instances of excessive idling among drivers, allowing for timely communication with them and updating customers about any potential delays.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-8">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">
+                              What is transport management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Transportation management is a specialized form of fleet management, tailored specifically for courier and delivery services. It provides critical insights into fleet operations, and when effectively utilized, it facilitates rapid, secure, and dependable deliveries, aligning closely with customer expectations and needs
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-9">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse9" aria-expanded="false" aria-controls="faq-collapse9">
+                              How do you plan your transport?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse9" class="accordion-collapse collapse" aria-labelledby="faq-9" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Every transportation fleet has its unique characteristics and requirements. FleetHalo's courier and delivery solutions cater to these diverse needs, enhancing fleet operations by offering precise arrival time estimates, monitoring vehicle idling times, and optimizing routes for quicker and more efficient deliveries.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-10">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse10" aria-expanded="false" aria-controls="faq-collapse10">
+                              How important is transport management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse10" class="accordion-collapse collapse" aria-labelledby="faq-10" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Optimizing your delivery operations through transportation management is crucial for enhancing fleet efficiency. It enables cost reduction and elevates driver safety through real-time fleet tracking, timely alerts, and comprehensive reporting. The enhanced visibility and detailed insights gained from this approach help in cutting down expenses while simultaneously bolstering driver safety measures. Moreover, the ability to offer precise, real-time status updates significantly boosts customer satisfaction.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-11">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse11" aria-expanded="false" aria-controls="faq-collapse11">
+                              What types of vehicles can be tracked?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse11" class="accordion-collapse collapse" aria-labelledby="faq-11" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              FleetHalo technology is adept at tracking a diverse range of vehicles, encompassing passenger vehicles, trucks, and electric vehicles. This is facilitated through our user-friendly GO devices, which are straightforward to install. Additionally, FleetHalo collaborates with numerous OEMs, enabling the direct transfer of data from vehicles, thus eliminating the necessity for device installation.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-12">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse12" aria-expanded="false" aria-controls="faq-collapse12">
+                              How important is the use of technology for carriers?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse12" class="accordion-collapse collapse" aria-labelledby="faq-12" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Fleet technology plays a vital role in bolstering the fleet operations of carriers, and FleetHalo technology offers a comprehensive view of your company's staffing, assets, and costs. This technology aids in streamlining shipping, enhancing navigation, and optimizing routes. Additionally, it features crash detection and notification capabilities, underpinned by high-performance GPS technology.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-13">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse13" aria-expanded="false" aria-controls="faq-collapse13">
+                              How do you manage a transport fleet?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse13" class="accordion-collapse collapse" aria-labelledby="faq-13" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              In today's fast-paced business environment, the demand and competition for delivery services are intensifying. Prompt, secure, and dependable transportation of time-sensitive goods is crucial for achieving customer satisfaction. FleetHalo can assist in reducing the costs associated with your fleet, elevating on-road productivity, and enhancing driver safety through high-performance technology that is scalable, flexible, and adaptable to your needs.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            {{- partial "industries/industry-cta.html" . -}}
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>
