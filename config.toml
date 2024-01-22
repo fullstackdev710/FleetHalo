@@ -112,6 +112,20 @@ date_format = "Mon, Jan 2, 2006"
     weight     = 2
 
     [[menu.main]]
+    name = 'Agriculture'
+    identifier = "menu.products.agriculture"
+    url = '/industries/agriculture'
+    parent = 'menu.industries'
+    weight = 1
+
+    [[menu.main]]
+    name = 'Construction'
+    identifier = "menu.products.construction"
+    url = '/industries/construction'
+    parent = 'menu.industries'
+    weight = 1
+
+    [[menu.main]]
     name       = "Our Products"
     identifier = "menu.products"
     url        = "/products/"
@@ -137,13 +151,6 @@ date_format = "Mon, Jan 2, 2006"
     url = '/products/marketplace'
     parent = 'menu.products'
     weight = 3
-
-    [[menu.main]]
-    name = 'Screenshots'
-    identifier = "menu.products.screenshots"
-    url = '/products/screenshots'
-    parent = 'menu.products'
-    weight = 4
 
     [[menu.main]]
     name       = "Our Company"

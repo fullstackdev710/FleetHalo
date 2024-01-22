@@ -19,10 +19,10 @@
                <div class="col-md-12">
                   {{ .Content }}
                   <div class="industries-wrapper">
-                     {{ range .Site.Data.solutions.industries }}
+                     {{ range .Site.Data.industries }}
 
                      <div class="industry-item">
-                        <a href="{{ .Permalink }}">
+                        <a href="{{ .permalink }}">
                            {{ if .image }}
                            <div class="img-wrapper">
                               <img src="{{ .image | relURL }}" class="img-thumb" alt="" width="640" height="360" style="width: 100%; max-width: 570px;" />

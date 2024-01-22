@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" (dict "title" .Title "intro" .Params.Intro "bgImg" .Params.BackgroundImage "bgImgMobile" .Params.BackgroundMobileImage) }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  {{ .Content }}
+                  <div class="industries-wrapper">
+                     {{ range .Site.Data.industries }}
+
+                     <div class="industry-item">
+                        <a href="{{ .permalink }}">
+                           {{ if .image }}
+                           <div class="img-wrapper">
+                              <img src="{{ .image | relURL }}" class="img-thumb" alt="" width="640" height="360" style="width: 100%; max-width: 570px;" />
+                           </div>
+                           {{ else }}
+                           <div class="img-wrapper">
+                              <img src='{{ "img/placeholder.jpg" | relURL }}' class="img-responsive" alt="">
+                           </div>
+                           {{ end }}
+                           <h2>{{ .title | safeHTML }}</h2>
+                        </a>
+                     </div>
+
+                     {{ end }}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="cta bg-grey-light py-5 my-0">
+         <div class="container" id="cta">
+            {{- partial "cta.html" . -}}
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>
