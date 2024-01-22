@@ -112,20 +112,6 @@ date_format = "Mon, Jan 2, 2006"
     weight     = 2
 
     [[menu.main]]
-    name = 'Agriculture'
-    identifier = "menu.products.agriculture"
-    url = '/industries/agriculture'
-    parent = 'menu.industries'
-    weight = 1
-
-    [[menu.main]]
-    name = 'Construction'
-    identifier = "menu.products.construction"
-    url = '/industries/construction'
-    parent = 'menu.industries'
-    weight = 1
-
-    [[menu.main]]
     name       = "Our Products"
     identifier = "menu.products"
     url        = "/products/"

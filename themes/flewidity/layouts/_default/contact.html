@@ -10,7 +10,7 @@
 </head>
 
 <body>
-   {{ partial "breadcrumbs.html" (dict "title" .Title "bgImg" .Params.BackgroundImage "bgImgMobile" .Params.BackgroundMobileImage) }}
+   {{ partial "breadcrumbs.html" . }}
    <section>
       <div class="container">
          <div class="row">

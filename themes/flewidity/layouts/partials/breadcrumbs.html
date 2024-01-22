@@ -75,20 +75,20 @@
 </style>
 
 <div id="heading-breadcrumbs">
-   <picture class="css-1qpj8dk" data-testid="picture">
-      <source srcset="{{ .bgImgMobile }}" data-srcset="" media="(max-width: 959.9px)">
-      <img src="{{ .bgImg }}" data-src="" alt="Vehicles driving on road in front of city landscape" class="css-5r8euk">
+   <picture class="css-1qpj8dk">
+      <source srcset="{{ .Params.backgroundMobileImage }}" data-srcset="" media="(max-width: 959.9px)">
+      <img src="{{ .Params.backgroundImage }}" data-src="" alt="{{ .Title }}" class="css-5r8euk">
    </picture>
    <div class="MuiGrid-root css-e6a885" data-testid="gradient-overlay"></div>
    <div class="container">
       <div class="home-hero-block">
-         <h1 class="mb-3 text-white">{{ .title }}</h1>
-         {{ with .intro }}
+         <h1 class="mb-3 text-white">{{ .Title }}</h1>
+         {{ with .Params.Intro }}
          <p class="mb-3 text-bigger text-white">{{ . }}</p>
          {{ end }}
-         {{ if .btnText }}
+         {{ if .Params.BtnText }}
          <div class="mb-3 btnsectHero">
-            <a class="btn-default" href="{{ .btnLink }}">{{ .btnText }}</a>
+            <a class="btn-default" href="{{ .Params.BtnLink }}">{{ .Params.BtnText }}</a>
          </div>
          {{ end }}
       </div>
