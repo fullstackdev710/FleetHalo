@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>Maintain efficiency and adhere to your budget with FleetHalo.</h2>
+               </div>
+               <div class="col-md-6">
+                  <p>
+                     The world of construction is ever-changing, encompassing various job sites, a range of assets, and constantly moving crews. Count on FleetHalo to monitor all your heavy machinery, including yellow iron, powered trailers, and additional assets, utilizing the IP68 and IP69K rated GO9 RUGGED – a robust telematics device designed for extreme conditions and external mounting.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="bar background-white">
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center">
+                  <h2>Key Features</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/icon-complete-fleet-visibility.svg" | relURL }}' />
+                     </div>
+                     <h3>Fleet Visibility</h3>
+                     <p>Complete visibility of your heavy iron, powered trailers, workforce and other assets.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/icon-improve-asset-utilization.svg" | relURL }}' />
+                     </div>
+                     <h3>Improve asset utilization</h3>
+                     <p>Streamline operations by identifying overused or underused equipment, tracking fuel usage and upcoming scheduled maintenance.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/icons/icon-detect-engine-issues.svg" | relURL }}' />
+                     </div>
+                     <h3>Detect engine issues</h3>
+                     <p>Maximize uptime by prioritizing maintenance based on fault code data and engine hours.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="m-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/industries/construction/construction-middle-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h2 class="mb-3 text-white">
+                           The FleetHalo Advantage
+                        </h2>
+                        <ul class="mb-3 text-white">
+                           <li>Efficiently track and manage fuel usage and idling trends.</li>
+                           <li>Utilize the GO9 RUGGED, our robust telematics device designed for durability.</li>
+                           <li>Accurately monitor engine hours and Power Take-Off (PTO) usage.</li>
+                           <li>Benefit from high-performance GPS technology for precise tracking.</li>
+                           <li>Enjoy seamless data integration with our open platform.</li>
+                           <li>Tailor your experience with our Marketplace Apps and Add-Ons, offering customizable options to suit your company's unique needs.</li>
+                           <li>Gain comprehensive visibility into your workforce, assets, and operational costs.</li>
+                        </ul>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq">
+         <div class="container">
+            <div class="row">
+               <div class="row align-items-center" id="faq-wrapper">
+                  <h1>
+                     Frequently asked questions
+                  </h1>
+                  <div class="accordion accordion-flush">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-1">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
+                              What is construction fleet management software?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Specialized telematics software for construction fleet management is tailored to the needs of fleets in the construction sector.
+                              </p>
+                              <p>
+                                 The core of this system is our robust, fully ruggedized telematics device, the GO9 RUGGED™, boasting IP68 and IP69K ratings and engineered to withstand extreme worksite conditions, including external installations. This device captures high-performance GPS data, integrated into the MyGeotab fleet management platform. Here, managers can oversee fuel consumption and idling patterns, track engine hours and Power Take-Off (PTO) usage, monitor real-time locations of fleet vehicles and assets, ensure Duty of Care compliance, and enhance driver safety through behavior dashboards and in-vehicle coaching.
+                              </p>
+                              <p>
+                                 By incorporating apps from the Geotab Marketplace, the software further aids in transitioning from reactive to proactive maintenance strategies. This is achieved by utilizing fault codes and engine hour data, which helps in reducing vehicle wear and tear while boosting overall vehicle utilization.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
+                              What are the benefits of construction fleet management software?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Construction sites are bustling environments with numerous job locations, a variety of assets, and active crews. The construction fleet management solutions offered by Geotab are designed to:
+                              </p>
+                              <ul>
+                                 <li>Boost productivity while keeping costs in check</li>
+                                 <li>Enhance billing accuracy</li>
+                                 <li>Ensure compliance with workplace regulations</li>
+                                 <li>Elevate the safety of drivers and worksites</li>
+                                 <li>Provide real-time tracking of construction and heavy equipment assets, offering improved oversight across different sites</li>
+                                 <li>Enhance vehicle utilization by shifting from a reactive to a proactive maintenance approach</li>
+                                 <li>Strengthen the security of assets</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
+                              What are the advantages of FleetHalo’s construction fleet management software?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>FleetHalo’'s construction fleet management software offers numerous benefits, such as:</p>
+                              <ul>
+                                 <li>Comprehensive oversight of workforce, assets, and expenses</li>
+                                 <li>Monitoring of fuel consumption and idling patterns</li>
+                                 <li>Tracking engine hours and Power Take-Off (PTO) usage</li>
+                                 <li>Delivering in-vehicle training for drivers</li>
+                                 <li>Utilizing high-efficiency GPS technology</li>
+                                 <li>Providing sophisticated dashboard analytics</li>
+                                 <li>Featuring an open architecture for seamless data integration</li>
+                                 <li>Access to a range of Marketplace Apps and Add-Ons for enhanced functionality.</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
+                              How can telematics technology help improve construction fleet management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Telematics plays a crucial role in construction fleet management by delivering vital information and data on vehicle condition. This helps in preventing significant breakdowns and reducing expenses. It also provides diagnostic insights into machinery and engine health, which are essential for maintaining effective service.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            {{- partial "industries/industry-cta.html" . -}}
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>

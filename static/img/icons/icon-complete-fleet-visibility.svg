@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		
+	.pinoutside {
+		stroke-dasharray: 125;
+		stroke-dashoffset: 125;
+		animation: pinoutside 1.5s .125s linear forwards;
+	}
+	
+	@keyframes pinoutside {
+		from {stroke-dashoffset: 125;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+	
+	.pincenter {
+		stroke-dasharray: 40;
+		stroke-dashoffset: 40;
+		animation: pincenter 1.5s .125s linear forwards;
+	}
+	
+	@keyframes pincenter {
+		from {stroke-dashoffset: 40;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}		
+	
+	.secondpin {
+		opacity: 0;
+		animation: secondpin 1s 1.6s ease normal 1 forwards;
+	}
+	
+	@keyframes secondpin {
+		0% {transform: translateY(0px) rotate(0deg); opacity: 0;}
+		10% {opacity: 1;}
+		100% {transform: translateY(-11.44px) translateX(19.655px) rotate(0deg); opacity: 1;}
+	}
+	
+
+</style>
+<g id="secondpin" class="secondpin">
+	<path class="st0" d="M15.717,12.717C7.593,12.717,1,19.31,1,27.436C1,35.562,15.717,51,15.717,51s14.718-15.438,14.718-23.564
+		C30.435,19.31,23.842,12.717,15.717,12.717z M15.717,32.99c-3.06,0-5.553-2.491-5.553-5.554c0-3.063,2.493-5.555,5.553-5.555
+		c3.063,0,5.556,2.492,5.556,5.555C21.273,30.499,18.78,32.99,15.717,32.99z"/>
+</g>
+<g id="pinoutside" class="pinoutside">
+	<path class="st1" d="M15.717,12.717C7.593,12.717,1,19.31,1,27.436C1,35.562,15.717,51,15.717,51s14.718-15.438,14.718-23.564
+		C30.435,19.31,23.842,12.717,15.717,12.717z"/>
+</g>
+<g id="pincenter" class="pincenter">
+	<path class="st1" d="M15.717,32.99c-3.06,0-5.553-2.491-5.553-5.554c0-3.063,2.493-5.555,5.553-5.555
+		c3.063,0,5.556,2.492,5.556,5.555C21.273,30.499,18.78,32.99,15.717,32.99z"/>
+</g>
+</svg>
