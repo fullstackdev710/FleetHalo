@@ -1520,6 +1520,9 @@ section.contactus {
   overflow: hidden;
   object-fit: cover;
 }
+.feature-icon {
+  max-width: 80px;
+}
 @media (max-width: 1240px) {
   .plan-box {
     width: 32%;
@@ -1545,5 +1548,9 @@ section.contactus {
   }
   .industry-item {
     width: 100%;
+  }
+  .mobile-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
