@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+<style type="text/css">		
+	.fade1 {
+		opacity: 0;
+		animation: fade .25s 0s linear normal 1 forwards;
+	}
+	.fade2 {
+		opacity: 0;
+		animation: fade .25s 0.1s linear normal 1 forwards;
+	}
+	.fade3 {
+		opacity: 0;
+		animation: fade .25s 0.2s linear normal 1 forwards;
+	}
+	.fade4 {
+		opacity: 0;
+		animation: fade .25s 0.3s linear normal 1 forwards;
+	}
+	.fade5 {
+		opacity: 0;
+		animation: fade .5s 0.6s linear normal 1 forwards;
+	}				
+	@keyframes fade {
+    	0% {opacity:0}
+		100% {opacity:1}
+	}
+	.tracing1 {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: tracing 1s 1.25s linear forwards;
+	}
+	.tracing2 {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: tracing 1s 1.5s linear forwards;
+	}	
+	@keyframes tracing {
+		from {stroke-dashoffset: 50;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}				
+</style>	
+  <g id="coin1" class="fade1">
+    <g>
+      <path d="M20.75,33.42c0,3.67,6.34,6.64,14.16,6.64s14.15-3,14.15-6.64v-6c0-3.67-6.33-6.64-14.15-6.64s-14.16,3-14.16,6.64Z" fill="#fff" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M49.06,27.38c0,3.67-6.33,6.64-14.15,6.64s-14.16-3-14.16-6.64" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="coin2" class="fade2">
+    <g>
+      <path d="M20.75,27.38c0,3.67,6.34,6.64,14.16,6.64s14.15-3,14.15-6.64v-6c0-3.66-6.33-6.64-14.15-6.64s-14.16,3-14.16,6.64Z" fill="#fff" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M49.06,21.34C49.06,25,42.73,28,34.91,28s-14.16-3-14.16-6.65" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="coin3" class="fade3">
+    <g>
+      <path d="M20.75,21.34C20.75,25,27.09,28,34.91,28s14.15-3,14.15-6.65v-6c0-3.67-6.33-6.64-14.15-6.64s-14.16,3-14.16,6.64Z" fill="#fff" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M49.06,15.31C49.06,19,42.73,22,34.91,22s-14.16-3-14.16-6.64" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="coin4" class="fade4">
+    <g>
+      <path d="M20.75,15.31C20.75,19,27.09,22,34.91,22s14.15-3,14.15-6.64v-6c0-3.67-6.33-6.64-14.15-6.64s-14.16,3-14.16,6.64Z" fill="#fff" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path d="M49.06,9.27c0,3.67-6.33,6.64-14.15,6.64s-14.16-3-14.16-6.64" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g id="coin5" class="fade5">
+    <circle cx="15.15" cy="35.89" r="13.51" fill="#fff" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+  <g id="arrow-base" class="tracing1">
+    <line x1="15.15" y1="28.67" x2="15.15" y2="43.1" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <g id="arrow-head" class="tracing2">
+    <line x1="15.15" y1="43.1" x2="9.55" y2="37.5" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line x1="15.15" y1="43.1" x2="20.75" y2="37.5" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
