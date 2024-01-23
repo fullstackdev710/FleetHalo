@@ -1,8 +1,8 @@
 ---
-title: "Telematics Software Plans Overview"
-description: "Explore our telematics software plans and discover the perfect fit for your fleet management needs, ensuring efficiency, compliance, and advanced insights. Your journey to optimized fleet operations starts here with FleetHalo."
-backgroundImage: "/img/page-hero-img.jpg"
-backgroundMobileImage: "/img/page-hero-img-m.jpg"
+title: "The Universal, AI-Enhanced Platform for Integrated Fleet Management"
+intro: "Convert real-time data from diverse sources into practical insights for tangible business improvement"
+backgroundImage: "/img/products/software/software-hero.webp"
+backgroundMobileImage: "/img/products/software/software-hero.webp"
 layout: products/software
 ---
 

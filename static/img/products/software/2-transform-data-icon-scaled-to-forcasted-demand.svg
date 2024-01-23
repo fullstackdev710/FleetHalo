@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0078D3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#25477B;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+
+	.bar1 {
+		opacity: 0;
+		animation: slide 1s .3s ease-in-out normal 1 forwards;
+	}
+	
+	.bar2 {
+		opacity: 0;
+		animation: slide 1s .5s ease-in-out normal 1 forwards;
+	}
+	
+	.bar3 {
+		opacity: 0;
+		animation: slide 1s .7s ease-in-out normal 1 forwards;
+	}
+	
+	.bar4 {
+		opacity: 0;
+		animation: slide 1s .9s ease-in-out normal 1 forwards;
+	}
+
+	
+	.circle {
+		opacity: 0;
+		animation: fadein .8s 1.5s ease-in-out normal 1 forwards;
+	}
+	
+	@keyframes fadein {
+		0% {opacity: 0;}
+		100% {opacity: 1}
+	}
+	
+	@keyframes slide {
+		0% {transform: translateY(0px) rotate(0deg); opacity: 1;}
+		100% {transform: translateY(-48px) rotate(0deg); opacity: 1;}
+	}
+	
+	.check {
+		stroke-dasharray: 90;
+		stroke-dashoffset: 90;
+		animation: trace 1s 1.8s ease-in-out normal 1 forwards;
+	}
+	
+	@keyframes trace {
+		from {stroke-dashoffset: 100;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+
+
+</style>
+<g id="circle" class="circle">
+	<path class="st0" d="M1,13.614C1,6.853,6.477,1.376,13.238,1.376c6.771,0,12.248,5.477,12.248,12.238
+		c0,6.761-5.477,12.248-12.248,12.248C6.477,25.862,1,20.375,1,13.614z"/>
+</g>
+
+<g id="check" class="check">
+	<polyline class="st0" points="6.885,16.233 11.057,19.347 19.606,7.89 	"/>
+</g>
+<g id="bar1" class="bar1">
+	<rect x="2.377" y="87.666" class="st1" width="8.857" height="11.334"/>
+</g>
+<g id="bar2" class="bar2">
+	<rect x="15.642" y="81.994" class="st1" width="8.847" height="16.995"/>
+</g>
+<g id="bar3" class="bar3">
+	<rect x="28.898" y="70.661" class="st1" width="8.847" height="28.329"/>
+</g>
+<g id="bar4" class="bar4">
+	<rect x="42.143" y="53.665" class="st1" width="8.857" height="45.325"/>
+</g>
+<g id="coverlayer" class="coverlayer">
+	<g id="cover">
+		<rect y="51" class="st2" width="52" height="49.307"/>
+	</g>
+</g>
+<g id="base">
+	<line class="st1" x1="2.377" y1="51" x2="11.234" y2="51"/>
+	<line class="st1" x1="15.642" y1="51" x2="24.49" y2="51"/>
+	<line class="st1" x1="28.898" y1="51" x2="37.745" y2="51"/>
+	<line class="st1" x1="42.143" y1="51" x2="51" y2="51"/>
+</g>
+</svg>
