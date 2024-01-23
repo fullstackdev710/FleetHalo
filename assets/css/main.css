@@ -1099,10 +1099,6 @@ ul.lgrp p {
   color: #555555;
 }
 
-.box-simple p {
-  color: #999999;
-}
-
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);

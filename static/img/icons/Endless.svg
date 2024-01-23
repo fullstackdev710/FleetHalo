@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52 52">
+	
+	<style type="text/css">
+		
+		.trace-1 {
+			stroke-dasharray: 80;
+			stroke-dashoffset: 80;
+			animation: tracing-animation 1.5s 0.5s ease normal 1 forwards;
+
+		}
+		.trace-2 {
+			stroke-dasharray: 80;
+			stroke-dashoffset: 80;
+			animation: tracing-animation 1.5s 1.25s ease normal 1 forwards;
+
+		}				
+		@keyframes tracing-animation {
+			0% {
+				stroke-dashoffset: 80;
+				
+			}
+			100% {
+				stroke-dashoffset: 0;
+			}			
+		}
+		
+		
+		.dots-1 {
+			animation: fade-animation 0.75s 0s ease normal 1 forwards;
+			opacity: 0;
+		}	
+		.dots-2 {
+			animation: fade-animation 0.75s 0.75s ease normal 1 forwards;
+			opacity: 0;
+		}
+		.dots-3 {
+			animation: fade-animation 0.75s 1.5s ease normal 1 forwards;
+			opacity: 0;
+		}							
+		@keyframes fade-animation {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}							
+		}		
+		
+		.move-1 {
+			animation: move-1 0.75s 2s ease normal 1 forwards;
+			transform: translateX(-12.5582px) translateY(-7.6731px);			
+		}		
+		@keyframes move-1 {
+			0% {
+				transform: translateX(-11.5582px) translateY(-6.6731px);
+			}				
+			100% {
+				transform: translateX(0px) translateY(0px);
+			}											
+		}
+		
+		.move-2 {
+			animation: move-2 0.75s 2s ease normal 1 forwards;
+			transform: translateY(15px);			
+		}		
+		@keyframes move-2 {
+			0% {
+				transform: translateY(15px);
+			}				
+			100% {
+				transform: translateY(0px);
+			}											
+		}
+		
+		.move-3 {
+			animation: move-3 0.75s 2s ease normal 1 forwards;
+			transform: translateX(12.5582px) translateY(-7.6731px);			
+		}		
+		@keyframes move-3 {
+			0% {
+				transform: translateX(11.5582px) translateY(-6.6731px);
+			}				
+			100% {
+				transform: translateX(0px) translateY(0px);
+			}											
+		}						
+		
+	</style>	
+			
+  <defs>
+
+    <clipPath id="clippath">
+      <rect id="lines-3A-clipping-mask" x="25.11" y="4.21" width="14.53" height="8.2" transform="translate(8.49 -15.07) rotate(30)" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect id="lines-3B-clipping-mask" x=".33" y="25.35" width="14.53" height="8.2" transform="translate(-21.86 37.04) rotate(-90)" fill="none"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect id="lines-3C-clipping-mask" x="31.02" y="36.24" width="14.53" height="8.2" transform="translate(91.62 56.14) rotate(150)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="lines-1" class="trace-1">
+    <line x1="26.08" y1="26.04" x2="44.58" y2="15.36" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+    <line x1="26.08" y1="26.04" x2="7.59" y2="15.36" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+    <line x1="26.08" y1="26.04" x2="26.08" y2="47.39" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+  </g>
+  <g id="dots-1" class="dots-1">
+    <circle cx="26.08" cy="26.04" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="lines-2" class="trace-2">
+    <line x1="44.58" y1="15.36" x2="44.58" y2="36.71" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+    <line x1="26.08" y1="47.39" x2="7.59" y2="36.71" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+    <line x1="7.59" y1="15.36" x2="26.08" y2="4.68" fill="none" stroke="#25477b" stroke-miterlimit="10" stroke-width="1.25"/>
+  </g>
+  <g id="dots-2" class="dots-2">
+    <circle cx="7.59" cy="15.36" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="44.58" cy="15.36" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="26.08" cy="47.39" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="lines-3A">
+    <g id="lines-3A-clipping-mask-container">
+      <g clip-path="url(#clippath)">
+        <g id="lines-3A-group" class="move-1">
+          <line x1="37.64" y1="11.36" x2="26.08" y2="4.68" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+          <polyline points="36.57 7.35 37.64 11.36 33.63 12.43" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="lines-3B">
+    <g id="lines-3B-clipping-mask-container">
+      <g clip-path="url(#clippath-1)">
+        <g id="lines-3B-group" class="move-2">
+          <line x1="7.59" y1="23.37" x2="7.59" y2="36.71" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+          <polyline points="4.66 26.3 7.59 23.37 10.52 26.3" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="lines-3C">
+    <g id="lines-3C-clipping-mask-container">
+      <g clip-path="url(#clippath-2)">
+        <g id="lines-3C-group" class="move-3">
+          <line x1="33.02" y1="43.39" x2="44.58" y2="36.71" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+          <polyline points="37.02 44.46 33.02 43.39 34.09 39.38" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="dots-3" class="dots-3">
+    <circle cx="44.58" cy="36.71" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="7.59" cy="36.71" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="26.08" cy="4.68" r="3.11" fill="#fff" stroke="#0079d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>

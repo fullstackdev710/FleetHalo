@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+	<style type="text/css">
+	.tracing1 {
+		stroke-dasharray: 200;
+		stroke-dashoffset: 200;
+		animation: tracing1 1.5s 0s ease-in-out forwards;
+	}
+	@keyframes tracing1 {
+		from {stroke-dashoffset: 200;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+	.tracing2 {
+		stroke-dasharray: 200;
+		stroke-dashoffset: 200;
+		animation: tracing2 1.5s 1s ease-in-out forwards;
+	}
+	.tracing3 {
+		stroke-dasharray: 200;
+		stroke-dashoffset: 200;
+		animation: tracing2 1.5s 1.75s ease-in-out forwards;
+	}	
+	@keyframes tracing2 {
+		from {stroke-dashoffset: 200;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}		
+</style>
+  <g id="Line_3" class="tracing3" data-name="Line 3">
+    <path d="M46.1,14.63c-1.47,2.29-2.25,4.95-2.25,7.69,0,4.88,2.46,9.37,6.57,12.02l-5.21,8.1c-6.88-4.42-10.99-11.94-10.99-20.11,0-4.59,1.3-9.04,3.77-12.88l8.11,5.19Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <g id="Line_2" class="tracing2" data-name="Line 2">
+    <rect x="16.54" y="21.21" width="33.13" height="9.62" transform="translate(-6.67 39.86) rotate(-57.35)" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <g id="Line_1" class="tracing1" data-name="Line 1">
+    <rect x="-2" y="21.21" width="33.13" height="9.62" transform="translate(-15.21 24.25) rotate(-57.35)" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
