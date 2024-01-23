@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <nav>
+               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-device-tab" data-bs-toggle="tab" data-bs-target="#nav-device" type="button" role="tab" aria-controls="nav-device" aria-selected="true">FleetHalo Go Device</button>
+                  <button class="nav-link" id="nav-oem-tab" data-bs-toggle="tab" data-bs-target="#nav-oem" type="button" role="tab" aria-controls="nav-oem" aria-selected="false">OEM Telematics</button>
+                  <button class="nav-link" id="nav-3rd-party-tab" data-bs-toggle="tab" data-bs-target="#nav-3rd-party" type="button" role="tab" aria-controls="nav-3rd-party" aria-selected="false">3rd Party Telematic Devices</button>
+                  <button class="nav-link" id="nav-mixed-tab" data-bs-toggle="tab" data-bs-target="#nav-mixed" type="button" role="tab" aria-controls="nav-mixed" aria-selected="false">Mixed Fleets</button>
+               </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="nav-device" role="tabpanel" aria-labelledby="nav-device-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Fleet Halo Go Device</p>
+                        <p>
+                           The FleetHalo GO9 telematic vehicle tracking device efficiently collects and standardizes vital data from over 9,000 different models of cars, vans, and trucks. Simply plug the GO device into the standard OBDII port of any vehicle to begin gathering the industry's most detailed vehicle data. Equipped with a 32-bit processor, increased RAM, and a gyroscope, the GO9 is designed for enhanced performance. Additionally, it offers extended capabilities to better monitor fuel usage, support electric vehicles, and cater to a globally expanding fleet.
+                        </p>
+                        <p>Key benefits of the GO device include:</p>
+                        <ul>
+                           <li>Precise GPS Tracking</li>
+                           <li>Vehicle health assessments</li>
+                           <li>Collision detection and notification</li>
+                           <li>Secured data encryption</li>
+                           <li>In-vehicle driver coaching</li>
+                           <li>Support for mixed fleets of different OEM makes and models</li>
+                           <li>Patented curve algorithm enables low bandwidth data transmission</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/GO9.webp" class="mx-auto" alt="Fleet Halo Go Device" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-oem" role="tabpanel" aria-labelledby="nav-oem-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">OEM Telematics</p>
+                        <p>
+                           Activate effortlessly and remotely without the need for physical installation.
+                        </p>
+                        <p>
+                           FleetHalo streamlines OEM telematics from connected vehicles, integrating them directly into our platform via the cloud. We ensure data security and normalization, making it consistent across various vehicle makes and models.
+                        </p>
+                        <p>
+                           Advantages of OEM telematics integration:
+                        </p>
+                        <ul>
+                           <li>No external hardware or installation costs</li>
+                           <li>Simplify activation processes with remote access</li>
+                           <li>Ensure seamless compatibility with your vehicle</li>
+                           <li>Make better decisions faster with precise data</li>
+                           <li>Simplify fleet management with a single platform</li>
+                           <li>Maintain secure, end-to-end data transmission for peace of mind</li>
+                           <li>benchmark your fleet against industry standards.</li>
+                        </ul>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/Telematics.webp" class="mx-auto" alt="OEM Telematics" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-3rd-party" role="tabpanel" aria-labelledby="nav-3rd-party-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">3rd Party Telematics Devices</p>
+                        <p>
+                           Adapt to evolving fleet requirements with ease.
+                        </p>
+                        <p>
+                           For those with existing investments in 3rd party telematic devices, FleetHalo offers seamless connectivity to gather essential data for effective fleet management. Our open platform facilitates effortless integration of any third-party telematics device.
+                        </p>
+                        <p>
+                           Moreover, integrations from our partners in our marketplace simplify the connection to any available system or device. Centralize all your data on FleetHalo’s platform, enhancing overall visibility and control.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/3rd-party.webp" class="mx-auto" alt="3rd Party Telematics Devices" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="nav-mixed" role="tabpanel" aria-labelledby="nav-mixed-tab">
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <p class="text-bigger">Mixed Fleets</p>
+                        <p>
+                           Streamlining the management of diverse fleets is a complex task for fleet managers. FleetHalo offers the versatility to handle any asset or vehicle type, regardless of make, model, or whether they’re connected via telematics hardware or integrated vehicle functionalities, all on a unified platform.
+                        </p>
+                        <p>
+                           Achieve thorough visibility and control over your fleet and assets for uniform management. Aggregate and analyze all telematics and asset data in a single, AI-enhanced overview that pinpoints performance metrics and areas for improvement.
+                        </p>
+                        <p>
+                           Take advantage of compatibility with a vast range of over 9000 vehicle and equipment types, including close to 300 electric vehicle models. Ensure seamless connectivity across your fleet, whether through the FleetHalo GO device, any third-party devices, OEM telematics, or integrated OEM solutions.
+                        </p>
+                     </div>
+                     <div class="col-md-6">
+                        <img src="/img/mixed-Fleets.webp" class="mx-auto" alt="Mixed Fleets" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq">
+         <div class="container">
+            <div class="row">
+               <div class="row align-items-center" id="faq-wrapper">
+                  <h1>
+                     Frequently asked questions
+                  </h1>
+                  <div class="accordion accordion-flush">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-1">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
+                              What is telematics?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Telematics involves tracking and analyzing the performance of vehicles and assets through telematic control units (TCUs) embedded within them. These units provide comprehensive monitoring of various aspects such as the vehicle's status, location, driver behavior, engine diagnostics, and precise GPS positioning. By collecting and scrutinizing real-time data from the multitude of vehicles in a fleet, telematics facilitates efficient fleet management and operational oversight.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
+                              What is a telematic control unit (TCU) ?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 A Telematic Control Unit (TCU) is essentially a compact onboard computer in your vehicle, capable of tracking an extensive range of details including speed, idling, fuel consumption, low tire pressure, and more. Leveraging this data can lead to significant maintenance cost reductions through enhanced vehicle monitoring or improved fuel efficiency by analyzing driving behaviors.
+                              </p>
+                              <p>
+                                 Telematics devices, along with other connected hardware or sensors, enable the processing and analysis of a wealth of data, such as:
+                              </p>
+                              <ul>
+                                 <li>GPS positioning</li>
+                                 <li>Vehicle speed</li>
+                                 <li>Travel distance and time</li>
+                                 <li>Idling duration</li>
+                                 <li>Instances of harsh braking and acceleration</li>
+                                 <li>Seat belt usage</li>
+                                 <li>Fuel usage</li>
+                                 <li>Vehicle malfunction indicators</li>
+                                 <li>Battery voltage and comprehensive engine information</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
+                              What are the benefits of using FleetHalo’s GO devices?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 FleetHalo GO devices are entirely universal, compatible with nearly every OEM and encompassing over 9000 different vehicle makes, models, and years. This extensive coverage grants organizations the flexibility to choose their fleet composition without being restricted to a single OEM. It enables the deployment of diverse fleets, including diesel, gas, electric vehicles (EV), and plug-in hybrid electric vehicles (PHEV) of various sizes and functions.
+                              </p>
+                              <p>
+                                 FleetHalo GO devices are designed to capture the broadest and richest data streams in the industry, offering fleet managers an enhanced understanding of their vehicles and drivers. This wealth of information translates into greater visibility, improved control, and more favorable business outcomes.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
+                              What are the benefits of OEM telematics?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 OEM telematic devices offer a streamlined startup process. Their pre-installed nature allows for quick, remote, and contactless activation, making them ready for use without any hassle. This approach eliminates the need for vehicle downtime during installation and avoids any extra expenses for additional hardware.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-12">
+                  <h1 class="text-center text-white">
+                     Ready to collaborate with FleetHalo?
+                  </h1>
+                  <p class="text-white text-center">
+                     Allow us to demonstrate how our user-friendly solutions can effectively manage your fleet vehicles across various tiers.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center">
+                     <a href="/products/software/" class="btn-default">Get a Demo</a>
+                     <a href="/request-demo" class="btn-default">See Subscription Plans</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>
