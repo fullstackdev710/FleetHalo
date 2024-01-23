@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+
+	.alarmbell {
+		opacity: 1;
+		animation: alarmbell 1.25s linear normal 2 forwards;
+		transform-origin: 78% 35.6%;
+	}
+	
+	@keyframes alarmbell {
+		0% {transform: rotate(0deg);}
+		25% {transform: rotate(-2deg);}
+		50% {transform: rotate(4deg);}
+		75% {transform: rotate(-2deg);}
+		100% {transform: rotate(0deg);}
+	}
+</style>
+<g id="alarmlines" class="alarmlines">
+	<line id="Line_3_1_" class="st0" x1="5.54" y1="6.43" x2="12.55" y2="13.43"/>
+	<line id="Line_4_1_" class="st0" x1="16.56" y1="1.84" x2="16.56" y2="11.74"/>
+	<line id="Line_5_1_" class="st0" x1="10.9" y1="17.46" x2="1" y2="17.46"/>
+</g>
+<g id="alarmbell" class="alarmbell">
+	<g id="Group_689_1_">
+		<g id="Group_688_1_">
+			<path id="Path_2268_2_" class="st1" d="M9.58,24.65l-0.01,0.01l0,0L9.58,24.65z"/>
+			<path id="Path_2269_2_" class="st1" d="M9.57,24.66l-0.01,0.02L9.57,24.66L9.57,24.66z"/>
+			<path id="Path_2270_2_" class="st1" d="M44.95,31.35l0.32-0.33c4.7-4.64,4.76-12.21,0.12-16.92S33.19,9.36,28.48,14 
+				c-0.04,0.04-0.08,0.08-0.12,0.12l-0.32,0.33c-2.7,2.71-6.11,4.6-9.84,5.45c-3.24,0.74-6.21,2.37-8.57,4.72l-0.04,0.04
+				c1.64-1.6,8.58,2.72,15.51,9.65s11.27,13.9,9.64,15.52c2.34-2.33,3.98-5.27,4.74-8.48C40.34,37.57,42.24,34.11,44.95,31.35z"/>
+			<path id="Path_2271_2_" class="st1" d="M25.09,34.3c-6.93-6.94-13.87-11.25-15.51-9.65l-0.01,0.01l-0.01,0.01
+				c-1.58,1.65,2.73,8.58,9.65,15.51c6.95,6.95,13.9,11.26,15.52,9.64S32.04,41.25,25.09,34.3z"/>
+			<path id="Path_2272_2_" class="st1" d="M25.09,34.3c-1.22-1.22-2.44-2.35-3.63-3.39c-1.87,2-1.77,5.15,0.24,7.02
+				c1.91,1.78,4.87,1.78,6.78,0C27.45,36.74,26.31,35.52,25.09,34.3z"/>
+			<path id="Path_2273_2_" class="st1" d="M45.28,14.11c0.9,0.9,1.65,1.94,2.22,3.07c2.4-0.53,3.92-2.9,3.39-5.3S48,7.97,45.6,8.49
+				c-1.7,0.37-3.02,1.7-3.39,3.39C43.34,12.46,44.38,13.21,45.28,14.11z"/>
+		</g>
+	</g>
+</g>
+</svg>

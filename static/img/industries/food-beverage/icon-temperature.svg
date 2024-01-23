@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+
+	.bodyline {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: bodyline 1.2s linear forwards;
+	}
+	
+	@keyframes bodyline {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+	
+	.line1 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line1 .5s .8s linear forwards;
+	}
+	
+	@keyframes line1 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+	
+	.line2 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line2 .5s 1s linear forwards;
+	}
+	
+	@keyframes line2 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+	
+	.line3 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line3 .5s 1.2s linear forwards;
+	}
+	
+	@keyframes line3 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+	
+	.line4 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line4 .5s 1.4s linear forwards;
+	}
+	
+	@keyframes line4 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}	
+
+	.line5 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line5 .5s 1.6s linear forwards;
+	}
+	
+	@keyframes line5 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+
+	.line6 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line6 .5s 1.8s linear forwards;
+	}
+	
+	@keyframes line6 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+	
+	.line7 {
+		stroke-dasharray: 10;
+		stroke-dashoffset: 10;
+		animation: line7 .5s 2s linear forwards;
+	}
+	
+	@keyframes line7 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}				
+</style>
+<g id="body">
+	<path id="Path_2274_1_" class="st0" d="M24.16,33.69V6.77c0-3.19-2.58-5.77-5.77-5.77c-3.19,0-5.77,2.58-5.77,5.77v26.93
+		c-4.25,3.19-5.11,9.21-1.92,13.46c3.19,4.25,9.21,5.11,13.46,1.92c4.25-3.19,5.11-9.21,1.92-13.46
+		C25.53,34.89,24.88,34.24,24.16,33.69z"/>
+</g>
+<g id="bodyline" class="bodyline">
+	<line id="Line_13_2_" class="st1" x1="20.31" y1="35.62" x2="20.31" y2="4.85"/>
+</g>
+<g id="line1" class="line1">
+	<line id="Line_12" class="st2" x1="8.69" y1="28.88" x2="1" y2="28.88"/>
+</g>
+<g id="line2" class="line2">
+	<line id="Line_11" class="st2" x1="8.69" y1="25.04" x2="4.85" y2="25.04"/>
+</g>
+<g id="line3" class="line3">
+	<line id="Line_10_1_" class="st2" x1="8.69" y1="21.19" x2="4.85" y2="21.19"/>
+</g>
+<g id="line4" class="line4">
+	<line id="Line_9_1_" class="st2" x1="8.69" y1="17.35" x2="1" y2="17.35"/>
+</g>
+<g id="line5" class="line5">
+	<line id="Line_8_1_" class="st2" x1="8.69" y1="13.5" x2="4.85" y2="13.5"/>
+</g>
+<g id="line6" class="line6">
+	<line id="Line_7_1_" class="st2" x1="8.69" y1="9.65" x2="4.85" y2="9.65"/>
+</g>
+<g id="line7" class="line7">
+	<line id="Line_6_1_" class="st2" x1="8.69" y1="5.81" x2="1" y2="5.81"/>
+</g>
+</svg>
