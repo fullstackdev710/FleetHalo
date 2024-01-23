@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0078D3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#25477B;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+	.Wheel {
+		opacity: 1;
+		animation: wheel 2.5s .25s ease normal 1 forwards;
+		transform-origin: 49.9846% 49.9846%;
+	}
+	
+	@keyframes wheel {
+		0% {transform: translateY(0px) rotate(0deg); opacity: 1;}
+		100% {transform: translateY(0px) rotate(180deg); opacity: 1;}
+	}
+	
+	.Button1 {
+		opacity: 1;
+		animation: slide1 2s .25s ease-in-out normal 1 forwards;
+	}
+	
+	@keyframes slide1 {
+		0% {transform: translateX(0px) rotate(0deg); opacity: 1;}
+		50% {transform: translateX(20px) rotate(0deg); opacity: 1;}
+		100% {transform: translateX(4px) rotate(0deg); opacity: 1;}
+		}
+	
+	.Button2 {
+		opacity: 1;
+		animation: slide2 2s .25s ease-in-out normal 1 forwards;
+	}
+	
+	@keyframes slide2 {
+		0% {transform: translateX(0px) rotate(0deg); opacity: 1;}
+		50% {transform: translateX(20px) rotate(0deg); opacity: 1;}
+		100% {transform: translateX(15px) rotate(0deg); opacity: 1;}
+		}
+
+	.Button3 {
+		opacity: 1;
+		animation: slide3 2s .25s ease-in-out normal 1 forwards;
+	}
+	
+	@keyframes slide3 {
+		0% {transform: translateX(0px) rotate(0deg); opacity: 1;}
+		50% {transform: translateX(20px) rotate(0deg); opacity: 1;}
+		100% {transform: translateX(6px) rotate(0deg); opacity: 1;}
+		}
+
+
+
+</style>
+<g id="Lines">
+	<line class="st0" x1="14.695" y1="17.884" x2="37.295" y2="17.884"/>
+	<line class="st0" x1="37.292" y1="26" x2="14.692" y2="26"/>
+	<line class="st0" x1="14.695" y1="34.105" x2="37.295" y2="34.105"/>
+</g>
+
+<g id="Button3" class="Button3">
+	<path class="st1" d="M18.81,34.105c0,1.17-0.95,2.12-2.11,2.12c-1.17,0-2.12-0.95-2.12-2.12c0-1.16,0.95-2.11,2.12-2.11
+		C17.86,31.995,18.81,32.945,18.81,34.105z"/>
+</g>
+
+<g id="Button2" class="Button2">
+	<path class="st1" d="M14.58,26c0-1.17,0.95-2.12,2.12-2.12c1.17,0,2.12,0.95,2.12,2.12c0,1.17-0.95,2.12-2.12,2.12
+		C15.53,28.12,14.58,27.17,14.58,26z"/>
+</g>
+
+<g id="Button1" class="Button1">
+	<path class="st1" d="M18.81,17.884c0,1.17-0.95,2.12-2.11,2.12c-1.17,0-2.12-0.95-2.12-2.12c0-1.16,0.95-2.11,2.12-2.11
+		C17.86,15.774,18.81,16.724,18.81,17.884z"/>
+</g>
+
+<g id="Wheel" class="Wheel">
+	<path class="st2" d="M48.65,30.58c1.28-0.37,2.19-1.49,2.29-2.82c0.03-0.59,0.05-1.17,0.05-1.76c0-0.6-0.02-1.18-0.05-1.76
+		c-0.1-1.33-1.01-2.46-2.29-2.82L47.18,21c-0.99-0.28-1.77-1.03-2.12-1.98c-0.19-0.53-0.4-1.06-0.65-1.56
+		c-0.43-0.93-0.41-2.01,0.1-2.9l0.74-1.34c0.65-1.17,0.5-2.61-0.38-3.62c-0.77-0.88-1.6-1.71-2.48-2.48
+		c-1.01-0.87-2.45-1.02-3.61-0.38l-1.35,0.75c-0.89,0.5-1.96,0.52-2.89,0.09c-0.51-0.23-1.03-0.45-1.56-0.64
+		c-0.96-0.35-1.7-1.14-1.99-2.11l-0.42-1.49c-0.36-1.28-1.49-2.18-2.82-2.28C27.18,1.02,26.59,1,25.99,1
+		c-0.58,0-1.17,0.02-1.75,0.06c-1.33,0.1-2.46,1-2.83,2.28l-0.42,1.49c-0.27,0.97-1.01,1.76-1.98,2.11
+		c-0.53,0.19-1.04,0.41-1.55,0.64c-0.93,0.43-2,0.41-2.9-0.09l-1.34-0.75c-1.17-0.64-2.61-0.49-3.61,0.38
+		C8.72,7.89,7.89,8.72,7.12,9.6c-0.87,1.01-1.03,2.45-0.38,3.62l0.75,1.34c0.5,0.89,0.52,1.97,0.09,2.9
+		c-0.24,0.5-0.45,1.03-0.65,1.56c-0.35,0.95-1.12,1.7-2.11,1.98l-1.48,0.42c-1.28,0.36-2.19,1.49-2.28,2.82C1.02,24.82,1,25.4,1,26
+		c0,0.59,0.02,1.17,0.06,1.76c0.09,1.33,1,2.45,2.28,2.82L4.82,31c0.99,0.27,1.76,1.03,2.11,1.98c0.2,0.53,0.41,1.05,0.65,1.56
+		c0.43,0.92,0.41,2-0.09,2.9l-0.75,1.33c-0.65,1.18-0.49,2.61,0.38,3.62c0.77,0.89,1.6,1.72,2.49,2.49c1,0.87,2.44,1.02,3.61,0.38
+		l1.34-0.75c0.9-0.5,1.97-0.52,2.9-0.09c0.51,0.23,1.02,0.45,1.55,0.64c0.97,0.35,1.71,1.13,1.98,2.11l0.42,1.49
+		c0.37,1.28,1.5,2.18,2.83,2.28c0.58,0.04,1.17,0.06,1.75,0.06c0.6,0,1.19-0.02,1.76-0.06c1.33-0.1,2.46-1,2.82-2.28l0.42-1.49
+		c0.29-0.98,1.03-1.76,1.99-2.11c0.53-0.19,1.05-0.41,1.56-0.64c0.93-0.43,2-0.41,2.89,0.09l1.35,0.75c1.16,0.64,2.6,0.49,3.61-0.38
+		c0.88-0.77,1.71-1.6,2.48-2.49c0.88-1.01,1.03-2.44,0.38-3.62l-0.74-1.33c-0.51-0.9-0.53-1.98-0.1-2.9
+		c0.25-0.51,0.46-1.03,0.65-1.56c0.35-0.95,1.13-1.71,2.12-1.98L48.65,30.58z"/>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+	@keyframes wrench {
+    	from {
+        	transform:rotate(0deg);
+    	}
+		to {
+        	transform:rotate(-45deg);
+		}
+	}	
+	
+	.wrench {
+		animation: wrench 2s .5s linear normal 1 forwards;
+				transform-origin: 58.38% 56.47%;
+	}
+	
+		@keyframes screwdriver {
+    	from {
+        	transform:rotate(0deg);
+    	}
+		to {
+        	transform:rotate(45deg);
+		}
+	}	
+	
+	.screwdriver {
+		animation: screwdriver 2s .5s linear normal 1 forwards;
+				transform-origin: 42.4% 56%;
+	}
+</style>
+<g id="wrench" class="wrench">
+	<path class="st0" d="M29.351,2.256l-0.038,9.584l-6.532,3.814l-6.502-3.866l0.038-9.584c-3.147,2.091-5.228,5.661-5.244,9.724
+		c-0.018,4.629,2.65,8.641,6.539,10.562l-0.094,22.582c-0.011,2.84,2.282,5.152,5.122,5.163c2.84,0.011,5.152-2.282,5.163-5.122
+		l0.094-22.582c3.904-1.89,6.604-5.88,6.623-10.51C34.535,7.619,32.985,4.713,29.351,2.256z M22.651,46.999
+		c-1.052-0.004-1.902-0.86-1.898-1.913c0.004-1.053,0.861-1.902,1.913-1.898c1.052,0.004,1.902,0.861,1.898,1.913
+		C24.56,46.154,23.703,47.004,22.651,46.999z"/>
+</g>
+<g id="screwdriver" class="screwdriver">
+	<path class="st1" d="M33.214,0.823l-7.546-0.028c-0.75-0.003-1.36,0.602-1.363,1.352L24.229,21.04
+		c-0.003,0.75,0.602,1.36,1.352,1.363l2.314,0.009l-0.051,16.456l-1.486,2.038c-0.35,0.48-0.459,1.094-0.295,1.665l2.28,7.96
+		c0.257,0.898,1.529,0.903,1.793,0.007l2.342-7.938c0.168-0.569,0.064-1.184-0.282-1.666l-1.434-2.002l0.051-16.508l2.314,0.009
+		c0.75,0.003,1.36-0.603,1.363-1.352l0.075-18.894C34.569,1.436,33.963,0.826,33.214,0.823z"/>
+</g>
+</svg>

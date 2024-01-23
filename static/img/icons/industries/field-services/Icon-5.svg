@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0078D3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#25477B;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.belt1 {
+		opacity: 0;
+		animation: slide1 2.5s .25s ease normal 1 forwards;
+	}
+	
+	@keyframes slide1 {
+		0% {transform: translateX(0px) translateY(0px) rotate(0deg); opacity: 1;}
+		100% {transform: translateX(30px) translateY(30px) rotate(0deg); opacity: 1;}
+	}
+	
+	.belt2 {
+		opacity: 0;
+		animation: slide2 2.5s .25s ease normal 1 forwards;
+	}
+	
+	@keyframes slide2 {
+		0% {transform: translateX(0px) translateY(0px) rotate(0deg); opacity: 1;}
+		100% {transform: translateX(-30px) translateY(-30px) rotate(0deg); opacity: 1;}
+	}
+
+
+
+</style>
+<g id="belt2" class="belt2">
+	<g>
+		<path class="st0" d="M76.685,68.813l-6.348-6.348c-0.664,1.653-1.617,3.217-2.855,4.616c-0.218,0.246-0.441,0.488-0.676,0.724
+			c-0.235,0.235-0.478,0.459-0.724,0.676c-1.4,1.238-2.963,2.191-4.616,2.855l6.348,6.348"/>
+		<path class="st0" d="M55.108,67.202c-0.337,0.337-0.337,0.884,0,1.221l2.988,2.988c0.459,0.459,1.131,0.649,1.756,0.474
+			c0.545-0.153,1.084-0.335,1.613-0.547c1.653-0.664,3.217-1.617,4.617-2.855l1.4-1.4c1.238-1.4,2.191-2.963,2.855-4.616
+			c0.213-0.529,0.395-1.068,0.547-1.613c0.175-0.625-0.015-1.297-0.474-1.756l-2.988-2.988c-0.337-0.337-0.884-0.337-1.221,0
+			L55.108,67.202z"/>
+	</g>
+</g>
+<g id="belt1" class="belt1">
+	<g>
+		<path class="st0" d="M-25.685-15.813l6.348,6.348c0.781-1.944,1.957-3.766,3.531-5.34c1.575-1.575,3.397-2.751,5.34-3.531
+			l-6.348-6.348"/>
+		<path class="st0" d="M0.682-5.946l-2.791-2.791C-2.471-9.1-2.675-9.591-2.675-10.104v-3.085c0-0.513-0.204-1.004-0.566-1.367
+			l-3.855-3.855c-0.459-0.459-1.131-0.649-1.756-0.474c-0.545,0.153-1.084,0.335-1.613,0.547c-1.944,0.78-3.765,1.957-5.34,3.532
+			c-1.575,1.575-2.751,3.396-3.531,5.34c-0.213,0.529-0.395,1.068-0.547,1.613c-0.175,0.625,0.015,1.297,0.474,1.756l3.855,3.855
+			c0.362,0.363,0.854,0.566,1.367,0.566h3.085c0.513,0,1.004,0.204,1.367,0.566l2.791,2.791c0.867,0.867,2.272,0.867,3.139,0
+			l4.489-4.489C1.549-3.674,1.549-5.079,0.682-5.946z M-1.667-4.073l-3.406,3.406C-5.241-0.5-5.512-0.5-5.68-0.667l-2.47-2.47
+			c-0.168-0.167-0.168-0.439,0-0.607l3.406-3.406c0.168-0.167,0.439-0.167,0.607,0l2.47,2.47C-1.5-4.513-1.5-4.241-1.667-4.073z"/>
+	</g>
+</g>
+<g id="cover">
+	<path class="st1" d="M-27.44-27.44V79.44H79.44V-27.44H-27.44z M25.5,51C11.969,51,1,40.031,1,26.5C1,12.969,11.969,2,25.5,2
+		C39.031,2,50,12.969,50,26.5C50,40.031,39.031,51,25.5,51z"/>
+</g>
+<g id="Circle">
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<path class="st2" d="M25.5,2C11.969,2,1,12.969,1,26.5C1,40.031,11.969,51,25.5,51C39.031,51,50,40.031,50,26.5
+								C50,12.969,39.031,2,25.5,2z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

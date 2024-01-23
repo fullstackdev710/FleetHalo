@@ -1,0 +1,60 @@
+<svg id="icon-increase-customer-satsifcation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+<style type="text/css">
+	@keyframes dash1 {
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+	.stroke1 {
+		stroke-dasharray: 120;
+		stroke-dashoffset: 120;
+		animation: dash1 0.8s linear forwards;
+		animation-delay: 0s;
+	}
+	.stroke2 {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: dash1 0.6s linear forwards;
+		animation-delay: 0.4s;
+	}	
+	@keyframes fade {
+		to {
+		opacity: 1;
+		}
+	}
+	.fade-in {
+		opacity: 0;
+		animation: fade  0.5s linear forwards;
+		animation-delay: 0.5s;
+	}
+	@keyframes slide1 {
+		0% {transform: translateY(0px); opacity: 0;}
+		20% {transform: translateY(0px); opacity: 1;}
+		100% {transform: translateY(-9.32px) rotate(0deg); opacity: 1;}
+	}	
+	.arrow-head {
+		opacity: 0;
+		animation: slide1 0.55s ease-in-out normal 1 forwards;
+		animation-delay: 0.6s;
+	}
+	@keyframes trace1 {
+		0% {opacity: 0;}
+		20% {opacity: 1;}
+		100% {opacity: 1; stroke-dashoffset: 0;}
+	}	
+	.arrow-stem {
+		opacity: 0;	
+		animation: trace1 1s ease-in-out normal 1 forwards;
+		animation-delay: 0.5s;
+		stroke-dasharray: 21;
+		stroke-dashoffset: 20;
+	}		
+</style>		
+  <path id="face-circle" class="stroke1" d="M36.91,19A18,18,0,1,1,19,1,18,18,0,0,1,36.91,19Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="face-mouth" class="stroke2" d="M8.34,23.07a11.46,11.46,0,0,0,21.24,0Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="face-eye-left" class="stroke2" d="M14.68,13.05c0,2-1.14,3.62-2.55,3.62S9.57,15,9.57,13.05s1.14-3.61,2.56-3.61S14.68,11.07,14.68,13.05Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="face-eye-right" class="stroke2" d="M28.34,13.05c0,2-1.14,3.62-2.55,3.62S23.23,15,23.23,13.05s1.14-3.61,2.56-3.61S28.34,11.07,28.34,13.05Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="arrow-circle" class="fade-in" d="M26,38.5A12.5,12.5,0,1,1,38.5,51,12.5,12.5,0,0,1,26,38.5Z" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <polyline id="arrow-head" class="arrow-head" points="33.04 45.88 38.5 40.44 43.96 45.88" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="arrow-line" class="arrow-stem" x1="38.5" y1="45.88" x2="38.5" y2="31.11" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>
