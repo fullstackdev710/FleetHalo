@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+<style type="text/css">
+	.wave1 {
+		opacity: 0;
+		animation: fade 1s 1s linear normal 1 forwards;
+	}
+	.wave2 {
+		opacity: 0;
+		animation: fade 1s 1.5s linear normal 1 forwards;
+	}		
+		
+	.fade {
+		opacity: 0;
+		animation: fade 1s 0s linear normal 1 forwards;
+	}	
+	@keyframes fade {
+    	0% {opacity:0}
+		100% {opacity:1}
+	}		
+</style>	
+  <g id="person" class="fade">
+    <path d="M31.96087,26.92577a10.23908,10.23908,0,0,1-11.92174,0,15.25514,15.25514,0,0,0-9.29032,14.042v6.041H41.25122v-6.041A15.2551,15.2551,0,0,0,31.96087,26.92577Z" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="26.00001" cy="18.58944" r="10.25033" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="wave_1" data-name="wave 1" class="wave1">
+    <g>
+      <path d="M40.38322,9.1758a17.20684,17.20684,0,0,1,0,18.82732" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <path d="M11.61682,28.00312a17.20684,17.20684,0,0,1,0-18.82732" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    </g>
+  </g>
+  <g id="wave_2" data-name="wave 2" class="wave2">
+    <g>
+      <path d="M46.777,32.18774a24.85634,24.85634,0,0,0,0-27.19656" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <path d="M5.22309,4.99118a24.85614,24.85614,0,0,0,0,27.19656" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+<style type="text/css">			
+	
+	@keyframes fade {
+    	0% {opacity:0}
+		100% {opacity:1}
+	}
+	.clipboard {
+		opacity: 0;
+		animation: fade .75s 0s linear normal 1 forwards;
+	}
+	.circle1 {
+		opacity: 0;
+		animation: fade .5s 1.75s linear normal 1 forwards;
+	}	
+
+	@keyframes tracing1 {
+		from {stroke-dashoffset: 50;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}
+	@keyframes tracing2 {
+		from {stroke-dashoffset: 100;
+		}
+		to {
+		stroke-dashoffset: 0;
+		}
+	}			
+	.wrench {
+		stroke-dasharray: 100;
+		stroke-dashoffset: 100;
+		animation: tracing2 1.5s 0.5s ease-in forwards;
+	}
+	.check {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: tracing1 1s 2s ease-in forwards;
+	}				
+</style>	
+  <g id="clipboard" class="clipboard">
+    <path d="M27.26937,9.51106H30.8973a1.804,1.804,0,0,1,1.804,1.804v27.1112a1.804,1.804,0,0,1-1.804,1.804H5.801a1.804,1.804,0,0,1-1.804-1.804V11.31506a1.804,1.804,0,0,1,1.804-1.804H9.429" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M24.53329,5.80815H23.22835a4.87964,4.87964,0,0,0-9.75829,0H12.15884A2.73387,2.73387,0,0,0,9.4289,8.5444v3.38992H27.26932V8.5444A2.736,2.736,0,0,0,24.53329,5.80815Zm-8.50778,0a2.32465,2.32465,0,0,1,4.6472,0Z" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="wrench" class="wrench">
+    <path d="M26.33154,36.74121A2.85256,2.85256,0,0,1,24.292,35.8916l-8.18066-8.24609A6.16615,6.16615,0,0,1,8.26562,20.5249l.11084-.55127,3.65284,3.68164,3.33105-.84619.87354-3.32422-3.65332-3.68261.55224-.10645a6.19477,6.19477,0,0,1,1.17481-.1123,6.16589,6.16589,0,0,1,5.8833,8.01513l8.18017,8.24707a2.87256,2.87256,0,0,1-2.03955,4.89551Z" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="circle" class="circle1">
+    <circle cx="36.25063" cy="39.24977" r="11.75234" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="check" class="check">
+    <polyline points="42.353 34.931 33.365 44.495 29.849 41.236" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>

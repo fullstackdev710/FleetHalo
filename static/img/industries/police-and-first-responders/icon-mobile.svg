@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+<style type="text/css">	
+	@keyframes fade {
+    	0% {opacity:0}
+		100% {opacity:1}
+	}
+	.phone {
+		opacity: 0;
+		animation: fade 0.75s 0s linear normal 1 forwards;
+	}
+	.circle1 {
+		opacity: 0;
+		animation: fade 0.75s 0.5s linear normal 1 forwards;
+	}
+	.circle2 {
+		opacity: 0;
+		animation: fade 0.75s 0.75s linear normal 1 forwards;
+	}			
+	.wave1 {
+		opacity: 0;
+		animation: fade 0.75s 1s linear normal 1 forwards;
+	}
+	.wave2 {
+		opacity: 0;
+		animation: fade 0.75s 1.25s linear normal 1 forwards;
+	}
+	.wave3 {
+		opacity: 0;
+		animation: fade 0.75s 1.5s linear normal 1 forwards;
+	}			
+			
+</style>	
+  <g id="phone" class="phone">
+    <rect id="phone-1" x="1" y="1" width="32.121" height="50" rx="3.125" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <line id="phone-2A" x1="15.24227" y1="3.85079" x2="18.87874" y2="3.85079" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path id="phone-2B" d="M7.02583,1a1.43414,1.43414,0,0,1,1.1419.60108l3.10416,4.13756a2.4081,2.4081,0,0,0,1.92626.96294h7.72474a2.4081,2.4081,0,0,0,1.92626-.963l3.10412-4.13754A1.43412,1.43412,0,0,1,27.09517,1" fill="none" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle id="phone-2C" cx="17.0605" cy="45.70154" r="2.24297" fill="#fff" stroke="#25477b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="outer-circle" class="circle1">
+    <circle cx="33.12113" cy="26" r="17.87887" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="inner-circle" class="circle2">
+    <circle cx="33.1208" cy="32.82058" r="2.84355" fill="#fff" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="wave_1" data-name="wave 1" class="wave1">
+    <path d="M27.89332,27.59282a7.40178,7.40178,0,0,1,10.45562,0" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="wave_2" data-name="wave 2" class="wave2">
+    <path d="M24.67621,24.3757a11.9567,11.9567,0,0,1,16.88985,0" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+  <g id="wave_3" data-name="wave 3" class="wave3">
+    <path d="M21.4591,21.15859a16.51159,16.51159,0,0,1,23.32407,0" fill="none" stroke="#0078d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>
