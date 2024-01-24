@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>
+                     Boost sales through immediate, transparent visibility.
+                  </h2>
+               </div>
+               <div class="col-md-6">
+                  <p>
+                     Pharmaceutical fleets face distinct challenges due to their extensive mobile workforce and numerous stops. A user-friendly telematics system like FleetHalo offers enhanced oversight of fleet activities. Manage expenses effectively with comprehensive reports on fuel consumption, speeding, idling, and other crucial fleet metrics.
+                  </p>
+               </div>
+            </div>
+            <hr>
+         </div>
+      </section>
+
+      <section class="bar background-white">
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center">
+                  <h2>Key Features</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/pharmaceutical/driver.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Driver safety and training</p>
+                     <p>Gain valuable knowledge from comprehensive safety analyses and deliver immediate feedback using the FleetHalo GO TALK device.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/pharmaceutical/personal.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Personal Mode</p>
+                     <p>Set up privacy controls to monitor vehicle usage solely during business hours.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/pharmaceutical/routing.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Predictive Maintenance</p>
+                     <p>Utilize data-driven insights to prevent breakdowns and reduce repair costs.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="m-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/industries/pharmaceutical/pharmaceutical-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h2 class="mb-3 text-white">
+                           The FleetHalo Advantage
+                        </h2>
+                        <p>
+                           Experience cutting-edge telematics and fleet modernization with FleetHalo, a leader in the field. Key features include:
+                        </p>
+                        <ul class="mb-3 text-white">
+                           <li>Full transparency over workforce, assets, and financials</li>
+                           <li>Efficient dispatching, strategic navigation, and route enhancement</li>
+                           <li>Immediate collision alerts and notifications</li>
+                           <li>Comprehensive driver safety assessments, featuring driver safety scorecards</li>
+                           <li>Seamless integration with electric vehicles</li>
+                           <li>High-quality telematics data for sophisticated dashboard analytics</li>
+                           <li>User-friendly open platform for streamlined data integration</li>
+                           <li>A wide range of Marketplace Apps and Add-Ons tailored for diverse needs</li>
+                        </ul>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq">
+         <div class="container">
+            <div class="row">
+               <div class="row align-items-center" id="faq-wrapper">
+                  <h1>
+                     Frequently asked questions
+                  </h1>
+                  <div class="accordion accordion-flush">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-1">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
+                              How does FleetHalo support fleet management for pharmaceutical laboratories?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              FleetHalo assists pharmaceutical laboratories in overseeing extensive fleets of mobile sales representatives. Navigating numerous stops at clinics, hospitals, and medical offices can be intricate. A user-friendly telematics platform like FleetHalo offers enhanced oversight of fleet operations, encompassing vehicle location, health, fuel usage, driving behaviors, and geographical positioning.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
+                              How does pharmaceutical fleet management work?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              FleetHalo empowers mobile pharmaceutical staff to complete and forward documents, schedules, or invoices, such as checklists to clients, directly from their vehicles. This system also alerts employers about risky driving practices, including speeding, abrupt braking, and instances when an employee exits their assigned area.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
+                              What are the biggest challenges in managing a pharmaceutical fleet?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 The pharmaceutical sector, known for its stringent regulations, requires extensive transparency in business processes. Managing large fleets, with their maintenance needs and fuel consumption, becomes more manageable with the detailed oversight offered by FleetHalo's telematics solutions.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
+                              Which types of pharmaceutical industry vehicles does the FleetHalo tracking device work on?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 FleetHalo's GO devices are capable of dispatching, routing, and monitoring a wide range of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger vehicles such as cars and SUVs. For a detailed list of compatible vehicles, please visit the 'Is my vehicle supported?' section on our Community portal.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-5">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
+                              What are the advantages of using a tracker for a pharmaceutical fleet?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Timely delivery of pharmaceutical products is essential for the health and well-being of individuals across all age groups. By ensuring vehicles adhere to their assigned routes safely and sustainably, risks are minimized, operating costs are reduced, and the efficiency of a laboratory’s fleet is maximized. In the event of a collision, the FleetHalo GO device can promptly notify a designated contact, indicating that an employee might need assistance.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-6">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
+                              What is pharmaceutical fleet management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Given the unique requirements of pharmaceutical fleets, FleetHalo offers managers specialized reports concentrating on cost analysis, location tracking, speed, fuel usage, and idle time, all aimed at optimizing operational efficiency.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-7">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
+                              Which companies benefit from pharmaceutical fleet management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Pharmaceutical distribution firms gain significant advantages from our services, but supply companies can also reap substantial benefits with FleetHalo.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-8">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">
+                              What pharmaceutical fleet management solutions does FleetHalo offer?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              FleetHalo provides a diverse range of solutions for pharmaceutical fleets, encompassing engine maintenance and diagnostics, digital forms, and fuel management.
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-12">
+                  <h1 class="text-center text-white">
+                     Ready to optimize your fleet?
+                  </h1>
+                  <p class="text-white text-center">
+                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center">
+                     <a href="/products/software/" class="btn-default">Get a Demo</a>
+                     <a href="/request-demo" class="btn-default">See Subscription Plans</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>
