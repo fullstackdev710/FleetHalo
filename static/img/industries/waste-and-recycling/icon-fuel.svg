@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+	
+	.line1 {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: line1 1.5s .75s linear forwards;
+	}
+	
+	@keyframes line1 {
+		from {stroke-dashoffset: 50;
+		}
+		to {
+		stroke-dashoffset: 100;
+		}
+	}	
+	
+	.line2 {
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		animation: line2 1.5s .75s linear forwards;
+	}
+	
+	@keyframes line2 {
+		from {stroke-dashoffset: 50;
+		}
+		to {
+		stroke-dashoffset: 100;
+		}
+	}	
+
+	.pump {
+			opacity: 0;
+			animation: pump .3s 2.3s linear normal 1 forwards;
+		}
+		
+	@keyframes pump {
+	    0% {opacity:0}
+		50% {opacity:.5}
+		100% {opacity:1}
+	}	
+
+	.stationtop {
+		opacity: 1;
+		animation: stationtop 1s .0125s linear normal 1 forwards;
+	}
+	
+	@keyframes stationtop{
+			0% {transform: translateY(0px) rotate(0deg); opacity: 1;}
+			100% {transform: translateY(-45px) rotate(0deg); opacity: 1;}
+		}
+
+	
+</style>
+<g id="line2" class="line2">
+	<path class="st0" d="M49.227,31.049v7.915c0,2.928-2.382,5.309-5.309,5.309c-2.928,0-5.309-2.382-5.309-5.309V28.56
+		c0-1.284-0.922-2.355-2.138-2.59h-4.13"/>
+</g>
+<g id="line1" class="line1">
+	<path class="st0" d="M46.556,31.049v7.915c0,1.455-1.184,2.639-2.639,2.639c-1.455,0-2.638-1.183-2.638-2.639V28.56
+		c0-2.759-2.115-5.031-4.809-5.284h-4.13"/>
+</g>
+<g id="pump" class="pump">
+	<path class="st1" d="M51.074,29.692l-0.001-8.288h0.001c0,0,0.299-6.018-4.412-6.904c-0.633-0.119-1.221,0.37-1.221,1.015
+		c0,0.44,0.277,0.84,0.696,0.974c1.015,0.324,2.783,1.385,2.807,4.846l-3.289,0c-0.749,0-1.356,0.608-1.356,1.357l0.001,7
+		c0,0.749,0.607,1.356,1.357,1.356l4.06,0C50.467,31.049,51.074,30.441,51.074,29.692z"/>
+	<rect x="8.078" y="5.687" class="st2" width="22.299" height="13.844"/>
+</g>
+<g id="stationtop" class="stationtop">
+	<path class="st3" d="M33.715,48.282c0-0.516-0.418-0.934-0.934-0.934H5.674c-0.516,0-0.934,0.418-0.934,0.934V90.57h28.976
+		L33.715,48.282L33.715,48.282z M30.377,64.531H8.078V50.687h22.299C30.377,50.687,30.377,64.531,30.377,64.531z"/>
+</g>
+<g id="Station">
+	<rect y="50.5" class="st4" width="52" height="69.798"/>
+	<path class="st3" d="M1.875,45.57C1.392,45.57,1,45.962,1,46.445V50.5h36.455v-4.055c0-0.483-0.392-0.875-0.875-0.875H1.875z"/>
+</g>
+</svg>

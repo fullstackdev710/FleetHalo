@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.spin1 {
+		animation: spin1 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+	@keyframes spin1 {
+    	0% {opacity:0;}
+		16.666% {opacity:1;}
+		33.332% {transform: rotate(0deg);}
+		49.998% {transform: rotate(0deg);}
+		66.664% {transform: rotate(0deg);}
+		83.33% {transform: rotate(0deg);}
+		100% {transform: rotate(0deg);}
+	}
+
+	.spin2 {
+		animation: spin2 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin2 {
+    	0% {opacity:0; transform: rotate(0deg);}
+		16.666% {opacity:1; transform: rotate(0deg);}
+		33.332% {transform: rotate(60deg);}
+		49.998% {transform: rotate(60deg);}
+		66.664% {transform: rotate(60deg);}
+		83.33% {transform: rotate(60deg);}
+		100% {transform: rotate(60deg);}
+	}
+
+	.spin3 {
+		animation: spin3 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin3 {
+    	0% {opacity:0; transform: rotate(0deg);}
+		16.666% {opacity:1; transform: rotate(0deg);}
+		33.332% {transform: rotate(60deg);}
+		49.998% {transform: rotate(120deg);}
+		66.664% {transform: rotate(120deg);}
+		83.33% {transform: rotate(120deg);}
+		100% {transform: rotate(120deg);}
+	}
+
+	.spin4 {
+		animation: spin4 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin4 {
+    	0% {opacity:0; transform: rotate(0deg);}
+		16.666% {opacity:1; transform: rotate(0deg);}
+		33.332% {transform: rotate(60deg);}
+		49.998% {transform: rotate(120deg);}
+		66.664% {transform: rotate(180deg);}
+		83.33% {transform: rotate(180deg);}
+		100% {transform: rotate(180deg);}
+	}
+
+	.spin5 {
+		animation: spin5 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin5 {
+    	0% {opacity:0; transform: rotate(0deg);}
+		16.666% {opacity:1; transform: rotate(0deg);}
+		33.332% {transform: rotate(60deg);}
+		49.998% {transform: rotate(120deg);}
+		66.664% {transform: rotate(180deg);}
+		83.33% {transform: rotate(240deg);}
+		100% {transform: rotate(240deg);}
+	}
+
+	.spin6 {
+		animation: spin6 2.5s linear normal 1 forwards;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin6 {
+    	0% {opacity:0; transform: rotate(0deg);}
+		16.666% {opacity:1; transform: rotate(0deg);}
+		33.332% {transform: rotate(60deg);}
+		49.998% {transform: rotate(120deg);}
+		66.664% {transform: rotate(180deg);}
+		83.33% {transform: rotate(240deg);}
+		100% {transform: rotate(300deg);}
+	}		
+</style>
+<g id="center">
+	<path class="st0" d="M29.9,25.996c-2.152,0-3.896-1.744-3.896-3.896c0-1.581,0.941-2.942,2.294-3.553
+		c-0.725-0.223-1.496-0.343-2.294-0.343c-4.303,0-7.792,3.489-7.792,7.792c0,4.303,3.488,7.792,7.792,7.792s7.792-3.489,7.792-7.792
+		c0-0.799-0.12-1.569-0.343-2.294C32.842,25.054,31.481,25.996,29.9,25.996z"/>
+</g>
+<g id="spin6" class="spin6">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>
+<g id="spin5" class="spin5">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>
+<g id="spin4" class="spin4">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>
+<g id="spin3" class="spin3">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>
+<g id="spin2" class="spin2">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>
+<g id="spin1" class="spin1">
+	<path class="st1" d="M26.411,0.999L18.992,13.85H47.86C43.652,6.294,35.639,1.147,26.411,0.999z"/>
+</g>	
+</svg>

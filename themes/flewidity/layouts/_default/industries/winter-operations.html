@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>
+                     Be ready for the elements
+                  </h2>
+               </div>
+               <div class="col-md-6">
+                  <p>
+                     Local governments and municipalities provide an essential service by plowing and salting roads and highways. Enhancing the efficiency of winter maintenance operations ensures smoother travel for the public and reduces accidents caused by wintry conditions. Through real-time reporting on salt usage and winter maintenance activities, roads can be plowed and de-iced promptly, maintaining safer travel routes.
+                  </p>
+               </div>
+            </div>
+            <hr>
+         </div>
+      </section>
+
+      <section class="bar background-white">
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center">
+                  <h2>Key Features</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/winter-operations/icon-auto.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Streamline labor-intensive processes</p>
+                     <p>
+                        Achieve superior service standards by monitoring the activity of each vehicle in your fleet through easy-to-use real-time reporting.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/winter-operations/icon-optimize.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Optimize Performance</p>
+                     <p>Stay informed about the whereabouts and routes of your fleet, track the quantity of salt being applied, and assess both individual truck performance and the overall efficiency of the entire fleet.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/winter-operations/icon-manage.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Manage operation costs</p>
+                     <p>Gain immediate insight into driver performance and the current status of snow removal and deicing activities, enabling effective monitoring of overall operating expenses.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="m-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/industries/winter-operations/winter-operations-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h2 class="mb-3 text-white">
+                           The Geotab Advantage
+                        </h2>
+                        <ul class="mb-3 text-white">
+                           <li>Automated compliance and billing reports</li>
+                           <li>Real-time tracking of winter maintenance vehicles</li>
+                           <li>Instant notifications for accident detection</li>
+                           <li>Precise measurement of winter equipment use</li>
+                           <li>Route optimization to decrease mileage</li>
+                           <li>Idling and fuel usage trend analysis</li>
+                           <li>Scheduled preventive maintenance</li>
+                           <li>Immediate reporting on salt application</li>
+                        </ul>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-12">
+                  <h1 class="text-center text-white">
+                     Ready to optimize your fleet?
+                  </h1>
+                  <p class="text-white text-center">
+                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center">
+                     <a href="/products/software/" class="btn-default">Get a Demo</a>
+                     <a href="/request-demo" class="btn-default">See Subscription Plans</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>

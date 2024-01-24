@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#25477B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+	.knob {
+		opacity: 1;
+		animation: knob 1.75s .2s ease normal 1 forwards;
+		transform-origin: 50% 87.85%;
+	}
+	
+	@keyframes knob {
+		0% {transform: translateY(0px) rotate(0deg); opacity: 1;}
+		100% {transform: translateY(0px) rotate(150deg); opacity: 1;}
+	}
+	
+	.checkmark {
+		stroke-dasharray: 27;
+		stroke-dashoffset: 27;
+		animation: checkmark .75s 1.8s linear forwards;
+	}
+	
+	@keyframes checkmark {
+		from {stroke-dashoffset: 27;
+		}
+		to {
+		stroke-dashoffset: 54;
+		}
+	}
+
+</style>
+<g id="externalcircle">
+	<text transform="matrix(1 0 0 1 2834.6455 3543.3071)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:12px; letter-spacing:33;">	</tspan><tspan x="36" y="0" style="font-family:'MyriadPro-Regular'; font-size:12px;">transform-origin: 50% 50%;</tspan></text>
+	<g>
+		<g>
+			<path class="st0" d="M1,45.682c0-13.807,11.193-25,25-25s25,11.193,25,25"/>
+			<line class="st0" x1="1" y1="45.682" x2="4.671" y2="45.682"/>
+			<line class="st0" x1="4.349" y1="33.182" x2="7.529" y2="35.018"/>
+			<line class="st0" x1="13.5" y1="24.031" x2="15.336" y2="27.211"/>
+			<line class="st0" x1="26" y1="20.682" x2="26" y2="24.353"/>
+			<line class="st0" x1="38.5" y1="24.031" x2="36.664" y2="27.211"/>
+			<line class="st0" x1="47.651" y1="33.182" x2="44.471" y2="35.018"/>
+			<line class="st0" x1="51" y1="45.682" x2="47.329" y2="45.682"/>
+		</g>
+	</g>
+</g>
+<g id="checkmark" class="checkmark">
+	<polyline class="st1" points="36.177,3.751 26.002,15.322 21.61,11.46 	"/>
+</g>
+<g id="knob" class="knob">
+	<g>
+		<g>
+			<path class="st1" d="M27.725,45.682c0,0.953-0.771,1.725-1.725,1.725H9.655c-0.953,0-1.725-0.771-1.725-1.725
+				s0.771-1.725,1.725-1.725H26C26.953,43.957,27.725,44.729,27.725,45.682z"/>
+		</g>
+		<circle class="st1" cx="26" cy="45.682" r="4.818"/>
+	</g>
+</g>
+</svg>
