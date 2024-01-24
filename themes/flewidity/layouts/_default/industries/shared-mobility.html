@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      {{ partial "breadcrumbs.html" . }}
+
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h2>
+                     Share more, save more
+                  </h2>
+               </div>
+               <div class="col-md-6">
+                  <p>
+                     FleetHalo's advancements in shared mobility prioritize your requirements, bolstering every aspect of your digital transformation journey.
+                  </p>
+                  <p>
+                     Efficiently save time and resources using a digital key-sharing solution. Propel growth with a secure and scalable telematics data platform for comprehensive management of all your connected vehicle data.
+                  </p>
+               </div>
+            </div>
+            <hr>
+         </div>
+      </section>
+
+      <section class="bar background-white">
+         <div class="container">
+            <div class="row">
+               <div class="heading text-center">
+                  <h2>Key Features</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/shared-mobility/icon-keep.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Keep an eye on assets</p>
+                     <p>Being remote doesn't equate to being uninformed. Enhance your oversight and management of vehicles in transit with dynamic tracking capabilities. Implement collision alerts, assist in the retrieval of stolen vehicles, remotely lock doors, and get notified upon vehicle returns, among other features.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/shared-mobility/icon-optimize.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Optimize vehicle health</p>
+                     <p>Rest assured that your vehicles are in prime condition when they depart. Keep tabs on the complete health of each vehicle, covering aspects like tire pressure and engine performance. Prevent costly on-road breakdowns by establishing preemptive maintenance alerts, allowing you to tackle issues before they escalate.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box-simple">
+                     <div class="mb-3">
+                        <img class="feature-icon" src='{{ "img/industries/shared-mobility/icon-simplify.svg" | relURL }}' />
+                     </div>
+                     <p class="text-bigger">Simplify the journey</p>
+                     <p>In environments where keys are frequently exchanged, they can easily get lost, stolen, or locked inside vehicles. FleetHalo Keyless provides a touch-free solution, replacing physical keys with a digital system for a smooth, secure handover and more adaptable operating hours.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <img src="/img/industries/shared-mobility/shared-mobility-1.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
+               </div>
+               <div class="col-md-6">
+                  <h2>Leverage Advanced Telematics for Competitive Advantage</h2>
+                  <p>
+                     Drawing from over two decades of expertise, FleetHalo's telematics solutions offer comprehensive connected vehicle insights, enabling informed business choices. Offering more than mere active tracking, our platform delivers detailed data for managing your entire fleet, encompassing standard vehicles and electric vehicles alike. Attain a complete perspective of your operations through one adaptable, customizable platform.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+            <div class="row align-items-center mobile-column-reverse">
+               <div class="col-md-6">
+                  <h2>Embrace Keyless Operations</h2>
+                  <p>
+                     Experience a scalable, trustworthy, and secure digital key-sharing solution that allows for secure remote management and access to your fleet vehicles. Quick and hassle-free installation, requiring no wire-cutting, ensures vehicles remain operational without downtime.
+                  </p>
+                  <p>
+                     FleetHalo Keyless seamlessly integrates with your existing software systems, or you can opt for one of FleetHalo’s esteemed software reservation partners for a comprehensive, managed solution.
+                  </p>
+               </div>
+               <div class="col-md-6">
+                  <img src="/img/industries/shared-mobility/shared-mobility-2.gif" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="m-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/industries/shared-mobility/shared-mobility-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h2 class="mb-3 text-white">
+                           The Geotab Advantage
+                        </h2>
+                        <p class="text-white">
+                           FleetHalo leads the charge in innovative telematics, dedicated to offering cutting-edge tools and unique solutions that prioritize customer needs. This commitment ensures you always have the most recent and effective technology at your disposal.
+                        </p>
+                        <ul class="mb-3 text-white">
+                           <li><strong>Expansive Software Ecosystem:</strong> FleetHalo showcases an unparalleled network of partnerships, delivering integrated software and hardware solutions specifically crafted for shared mobility.</li>
+                           <li><strong>App-Based Vehicle Management:</strong>
+                              <ul>
+                                 <li>Conveniently lock, unlock, and locate vehicles using an intuitive app.</li>
+                                 <li>Implement starter-disable and inhibit-start functions to significantly enhance fleet security.</li>
+                              </ul>
+                           </li>
+                           <li><strong>Effortless Integration Capabilities:</strong>
+                              <ul>
+                                 <li>SDK and API are available for smooth integration with your critical backend systems.</li>
+                              </ul>
+                           </li>
+                           <li><strong>Insightful Fleet Analytics:</strong>
+                              <ul>
+                                 <li>Gain access to comprehensive data and reports to effectively manage a vehicle inventory that meets your customers' needs.</li>
+                                 <li>Optimally redistribute underutilized vehicles to higher demand areas, maximizing fleet usage and operational efficiency.</li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="faq">
+         <div class="container">
+            <div class="row">
+               <div class="row align-items-center" id="faq-wrapper">
+                  <h1>
+                     Frequently asked questions
+                  </h1>
+                  <div class="accordion accordion-flush">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-1">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
+                              What is mobility vehicle fleet management?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              Mobility fleet management helps shared mobility services, including ride sharing, vehicle sharing, and courier networks, track vehicle safety, condition, and location efficiently.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
+                              How does mobility vehicle fleet management work?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              FleetHalo's telematics offerings facilitate efficient routing, dispatch, digital key-sharing, and vehicle health monitoring through in-vehicle devices and a comprehensive fleet management platform.
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
+                              Is tracking different for different mobility vehicles?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 Car sharing companies typically focus on telematics features such as digital key-sharing and vehicle health monitoring for their fleets, while ride-sharing and courier delivery services emphasize location tracking of vehicles owned by their drivers.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
+                              Which types of mobility vehicles does the FleetHalo tracking device work on?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 FleetHalo’s GO devices are designed for routing, dispatching, and monitoring a wide range of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger cars and SUV.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq-5">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
+                              What are the benefits of using a tracker for a mobility vehicle fleet?
+                           </button>
+                        </h2>
+                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                              <p>
+                                 FleetHalo's GO devices empower taxi and rideshare companies to monitor their drivers' adherence to safe driving practices and optimized route plans. Car sharing companies benefit from these devices by keeping track of vehicle health and locations. Additionally, network courier delivery companies can efficiently dispatch deliveries, while their clients have the convenience of tracking their packages, including meals or other products, from origin to destination.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-12">
+                  <h1 class="text-center text-white">
+                     Ready to optimize your fleet?
+                  </h1>
+                  <p class="text-white text-center">
+                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
+                  </p>
+                  <div class="d-flex flex-wrap justify-content-center">
+                     <a href="/products/software/" class="btn-default">Get a Demo</a>
+                     <a href="/request-demo" class="btn-default">See Subscription Plans</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>
