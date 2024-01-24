@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#23487B;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+	.letterc {
+		stroke-dasharray: 100;
+		stroke-dashoffset: 100;
+		animation: letterc 1.25s .25s linear forwards;
+	}
+	
+	@keyframes letterc {
+		from {stroke-dashoffset: 300
+		}
+		to {
+		stroke-dashoffset: 200;
+		}
+	}	
+	
+	.lettero {
+		stroke-dasharray: 100;
+		stroke-dashoffset: 100;
+		animation: lettero 1.25s .25s linear forwards;
+		transform:rotate(-90deg);
+		transform-origin: 58.425% 44.808%;
+	}
+	
+	@keyframes lettero {
+		from {stroke-dashoffset: 100
+		}
+		to {
+		stroke-dashoffset: 200;
+		}
+	}	
+	
+	.letter2 {
+		stroke-dasharray: 100;
+		stroke-dashoffset: 100;
+		animation: letter2 2.5s 1.75s linear forwards;
+	}
+	
+	@keyframes letter2 {
+		from {stroke-dashoffset: 300
+		}
+		to {
+		stroke-dashoffset: 200;
+		}
+	}	
+</style>
+<g id="cloud">
+	<g>
+		<g>
+			<circle class="st0" cx="6.103" cy="4.685" r="4.024"/>
+			<path class="st0" d="M46.075,27.547c0.237-0.977,0.365-1.995,0.365-3.045c0-6.286-4.503-11.517-10.458-12.653
+				c-1.365-5.079-5.999-8.819-11.509-8.819c-5.013,0-9.3,3.097-11.061,7.48C6.523,10.716,1,16.361,1,23.3
+				c0,7.069,5.731,12.8,12.8,12.8c1.236,0,2.43-0.179,3.561-0.506c1.186,1.735,3.18,2.874,5.441,2.874
+				c2.046,0,3.875-0.933,5.083-2.397c1.712,0.841,3.636,1.315,5.672,1.315c1.158,0,2.28-0.155,3.348-0.442
+				c1.142,0.951,2.61,1.524,4.213,1.524c3.638,0,6.587-2.949,6.587-6.587C47.704,30.221,47.089,28.705,46.075,27.547z"/>
+			<path class="st0" d="M21.182,41.568c-1.187,0-2.149,0.962-2.149,2.149c0,1.187,0.962,2.149,2.149,2.149
+				c1.187,0,2.149-0.962,2.149-2.149C23.331,42.53,22.369,41.568,21.182,41.568z"/>
+			<circle class="st0" cx="40.244" cy="7.035" r="2.335"/>
+			<path class="st0" d="M13.8,10.501c-0.13,0-0.258,0.006-0.387,0.01"/>
+			<path class="st0" d="M15.383,10.598c-0.519-0.064-1.047-0.097-1.584-0.097"/>
+			<path class="st0" d="M16.876,34.761c0.141,0.29,0.303,0.568,0.484,0.832"/>
+			<path class="st0" d="M36.314,13.585c-0.068-0.593-0.18-1.172-0.331-1.735"/>
+			<path class="st0" d="M46.075,27.547c-0.374-0.428-0.803-0.807-1.275-1.127"/>
+			<path class="st0" d="M34.475,42.39c-0.621,0-1.213,0.127-1.751,0.355c-0.51-0.589-1.262-0.963-2.103-0.963
+				c-1.537,0-2.784,1.246-2.784,2.784c0,1.328,0.931,2.437,2.175,2.715c0.207,2.284,2.125,4.074,4.463,4.074
+				c2.475,0,4.482-2.007,4.482-4.482C38.957,44.397,36.95,42.39,34.475,42.39z"/>
+			<path class="st0" d="M30.012,47.281c0.196,0.044,0.399,0.069,0.608,0.069c0.309,0,0.607-0.05,0.885-0.144"/>
+		</g>
+	</g>
+</g>
+<g id="letterc" class="letterc">
+	<g>
+		<path class="st1" d="M19.464,17.987c-1.36-1.36-3.238-2.201-5.313-2.201c-4.15,0-7.514,3.364-7.514,7.514s3.364,7.514,7.514,7.514
+			c2.075,0,3.954-0.841,5.313-2.201"/>
+	</g>
+</g>
+<g id="lettero" class="lettero">
+	<circle class="st1" cx="30.386" cy="23.3" r="8.134"/>
+</g>
+<g id="letter2" class="letter2">
+	<path class="st1" d="M39.148,29.83c0-1.021,0.847-1.844,1.877-1.805c0.953,0.036,1.722,0.825,1.736,1.778
+		c0.001,0.047,0,0.094-0.003,0.14c-0.033,0.532-0.319,1.016-0.752,1.327l-2.097,1.502c-0.447,0.318-0.736,0.82-0.759,1.367
+		c-0.001,0.025-0.002,0.05-0.002,0.074h3.613"/>
+</g>
+</svg>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#23487B;stroke-width:1.25;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#0078D3;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+	.clockhandmins {
+		animation: clockhandmins 1.5s .5s linear normal 1 forwards;
+				transform-origin: 38.892% 38.892%;
+	}
+
+	@keyframes clockhandmins {
+    	from {
+        	transform:rotate(0deg);
+    	}
+		to {
+        	transform:rotate(360deg);
+		}
+	}	
+	
+	.clockhandhour {
+		animation: clockhandhour 1.5s .5s linear normal 1 forwards;
+				transform-origin: 38.892% 38.892%;
+	}
+
+	@keyframes clockhandhour {
+    	from {
+        	transform:rotate(0deg);
+    	}
+		to {
+        	transform:rotate(45deg);
+		}
+	}
+
+	.cycle {
+		stroke-dasharray: 100;
+		stroke-dashoffset: 100;
+		animation: cycle 1.8s .1s linear forwards;
+	}
+	
+	@keyframes cycle {
+		from {100
+		}
+		to {
+		stroke-dashoffset: 200;
+		}
+	}	
+	
+	.arrow {
+		animation: arrow .5s 1.8s linear normal 1 forwards;
+		opacity: 0;
+	}
+
+	@keyframes arrow {
+    	0% {opacity: 0;}
+    	100% {opacity: 1;}
+    }
+
+</style>
+<g id="pin">
+	<path class="st0" d="M20.222,1C9.611,1,1,9.61,1,20.224C1,30.836,20.222,51,20.222,51s19.223-20.164,19.223-30.776
+		C39.444,9.61,30.834,1,20.222,1z"/>
+</g>
+<g id="cycle" class="cycle">
+	<g>
+		<g>
+			<path class="st1" d="M13.401,8.406c-4.078,2.36-6.824,6.766-6.824,11.817c0,7.537,6.11,13.646,13.646,13.646
+				c2.486,0,4.815-0.668,6.822-1.83c4.078-2.36,6.824-6.766,6.824-11.817c0-7.537-6.11-13.646-13.646-13.646"/>
+		</g>
+	</g>
+</g>
+<g id="arrow" class="arrow">
+	<polyline class="st1" points="9.824,7.827 13.396,8.387 12.836,11.958 	"/>
+</g>
+<g id="clockhandmins" class="clockhandmins">
+	<line class="st1" x1="20.224" y1="9.966" x2="20.224" y2="20.223"/>
+</g>
+<g id="clockhandhour" class="clockhandhour">
+	<line class="st1" x1="20.224" y1="20.223" x2="27.04" y2="20.223"/>
+</g>
+</svg>
