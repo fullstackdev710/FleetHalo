@@ -44,6 +44,8 @@ summaryLength = 70
 paginate = 10
 
 [params]
+mainSections = ['posts']
+lang = "en"
 author = ""
 description = ""
 favicon = "img/favicon_io/favicon.ico"  # path to a .ico to use as favicon
@@ -114,7 +116,7 @@ date_format = "Mon, Jan 2, 2006"
     [[menu.main]]
     name       = "Our Products"
     identifier = "menu.products"
-    url        = "/products/"
+    url        = "#"
     weight     = 3
 
     [[menu.main]]
@@ -156,6 +158,12 @@ date_format = "Mon, Jan 2, 2006"
     url = '/company/contact'
     parent = 'menu.company'
     weight = 2
+
+    [[menu.main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/posts"
+    weight     = 5
 
 [params.heros]
 enable = true
