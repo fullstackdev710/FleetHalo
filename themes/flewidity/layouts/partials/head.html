@@ -21,6 +21,18 @@
 
    {{ $style := resources.Get "css/main.css" | resources.PostCSS (dict "config" "./postcss.config.js") | resources.Minify | resources.Fingerprint "sha512" }}
    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+
+   <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "name": "Fleet Halo",
+        "alternateName": "Fleet Halo LLC",
+        "url": "https://fleethalo.com",
+        "logo": "https://fleethalo.com/img/logo-blue_bg.webp"
+      }
+   </script>
+
    <!-- Google tag (gtag.js) -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKF6QTH6WF"></script>
    <script>

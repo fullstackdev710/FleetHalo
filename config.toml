@@ -99,8 +99,9 @@ date_format = "Mon, Jan 2, 2006"
 [permalinks]
 "/" = "/:filename"
 
-# Main menu
+# MENU
 [menu]
+    # Main menu
     [[menu.main]]
     name       = "Solutions"
     identifier = "menu.solutions"
@@ -134,11 +135,18 @@ date_format = "Mon, Jan 2, 2006"
     weight = 2
 
     [[menu.main]]
+    name = 'Software Plan'
+    identifier = "menu.products.software-plan"
+    url = '/products/software-plan'
+    parent = 'menu.products'
+    weight = 3
+
+    [[menu.main]]
     name = 'Marketplace'
     identifier = "menu.products.marketplace"
     url = '/products/marketplace'
     parent = 'menu.products'
-    weight = 3
+    weight = 4
 
     [[menu.main]]
     name       = "Our Company"
@@ -159,7 +167,32 @@ date_format = "Mon, Jan 2, 2006"
     parent = 'menu.company'
     weight = 2
 
-    [[menu.main]]
+    # Menu Footer
+    [[menu.footer]]
+    name       = "Solutions"
+    identifier = "menu.solutions"
+    url        = "/solutions"
+    weight     = 1
+
+    [[menu.footer]]
+    name       = "Industries"
+    identifier = "menu.industries"
+    url        = "/industries"
+    weight     = 2
+
+    [[menu.footer]]
+    name = 'About us'
+    identifier = "menu.company.about"
+    url = '/company/about'
+    weight = 3
+
+    [[menu.footer]]
+    name = 'Contact us'
+    identifier = "menu.company.contact"
+    url = '/company/contact'
+    weight = 4
+
+    [[menu.footer]]
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/posts"

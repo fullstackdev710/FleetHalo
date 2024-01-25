@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+{{ if or (.Params.math) (.Site.Params.math) }}
+{{- partial "math.html" . -}}
+{{ end }}
+
+<head>
+   {{ partial "header.html" . }}
+</head>
+
+<body>
+   <div id="all">
+      <section class="m-0 py-0">
+         <div class="bg-image" style="
+                  background-image: url('/img/products/software/software-banner.webp');
+                  height: 600px;
+                  margin-top: 0;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 600px;">
+               <div class="herotitlesection">
+                  <div class="container">
+                     <div class="home-hero-block">
+                        <h1 class="mb-3 text-white">Telematics Software Plans Overview</h1>
+                        <p class="mb-3 text-bigger text-white">
+                           Explore our telematics software plans and discover the perfect fit for your fleet management needs, ensuring efficiency, compliance, and advanced insights. Your journey to optimized fleet operations starts here with FleetHalo.
+                        </p>
+                        <div class="mb-3 btnsectHero">
+                           <a class="btn-default" href="/products/software/">View Subscription Plans</a>
+                           <a class="link-default-white" href="/request-demo">Get a demo</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <div id="software-plan" class="container">
+         <div class="row">
+            <div class="col-md-12">
+               {{ .Content }}
+            </div>
+         </div>
+      </div>
+
+      {{ if isset .Site.Params "softwareplans" }}
+      {{ if .Site.Params.softwareplans.enable }}
+      {{ if isset .Site.Data.products "software" }}
+      {{ if gt (len .Site.Data.products.software) 0 }}
+      <section class="bar background-white">
+         <div class="container">
+
+            {{ $elements := default 4 .Site.Params.softwareplans.cols }}
+            {{ $plans := sort .Site.Data.products.software "weight" }}
+
+            {{ $total_rows := div (len $plans) $elements }}
+
+            {{ if gt (mod (len $plans) $elements) 0 }}
+            {{ $total_rows = add $total_rows 1 }}
+            {{ end }}
+
+            {{ range $i, $sequence := seq $total_rows }}
+            <div class="plan-box-wrapper">
+               {{ range $j, $sequence2 := (seq $elements) }}
+
+               {{ $plan_index := add (mul $i $elements) $j }}
+               {{ if lt $plan_index (len $plans) }}
+               {{ $element := index $plans $plan_index }}
+
+               <div class="plan-box">
+                  <h3>{{ $element.name | markdownify }}</h3>
+                  <p>{{ $element.description | markdownify }}</p>
+
+                  <p class="feature-notes">{{ $element.featurenotes | markdownify }}</p>
+
+                  {{ range $element.features }}
+                  <p>
+                     <span class="feature-item">
+                        <svg viewBox="0 0 52 18" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" data-name="CheckmarkIcon" class="css-w9fe2p">
+                           <g>
+                              <path fill="{{ $element.color }}" class="checkicon0078D3" d="M32.9299 5.99999C33.6354 7.21466 34.0048 8.5953 33.9999 9.99999C34.0048 11.4047 33.6354 12.7853 32.9299 14C32.2231 15.2136 31.2135 16.2231 29.9999 16.93C28.7853 17.6355 27.4046 18.0048 25.9999 18C24.5952 18.0048 23.2146 17.6355 21.9999 16.93C20.7863 16.2231 19.7768 15.2136 19.0699 14C18.3644 12.7853 17.9951 11.4047 17.9999 9.99999C17.9951 8.5953 18.3644 7.21466 19.0699 5.99999C19.7768 4.78636 20.7863 3.77683 21.9999 3.06999C23.2146 2.36448 24.5952 1.99516 25.9999 1.99999C27.4046 1.99516 28.7853 2.36448 29.9999 3.06999C31.2135 3.77683 32.2231 4.78636 32.9299 5.99999V5.99999ZM31.3799 8.30999C31.3811 8.13143 31.313 7.95937 31.1899 7.82999L30.2399 6.89999C30.1792 6.83646 30.1063 6.78589 30.0255 6.75134C29.9447 6.7168 29.8578 6.69898 29.7699 6.69898C29.6821 6.69898 29.5951 6.7168 29.5143 6.75134C29.4336 6.78589 29.3606 6.83646 29.2999 6.89999L25.0499 11.14L22.6999 8.77999C22.6392 8.71646 22.5663 8.66589 22.4855 8.63134C22.4047 8.5968 22.3178 8.57898 22.2299 8.57898C22.1421 8.57898 22.0551 8.5968 21.9743 8.63134C21.8936 8.66589 21.8206 8.71646 21.7599 8.77999L20.8099 9.71999C20.7476 9.78312 20.6987 9.85817 20.666 9.94064C20.6334 10.0231 20.6177 10.1113 20.6199 10.2C20.6193 10.3755 20.6875 10.5443 20.8099 10.67L24.5799 14.44C24.704 14.5661 24.873 14.638 25.0499 14.64C25.1393 14.6409 25.2279 14.6236 25.3105 14.5893C25.393 14.5549 25.4676 14.5041 25.5299 14.44L31.1899 8.77999C31.2515 8.71837 31.3 8.64501 31.3326 8.56427C31.3653 8.48353 31.3814 8.39706 31.3799 8.30999Z"></path>
+                           </g>
+                        </svg>
+                        <span>{{ . }}</span>
+                     </span>
+                  </p>
+                  {{ end }}
+               </div>
+
+               {{ end }}
+               {{ end }}
+            </div>
+            {{ end }}
+         </div>
+      </section>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      <section class="cta bg-grey-light py-5 my-0">
+         <div class="container" id="cta">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <p class="text-center text-md-start text-white">
+                     {{ .Description }}
+                  </p>
+               </div>
+               <div class="col-md-6 d-flex justify-content-md-end flex-wrap justify-content-center">
+                  <a href="/company/contact/" class="btn-default">Contact us</a>
+                  <a href="{{ .Site.Params.heros.linkLink }}" class="btn-default">Get a demo</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      {{- partial "footer.html" . -}}
+   </div>
+</body>
+
+</html>

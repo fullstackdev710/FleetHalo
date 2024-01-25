@@ -21,7 +21,7 @@
           {{ end }}
           <ul>
             <li>
-              {{ with .Site.Menus.main }} {{ $navbar_len := len . }} {{ range
+              {{ with .Site.Menus.footer }} {{ $navbar_len := len . }} {{ range
               $i, $nav_item := . }}
               <a class="" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
                 {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
