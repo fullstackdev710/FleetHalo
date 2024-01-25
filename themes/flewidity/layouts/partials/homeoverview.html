@@ -5,7 +5,7 @@
          <p>{{ .Site.Params.HomeOverview.text }}</p>
       </div>
       <div class="col-md-5">
-         <img src="{{ .Site.Params.HomeOverview.image }}" style="width:100%" alt="{{ .Site.Params.HomeOverview.title }}">
+         <img src="{{ .Site.Params.HomeOverview.image }}" width="{{ .Site.Params.HomeOverview.width }}" height="{{ .Site.Params.HomeOverview.height }}" style="width:100%; height: auto;" alt="{{ .Site.Params.HomeOverview.title }}">
       </div>
    </div>
    <hr>

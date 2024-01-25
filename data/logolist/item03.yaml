@@ -1,3 +1,5 @@
 weight: 3
 image: "/img/logos/carrier-logo.webp"
 alt: "Carrier"
+width: "640"
+height: "258"

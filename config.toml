@@ -60,7 +60,7 @@ logoFooterImg = "img/logo-black_bg.webp"
 [params.footer]
 text = "©2023 hugo - All rights reserved"
 url = ""
-description = "Fifth abundantly made Give sixth hath. Cattle creature i be don’t them behold green moved fowl Moved life us beast good yielding. Have bring."
+description = "Driving the future of safe, eco-friendly, and effective connected fleets and assets."
 
 [params.footerInformation]
 title = "More Information"
@@ -221,6 +221,8 @@ enable = true
 enable = true
 title = "Powering safe, sustainable, and efficient connected fleets and assets"
 image = "/img/us-device-group-fleettracking.webp"
+width = 1400
+height = 934
 text = "Obtain a detailed, real-time overview of your fleet's daily operations, allowing you to reduce costs, increase productivity, stay ahead of vehicle maintenance, and maximize the efficiency of every business day."
 
 [params.howtouse]
