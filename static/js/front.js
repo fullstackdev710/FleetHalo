@@ -1,3 +1,29 @@
+// JavaScript to handle lazy loading for images not in the initial viewport
+document.addEventListener("DOMContentLoaded", function () {
+  var lazyImages = document.querySelectorAll('img[loading="lazy"]');
+
+  if ("IntersectionObserver" in window) {
+    var lazyImageObserver = new IntersectionObserver(function (
+      entries,
+      observer
+    ) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.srcset = lazyImage.dataset.srcset;
+          lazyImage.removeAttribute("loading");
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function (lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  }
+});
+
 /* global $this: true */
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
