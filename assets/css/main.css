@@ -1520,6 +1520,10 @@ section.contactus {
 .feature-icon {
   max-width: 80px;
 }
+.herotitlesection ul li {
+  margin-bottom: 15px;
+  text-align: left !important;
+}
 @media (max-width: 1240px) {
   .plan-box {
     width: 32%;
