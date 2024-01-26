@@ -6,7 +6,7 @@
         <div class="leftabout">
           <a class="navbar-brand text-white" href="/" title="{{ .Site.Title }}">
             {{ if .Site.Params.logoFooterImg }}
-            <img loading="lazy" src="/{{ .Site.Params.logoFooterImg | absURL }}" alt="logo" width="320" height="156" />
+            <img src="/{{ .Site.Params.logoFooterImg | absURL }}" alt="logo" width="320" height="156" srcset="/{{ .Site.Params.logoFooterImg | absURL }} 480w, /{{ .Site.Params.logoFooterImg | absURL }} 1080w" sizes="50vw" />
             {{ else }} {{ .Site.Title }} {{ end }}
           </a>
           {{ with .Site.Params.footer }}

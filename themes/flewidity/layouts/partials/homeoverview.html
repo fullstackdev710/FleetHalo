@@ -5,15 +5,15 @@
          <p>{{ .Site.Params.HomeOverview.text }}</p>
       </div>
       <div class="col-md-5">
-         <img src="{{ .Site.Params.HomeOverview.image }}" width="{{ .Site.Params.HomeOverview.width }}" height="{{ .Site.Params.HomeOverview.height }}" style="width:100%; height: auto;" alt="{{ .Site.Params.HomeOverview.title }}">
+         <img src="{{ .Site.Params.HomeOverview.image }}" width="{{ .Site.Params.HomeOverview.width }}" height="{{ .Site.Params.HomeOverview.height }}" style="width:100%; height: auto;" alt="{{ .Site.Params.HomeOverview.title }}" srcset="{{ .Site.Params.HomeOverview.image }} 480w, {{ .Site.Params.HomeOverview.image }} 1080w" sizes="50vw">
       </div>
    </div>
    <hr>
    <div class="row">
       <div class="row align-items-center">
          <picture class="css-1jaw6c9" data-testid="picture">
-            <source srcset="/img/home-overview.svg" media="(max-width: 599.9px)">
-            <img src="/img/home-overview.svg" alt="geotab illustration" data-testid="imageColumn" class=" css-v9pghg" width="1068" height="352">
+            <source srcset="/img/home-overview.svg" media="(max-width: 599.9px)" width="1068" height="352" style="width: 100%; height: auto;">
+            <img src="/img/home-overview.svg" alt="geotab illustration" data-testid="imageColumn" class="css-v9pghg" width="1068" height="352" style="width: 100%; height: auto;">
          </picture>
       </div>
    </div>

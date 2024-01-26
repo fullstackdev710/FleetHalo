@@ -11,7 +11,7 @@
    <div class="row align-items-center flex-wrap justify-content-around gy-5">
       {{ range .Site.Data.logolist }}
 
-      <img class="logo-item" src="{{ .image }}" alt="{{.alt}}" width="{{.width}}" height="{{.height}}">
+      <img class="logo-item" src="{{ .image }}" alt="{{.alt}}" width="{{.width}}" height="{{.height}}" srcset="{{ .image }} 480w, {{ .image }} 1080w" sizes="50vw">
 
       {{ end }}
    </div>
