@@ -11,33 +11,7 @@
 
 <body>
    <div id="all">
-      <section class="m-0 py-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/products/software/software-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h1 class="mb-3 text-white">Telematics Software Plans Overview</h1>
-                        <p class="mb-3 text-bigger text-white">
-                           Explore our telematics software plans and discover the perfect fit for your fleet management needs, ensuring efficiency, compliance, and advanced insights. Your journey to optimized fleet operations starts here with FleetHalo.
-                        </p>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+      {{ partial "breadcrumbs.html" . }}
 
       <div id="software-plan" class="container">
          <div class="row">

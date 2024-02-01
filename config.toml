@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://fleethalo.com/"
 title = "Fleet Halo"
 theme = "flewidity"
 disableKinds = ["taxonomy", "term"]
@@ -48,14 +48,14 @@ mainSections = ['posts']
 lang = "en"
 author = ""
 description = ""
-favicon = "img/favicon_io/favicon.ico"  # path to a .ico to use as favicon
-faviconApple = "img/favicon_io/apple-touch-icon.png"
-favicon32 = "img/favicon_io/favicon-32x32.png"
-favicon16 = "img/favicon_io/favicon-16x16.png"
-manifest = "img/favicon_io/site.webmanifest"
+favicon = "/img/favicon_io/favicon.ico"  # path to a .ico to use as favicon
+faviconApple = "/img/favicon_io/apple-touch-icon.png"
+favicon32 = "/img/favicon_io/favicon-32x32.png"
+favicon16 = "/img/favicon_io/favicon-16x16.png"
+manifest = "/img/favicon_io/site.webmanifest"
 logo = ""  # url or path to a logo to put in the header
-logoImg = "img/logo-blue_bg.webp"
-logoFooterImg = "img/logo-black_bg.webp"
+logoImg = "/img/logo-blue_bg.webp"
+logoFooterImg = "/img/logo-black_bg.webp"
 
 [params.footer]
 text = "©2023 hugo - All rights reserved"

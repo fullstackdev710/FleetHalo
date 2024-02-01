@@ -51,23 +51,23 @@
    <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}" {{ end }} defer></script>
 
    {{ with .Site.Params.favicon }}
-   <link rel="icon" type="image/ico" href="/{{ . | absURL }}">
+   <link rel="icon" type="image/ico" href="{{ . | absURL }}">
    {{ end }}
 
    {{ with .Site.Params.faviconApple }}
-   <link rel="apple-touch-icon" sizes="180x180" href="/{{ . | absURL }}">
+   <link rel="apple-touch-icon" sizes="180x180" href="{{ . | absURL }}">
    {{ end }}
 
    {{ with .Site.Params.favicon32 }}
-   <link rel="icon" type="image/png" sizes="32x32" href="/{{ . | absURL }}">
+   <link rel="icon" type="image/png" sizes="32x32" href="{{ . | absURL }}">
    {{ end }}
 
    {{ with .Site.Params.favicon16 }}
-   <link rel="icon" type="image/png" sizes="16x16" href="/{{ . | absURL }}">
+   <link rel="icon" type="image/png" sizes="16x16" href="{{ . | absURL }}">
    {{ end }}
 
    {{ with .Site.Params.manifest }}
-   <link rel="manifest" href="/{{ . | absURL }}">
+   <link rel="manifest" href="{{ . | absURL }}">
    {{ end }}
 
    {{ with .OutputFormats.Get "rss" -}}

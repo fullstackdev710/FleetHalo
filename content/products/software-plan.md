@@ -3,6 +3,8 @@ title: "The Universal, AI-Enhanced Platform for Integrated Fleet Management"
 intro: "Convert real-time data from diverse sources into practical insights for tangible business improvement"
 backgroundImage: "/img/products/software/software-hero.webp"
 backgroundMobileImage: "/img/products/software/software-hero.webp"
+btnText: "Get a Demo"
+btnLink: "/request-demo/"
 layout: products/software-plan
 ---
 
