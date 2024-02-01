@@ -1,4 +1,4 @@
-baseURL = "https://fleethalo.com/"
+baseURL = ""
 title = "Fleet Halo"
 theme = "flewidity"
 disableKinds = ["taxonomy", "term"]
