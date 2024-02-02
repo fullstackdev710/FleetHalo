@@ -67,6 +67,7 @@ title = "More Information"
 
 [params.footerContactus]
 title = "Contact"
+telLink = "8882141051"
 tel = "(888) 214-1051"
 url = "mailto:info@fleethalo.com"
 text = "info@fleethalo.com"

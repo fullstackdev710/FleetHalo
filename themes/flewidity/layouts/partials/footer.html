@@ -38,12 +38,12 @@
           {{ with .address }}
           <p class="adress">{{ . }}</p>
           {{ end }}
-          <span>{{ .tel }}</span><br />
+          <p class="mb-3"><a href="tel:{{ .telLink }}">{{ .tel }}</a></p>
           Email: <a href="{{ .url }}">{{ .text }}</a>
           {{ end }}
           <ul class="mt-3">
             <li>
-              {{ range $item := .Site.Params.socialIcons }}
+              {{ range $item := .Site.Params.socialIconsT }}
               <a href="/{{ $item.url }}" class="{{ $item.icon }} fa-1x" title="{{ $item.title }}"></a>
               {{ end }}
             </li>
