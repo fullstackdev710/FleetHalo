@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=macos
 
 # Ignore node_modules directory
-node_modules/
+node_modules/*
 111/*
 config.toml
 

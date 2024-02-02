@@ -58,7 +58,7 @@ logoImg = "/img/logo-blue_bg.webp"
 logoFooterImg = "/img/logo-black_bg.webp"
 
 [params.footer]
-text = "©2023 hugo - All rights reserved"
+text = "© 2024 Fleet Halo - All rights reserved"
 url = ""
 description = "Driving the future of safe, eco-friendly, and effective connected fleets and assets."
 
