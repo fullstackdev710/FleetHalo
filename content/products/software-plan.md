@@ -10,4 +10,4 @@ layout: products/software-plan
 
 ## Introduction
 
-Welcome to FleetHalo's Telematics Software Plans, designed to cater to the diverse needs of fleet management with a range of comprehensive features. Our plans are meticulously crafted to provide flexibility and scalability, ensuring a tailored solution for every business.
+Welcome to Fleet Halo's Telematics Software Plans, designed to cater to the diverse needs of fleet management with a range of comprehensive features. Our plans are meticulously crafted to provide flexibility and scalability, ensuring a tailored solution for every business.

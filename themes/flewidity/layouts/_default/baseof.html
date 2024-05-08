@@ -1,66 +1,42 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Params.lang }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<body id="backtop">
-   {{- partial "header.html" . -}}
-   <div class="heroSection">
-      {{- partial "home-hero.html" . -}}
-   </div>
+  <body id="backtop">
+    {{- partial "header.html" . -}}
+    <div class="heroSection">{{- partial "home-hero.html" . -}}</div>
 
-   <section class="home-overview">
-      <div class="container" id="home-overview">
-         {{- partial "homeoverview.html" . -}}
-      </div>
-   </section>
+    <section class="home-overview">
+      <div class="container" id="home-overview">{{- partial "homeoverview.html" . -}}</div>
+    </section>
 
-   <section class="logolist bg-blue-light py-5">
-      <div class="container" id="logolist">
-         {{- partial "logolist.html" . -}}
-      </div>
-   </section>
+    <section class="logolist bg-blue-light py-5 d-none">
+      <div class="container" id="logolist">{{- partial "logolist.html" . -}}</div>
+    </section>
 
-   <section class="map">
+    <section class="map">
       <div class="container">
-         <h1 class="text-center">
-            Utilize the power of connected fleet intelligence to achieve improved results by making informed decisions grounded in data-driven insights.
-         </h1>
+        <h1 class="text-center">Utilize the power of connected fleet intelligence to achieve improved results by making informed decisions grounded in data-driven insights.</h1>
       </div>
-   </section>
+    </section>
 
-   <section class="services">
-      <div class="container" id="services">
-         {{- partial "services.html" . -}}
-      </div>
-   </section>
-   <div class="home-middle-banner">
-      {{- partial "home-middle-banner.html" . -}}
-   </div>
+    <section class="services">
+      <div class="container" id="services">{{- partial "services.html" . -}}</div>
+    </section>
+    <div class="home-middle-banner">{{- partial "home-middle-banner.html" . -}}</div>
 
-   <section class="howtouse">
-      <div class="container" id="how-to-use">
-         {{- partial "howtouse.html" . -}}
-      </div>
-   </section>
+    <section class="howtouse">
+      <div class="container" id="how-to-use">{{- partial "howtouse.html" . -}}</div>
+    </section>
 
-   <section class="faq">
-      <div class="container" id="faq">
-         {{- partial "faq.html" . -}}
-      </div>
-   </section>
+    <section class="faq">
+      <div class="container" id="faq">{{- partial "faq.html" . -}}</div>
+    </section>
 
-   <section class="cta bg-grey-light py-5 my-0">
-      <div class="container" id="cta">
-         {{- partial "cta.html" . -}}
-      </div>
-   </section>
+    <section class="cta bg-grey-light py-5 my-0">
+      <div class="container" id="cta">{{- partial "cta.html" . -}}</div>
+    </section>
 
-   {{- partial "footer.html" . -}}
-
-   {{ partial "scripts.html" . }}
-</body>
-
+    {{- partial "footer.html" . -}} {{ partial "scripts.html" . }}
+  </body>
 </html>

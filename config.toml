@@ -203,7 +203,7 @@ date_format = "Mon, Jan 2, 2006"
 enable = true
 title = "A Single Platform for Maximizing Fleet Efficiency"
 subtitle = "Access practical insights and suggestions to enhance your fleet's efficiency, safety, and sustainability, all driven by AI and data analytics."
-details = "Our smart GPS fleet management system is designed to enhance business productivity and efficiency, while also revealing opportunities for cost reduction"
+details = "Access Geotabs smart GPS fleet management system to enhance business productivity and efficiency while also revealing opportunities for cost reduction."
 btnText = "View Subscription Plans"
 btnLink = "/products/software-plan/"
 linkText = "Get a demo"
@@ -224,11 +224,11 @@ title = "Powering safe, sustainable, and efficient connected fleets and assets"
 image = "/img/us-device-group-fleettracking.webp"
 width = 1400
 height = 934
-text = "Obtain a detailed, real-time overview of your fleet's daily operations, allowing you to reduce costs, increase productivity, stay ahead of vehicle maintenance, and maximize the efficiency of every business day."
+text = "Partnering closely with Geotab, Fleet Halo, an authorized reseller, empowers you to access a comprehensive, real-time snapshot of your fleet's daily activities. This partnership enables you to minimize expenses, enhance productivity, proactively manage vehicle maintenance, and optimize business operations every single day."
 
 [params.howtouse]
 enable = true
-title = "Commercial telematics platform global fleets depend on" 
+title = "Partnering with Fleet Halo grants you access to Geotab's wide array of benefits, experience and extensive historical data." 
 
 [params.contact]
 enable = true

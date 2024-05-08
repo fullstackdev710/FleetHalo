@@ -3,10 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var lazyImages = document.querySelectorAll('img[loading="lazy"]');
 
   if ("IntersectionObserver" in window) {
-    var lazyImageObserver = new IntersectionObserver(function (
-      entries,
-      observer
-    ) {
+    var lazyImageObserver = new IntersectionObserver(function (entries, observer) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           var lazyImage = entry.target;
@@ -61,11 +58,7 @@ function contactFormAjax() {
       function () {
         $this[0].reset(); // clear form
 
-        $("#contact-message")
-          .html(
-            '<div class="alert alert-success" role="alert"><button type="button" class="close me-3" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for expressing interest in FleetHalo\'s telematics software! We have received your request for a demo and will be in touch shortly to schedule a personalized session.</div>'
-          )
-          .fadeIn();
+        $("#contact-message").html('<div class="alert alert-success" role="alert"><button type="button" class="close me-3" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for expressing interest in Fleet Halo\'s telematics software! We have received your request for a demo and will be in touch shortly to schedule a personalized session.</div>').fadeIn();
       },
       "json"
     );
@@ -147,10 +140,7 @@ function sliders() {
 
     $(".homepage").owlCarousel({
       navigation: false, // Show next and prev buttons
-      navigationText: [
-        '<i class="fas fa-angle-left"></i>',
-        '<i class="fas fa-angle-right"></i>',
-      ],
+      navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: $(".homepage").attr("data-slide-speed") || 2000,
       paginationSpeed: $(".homepage").attr("data-pagination-speed") || 1000,
       autoPlay: ($(".homepage").attr("data-autoplay") || "true") === "true",
@@ -292,14 +282,10 @@ function utils() {
   $('[data-toggle="tooltip"]').tooltip();
 
   /* click on the box activates the radio */
-  $("#checkout").on(
-    "click",
-    ".box.shipping-method, .box.payment-method",
-    function () {
-      var radio = $(this).find(":radio");
-      radio.prop("checked", true);
-    }
-  );
+  $("#checkout").on("click", ".box.shipping-method, .box.payment-method", function () {
+    var radio = $(this).find(":radio");
+    radio.prop("checked", true);
+  });
 
   /* click on the box activates the link in it */
   $(".box.clickable").on("click", function () {
@@ -364,10 +350,7 @@ function productDetailGallery(confDetailSwitch) {
   );
 
   function autoSwitch() {
-    var nextThumb = $(".thumb.active")
-      .closest("div")
-      .next("div")
-      .find(".thumb");
+    var nextThumb = $(".thumb.active").closest("div").next("div").find(".thumb");
     if (nextThumb.length === 0) {
       nextThumb = $(".thumb:first");
     }

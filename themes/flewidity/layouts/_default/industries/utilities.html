@@ -1,283 +1,221 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>
-                     Stay connected with your mobile workforce and assets.
-                  </h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     Enhance on-the-road and job site safety for employees and contractors using FleetHalo. Maintain real-time connectivity with fleet operations through comprehensive tracking and data insights. For utility vehicles in tough environments, opt for the GO9 RUGGED telematics device, boasting IP68 and IP69K ratings for superior elemental resistance.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Stay connected with your mobile workforce and assets.</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Enhance on-the-road and job site safety for employees and contractors using Fleet Halo. Maintain real-time connectivity with fleet operations through comprehensive tracking and data insights. For utility vehicles in tough environments, opt for the GO9 RUGGED telematics device, boasting IP68 and IP69K ratings for superior elemental resistance.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/utilities/icon-fuel.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Reduce Fuel Consumption</p>
-                     <p>
-                        Leverage fuel usage and idling reports to significantly reduce fuel consumption and idling times, potentially achieving up to a 50% reduction in unnecessary idling.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/utilities/icon-risk.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Risk and Safety Reports</p>
-                     <p>Monitor driving behavior with daily, weekly, or monthly trend reports to gain insights into driver performance and habits.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/utilities/icon-remote.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Remote Diagnostics</p>
-                     <p>Enhance vehicle uptime by receiving fault code notifications and implementing recommended action plans for timely maintenance and repairs.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/utilities/icon-fuel.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Reduce Fuel Consumption</p>
+                <p>Leverage fuel usage and idling reports to significantly reduce fuel consumption and idling times, potentially achieving up to a 50% reduction in unnecessary idling.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/utilities/icon-risk.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Risk and Safety Reports</p>
+                <p>Monitor driving behavior with daily, weekly, or monthly trend reports to gain insights into driver performance and habits.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/utilities/icon-remote.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Remote Diagnostics</p>
+                <p>Enhance vehicle uptime by receiving fault code notifications and implementing recommended action plans for timely maintenance and repairs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/utilities/utilities-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           The Geotab Advantage
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Full visibility of workforce, assets, and expenses.</li>
-                           <li>Monitoring of fuel consumption, engine hours, and PTO usage.</li>
-                           <li>Seat belt usage tracking.</li>
-                           <li>CO2 emissions reduction through idling trend analysis.</li>
-                           <li>High-performance GPS tracking.</li>
-                           <li>Access to advanced dashboard analytics.</li>
-                           <li>Enhanced vehicle uptime for optimized usage.</li>
-                           <li>Open platform for simplified data integration.</li>
-                           <li>Variety of Marketplace Apps and Add-Ons available.</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/utilities/utilities-banner.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">The Geotab Advantage</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Full visibility of workforce, assets, and expenses.</li>
+                    <li>Monitoring of fuel consumption, engine hours, and PTO usage.</li>
+                    <li>Seat belt usage tracking.</li>
+                    <li>CO2 emissions reduction through idling trend analysis.</li>
+                    <li>High-performance GPS tracking.</li>
+                    <li>Access to advanced dashboard analytics.</li>
+                    <li>Enhanced vehicle uptime for optimized usage.</li>
+                    <li>Open platform for simplified data integration.</li>
+                    <li>Variety of Marketplace Apps and Add-Ons available.</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              What is utility fleet management software?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Utility fleet management software is a bespoke telematics tool tailored for fleets operated by utility companies. This software offers functionalities specifically suited to the needs of the utilities sector, enhancing the management of both fleet and equipment.
-                              </p>
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">What is utility fleet management software?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Utility fleet management software is a bespoke telematics tool tailored for fleets operated by utility companies. This software offers functionalities specifically suited to the needs of the utilities sector, enhancing the management of both fleet and equipment.</p>
 
-                              <p>
-                                 Embedded telematics devices in your fleet vehicles interact continuously with an online fleet management system, delivering real-time, actionable insights through straightforward dashboards and comprehensive reports. This empowers you to make well-informed choices that help reduce expenses, elevate customer service standards, and increase overall productivity.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              How can Geotab help me manage my utility fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo assists you in efficiently managing the safety of employees and contractors, both on the road and at the job site. Our solution keeps you in sync with fleet operations through real-time tracking and intelligent data analysis. For utility vehicles functioning in challenging environments, our rugged telematics device is designed with IP68 and IP69K ratings, ensuring enhanced protection against harsh elements.
-                              </p>
-                              <p>
-                                 FleetHalo's utility fleet tracking and management solution enables you to: • Enhance the safety of drivers and work sites • Boost productivity while reducing operational expenses • Oversee and maintain compliance • Streamline fleet operations and minimize fuel costs.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              What are the advantages of utility fleet management?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Implementing a utility fleet management solution enables a fleet to significantly lower fuel usage and idle times. It also facilitates the generation of consistent risk and safety reports, analyzing driver behavior trends. Additionally, the system enhances uptime by offering remote diagnostics and fault code alerts, which are coupled with suggested action plans for efficient resolution.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              What is the advantage of FleetHalo's utility fleet management solutions?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's solution provides fleet managers with an in-depth understanding of their overall fleet performance, including:
-                              </p>
-                              <ul>
-                                 <li>Real-time visibility into workforce, assets, and costs through the FleetHalo fleet management software.</li>
-                                 <li>Tracking and managing fuel consumption, engine hours, and Power Take-Off (PTO) usage to reduce operational costs.</li>
-                                 <li>Engine diagnostics and battery monitoring features to prevent unexpected vehicle breakdowns.</li>
-                                 <li>Monitoring of seat belt usage to ensure the safety and compliance of your workforce.</li>
-                                 <li>Analysis of idling trends and eco-driving metrics to aid in lowering your fleet's CO2 emissions.</li>
-                                 <li>High-performance GPS technology within a rugged device, designed with IP68 and IP69K ratings for superior resistance to environmental elements.</li>
-                                 <li>Advanced, easy-to-navigate dashboard reports that conveniently display critical data.</li>
-                                 <li>Preventative and predictive maintenance tools to enhance vehicle uptime, thereby improving fleet productivity and service levels.</li>
-                                 <li>An open platform architecture for seamless data integration.</li>
-                                 <li>A wide selection of Marketplace Apps & Add-Ons for enhanced customization and expanded capabilities.</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-5">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
-                              How can FleetHalo help track utility fleet vehicle maintenance and compliance?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo efficiently monitors utility fleet vehicle maintenance and compliance, ensuring the safety of employees and contractors both on the road and at project sites. Through real-time tracking and insightful data analysis, our system maintains a strong connection with fleet operations. The GO9 RUGGED telematics device, featuring IP68 and IP69K ratings, offers enhanced protection against harsh conditions, making it ideal for utility vehicles operating in extreme environments.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-6">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
-                              How does utility vehicle fleet management work?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              A utility fleet management solution is instrumental in enhancing fleet efficiency and safety. It assists in diminishing fuel consumption and idle times. Regular generation of risk and safety reports becomes streamlined, providing insights into driver behavior trends. Additionally, the solution boosts vehicle uptime through remote diagnostics and fault code alerts, which are directly connected to advised action plans for immediate and effective resolution.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-7">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
-                              Is tracking different for different utility vehicles?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's Marketplace Apps and Add-Ons extend a wide array of services beyond the fundamental tracking and monitoring of vehicle location, health, and driver behavior. This includes advanced video telematics services that observe activities both inside and outside the vehicle, helping to identify distracted or unsafe driving practices. Additionally, FleetHalo GO devices are equipped to gather data from various sensors, enabling them to detect collisions and ascertain the positions of on-service vehicles in relation to service calls, thereby enhancing operational efficiency.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-8">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">
-                              Which types of utility vehicles does the FleetHalo tracking device work on?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's GO devices are versatile enough to manage dispatching, routing, and monitoring for a broad range of vehicles, including modern heavy transport vehicles, light-duty trucks, as well as passenger vehicles like cars and SUVs.
-                           </div>
-                        </div>
-                     </div>
-
+                      <p>Embedded telematics devices in your fleet vehicles interact continuously with an online fleet management system, delivering real-time, actionable insights through straightforward dashboards and comprehensive reports. This empowers you to make well-informed choices that help reduce expenses, elevate customer service standards, and increase overall productivity.</p>
+                    </div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">How can Geotab help me manage my utility fleet?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo assists you in efficiently managing the safety of employees and contractors, both on the road and at the job site. Our solution keeps you in sync with fleet operations through real-time tracking and intelligent data analysis. For utility vehicles functioning in challenging environments, our rugged telematics device is designed with IP68 and IP69K ratings, ensuring enhanced protection against harsh elements.</p>
+                      <p>Fleet Halo's utility fleet tracking and management solution enables you to: • Enhance the safety of drivers and work sites • Boost productivity while reducing operational expenses • Oversee and maintain compliance • Streamline fleet operations and minimize fuel costs.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">What are the advantages of utility fleet management?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Implementing a utility fleet management solution enables a fleet to significantly lower fuel usage and idle times. It also facilitates the generation of consistent risk and safety reports, analyzing driver behavior trends. Additionally, the system enhances uptime by offering remote diagnostics and fault code alerts, which are coupled with suggested action plans for efficient resolution.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">What is the advantage of Fleet Halo's utility fleet management solutions?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's solution provides fleet managers with an in-depth understanding of their overall fleet performance, including:</p>
+                      <ul>
+                        <li>Real-time visibility into workforce, assets, and costs through the Fleet Halo fleet management software.</li>
+                        <li>Tracking and managing fuel consumption, engine hours, and Power Take-Off (PTO) usage to reduce operational costs.</li>
+                        <li>Engine diagnostics and battery monitoring features to prevent unexpected vehicle breakdowns.</li>
+                        <li>Monitoring of seat belt usage to ensure the safety and compliance of your workforce.</li>
+                        <li>Analysis of idling trends and eco-driving metrics to aid in lowering your fleet's CO2 emissions.</li>
+                        <li>High-performance GPS technology within a rugged device, designed with IP68 and IP69K ratings for superior resistance to environmental elements.</li>
+                        <li>Advanced, easy-to-navigate dashboard reports that conveniently display critical data.</li>
+                        <li>Preventative and predictive maintenance tools to enhance vehicle uptime, thereby improving fleet productivity and service levels.</li>
+                        <li>An open platform architecture for seamless data integration.</li>
+                        <li>A wide selection of Marketplace Apps & Add-Ons for enhanced customization and expanded capabilities.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">How can Fleet Halo help track utility fleet vehicle maintenance and compliance?</button>
+                  </h2>
+                  <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo efficiently monitors utility fleet vehicle maintenance and compliance, ensuring the safety of employees and contractors both on the road and at project sites. Through real-time tracking and insightful data analysis, our system maintains a strong connection with fleet operations. The GO9 RUGGED telematics device, featuring IP68 and IP69K ratings, offers enhanced protection against harsh conditions, making it ideal for utility vehicles operating in extreme environments.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">How does utility vehicle fleet management work?</button>
+                  </h2>
+                  <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A utility fleet management solution is instrumental in enhancing fleet efficiency and safety. It assists in diminishing fuel consumption and idle times. Regular generation of risk and safety reports becomes streamlined, providing insights into driver behavior trends. Additionally, the solution boosts vehicle uptime through remote diagnostics and fault code alerts, which are directly connected to advised action plans for immediate and effective resolution.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">Is tracking different for different utility vehicles?</button>
+                  </h2>
+                  <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's Marketplace Apps and Add-Ons extend a wide array of services beyond the fundamental tracking and monitoring of vehicle location, health, and driver behavior. This includes advanced video telematics services that observe activities both inside and outside the vehicle, helping to identify distracted or unsafe driving practices. Additionally, Fleet Halo GO devices are equipped to gather data from various sensors, enabling them to detect collisions and ascertain the positions of on-service vehicles in relation to service calls, thereby enhancing operational efficiency.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">Which types of utility vehicles does the Fleet Halo tracking device work on?</button>
+                  </h2>
+                  <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's GO devices are versatile enough to manage dispatching, routing, and monitoring for a broad range of vehicles, including modern heavy transport vehicles, light-duty trucks, as well as passenger vehicles like cars and SUVs.</div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

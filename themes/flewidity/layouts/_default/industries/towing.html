@@ -1,258 +1,202 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>
-                     Enhance Earnings and Client Contentment
-                  </h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     In the competitive world of towing services, rapid and effective responses are key to increasing customer satisfaction. Prioritizing productivity and profitability is essential. FleetHalo's towing fleet management tools offer the necessary insights and analytics to help you surpass customer expectations and thrive in the market.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Enhance Earnings and Client Contentment</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>In the competitive world of towing services, rapid and effective responses are key to increasing customer satisfaction. Prioritizing productivity and profitability is essential. Fleet Halo's towing fleet management tools offer the necessary insights and analytics to help you surpass customer expectations and thrive in the market.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/towing/icon-eta.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Accurate ETA’s</p>
-                     <p>
-                        Provide precise arrival estimates to your customers through live tracking of vehicle movements.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/towing/icon-fuel.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Track Fuel Consumption</p>
-                     <p>Reduce fuel costs by monitoring and analyzing your fleet's fuel consumption patterns.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/towing/icon-maintenance.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Preventative Maintenance</p>
-                     <p>Minimize vehicle downtime with proactive maintenance and early issue detection.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/towing/icon-eta.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Accurate ETA’s</p>
+                <p>Provide precise arrival estimates to your customers through live tracking of vehicle movements.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/towing/icon-fuel.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Track Fuel Consumption</p>
+                <p>Reduce fuel costs by monitoring and analyzing your fleet's fuel consumption patterns.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/towing/icon-maintenance.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Preventative Maintenance</p>
+                <p>Minimize vehicle downtime with proactive maintenance and early issue detection.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/towing/towing-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           The Geotab Advantage
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Full oversight of workforce, assets, and financials</li>
-                           <li>Utilize GO9 RUGGED for durable telematics tracking</li>
-                           <li>Observe and analyze fuel consumption and idling patterns</li>
-                           <li>Keep tabs on engine running time and Power Take-Off (PTO) utilization</li>
-                           <li>Gain insights from detailed fleet safety reports on driving behaviors</li>
-                           <li>Access extensive data on vehicle maintenance and engine diagnostics</li>
-                           <li>Seamless data integration with an open platform system</li>
-                           <li>Employ advanced route optimization and traffic analysis</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/towing/towing-banner.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">The Geotab Advantage</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Full oversight of workforce, assets, and financials</li>
+                    <li>Utilize GO9 RUGGED for durable telematics tracking</li>
+                    <li>Observe and analyze fuel consumption and idling patterns</li>
+                    <li>Keep tabs on engine running time and Power Take-Off (PTO) utilization</li>
+                    <li>Gain insights from detailed fleet safety reports on driving behaviors</li>
+                    <li>Access extensive data on vehicle maintenance and engine diagnostics</li>
+                    <li>Seamless data integration with an open platform system</li>
+                    <li>Employ advanced route optimization and traffic analysis</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              What is trailer fleet management?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Trailer fleet management involves collecting, observing, and analyzing data associated with tow trucks and trailers. Through telematics devices and platforms, towing companies can monitor vehicle health, pinpoint locations, and understand usage trends. Fleet managers and dispatchers have the ability to oversee driving safety scorecards, determine the nearest vehicle for service calls, and observe driving behaviors such as speeding, harsh braking, and excessive idling. This information can be consolidated for comprehensive analysis, aiding in identifying both vehicle maintenance needs and opportunities for driver training.
-                              </p>
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">What is trailer fleet management?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Trailer fleet management involves collecting, observing, and analyzing data associated with tow trucks and trailers. Through telematics devices and platforms, towing companies can monitor vehicle health, pinpoint locations, and understand usage trends. Fleet managers and dispatchers have the ability to oversee driving safety scorecards, determine the nearest vehicle for service calls, and observe driving behaviors such as speeding, harsh braking, and excessive idling. This information can be consolidated for comprehensive analysis, aiding in identifying both vehicle maintenance needs and opportunities for driver training.</p>
 
-                              <p>
-                                 FleetHalo GO and MyFleetHalo also enable tracking of the location, usage, condition, and maintenance requirements of remote trailer enclosures.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              What are the advantages of using a tracker for a trailer fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 The Flex TT600, a solar-powered asset tracker, employs GPS technology to offer insights into asset utilization and location through the MyGeotab platform. It measures trailer utilization, indicating the proportion of time a trailer is actively employed and generating revenue for your business.
-                              </p>
-                              <p>
-                                 By monitoring utilization rates of trailers, fleet managers can:
-                              </p>
-                              <ul>
-                                 <li>Strategically plan trailer capacity for seasonal demand fluctuations.</li>
-                                 <li>Assess the optimal mix of owned versus rented trailers.</li>
-                                 <li>Make informed decisions regarding the acquisition of new trailers based on actual usage data.</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              How does the FleetHalo tracker work on trailers?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 The Flex TT600, a solar-powered asset tracker available on the Geotab Marketplace, gathers data and transmits it through GPS to the MyGeotab platform. This system enables the management of trailer utilization, location, and maintenance data, assisting in making informed decisions about when trailers require repair or replacement.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              Which types of towing vehicles does the FleetHalo tracking device work on?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo devices are tailored for a broad spectrum of vehicles, encompassing modern light, medium, heavy, and heavy-duty tow trucks, as well as flatbed vehicles. The FleetHalo RUGGED device, specifically designed for durability, is ideal for heavy-duty vehicles that require an external installation. Key features of these devices include:
-                              </p>
-                              <ul>
-                                 <li><strong>Precise Location Tracking:</strong> Determine the exact location of tow trucks to dispatch the closest available driver efficiently.</li>
-                                 <li><strong>Monitoring Vehicle Health and Maintenance:</strong> Keep tabs on the vehicle's condition and preemptively address maintenance needs.</li>
-                                 <li><strong>Driver Behavior Oversight:</strong> Observe and analyze driving patterns including harsh braking, sharp turning, and speeding.</li>
-                                 <li><strong>Optimized Routing and Fuel Tracking:</strong> Enhance route planning and monitor fuel usage for efficiency.</li>
-                                 <li><strong>Geofencing Functionality:</strong> Ensure that drivers remain within their designated operational zones. </li>
-                              </ul>
-                              <p>
-                                 In addition, FleetHalo’s devices are capable of dispatching, routing, and monitoring a wide array of vehicles from heavy transport vehicles and light-duty trucks to passenger cars and SUVs.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-5">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
-                              How does trailer fleet management work?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 The Flex TT60x, a solar-powered asset tracker, equips fleet managers with the ability to monitor their trailers' utilization rates. This feature helps in understanding the extent of trailer usage. Utilizing this data, fleet managers can make informed decisions about relocating trailers for optimal use or phasing out underperforming ones.
-                              </p>
-                              <p>
-                                 Additionally, the tracker's versatility extends to monitoring various assets like containers and generators. Key features of the Flex TT60x include:
-                              </p>
-                              <ul>
-                                 <li><strong>Durable Design:</strong> It's built tough to withstand the rigors commonly faced by large trailers.</li>
-                                 <li><strong>Extended Battery Life:</strong> The solar cell enhances the tracker's longevity, reducing maintenance needs.</li>
-                                 <li><strong>Efficient Performance:</strong> The tracker not only helps in maintaining regular checks to prevent breakdowns but also in understanding how trailers are being utilized to their fullest potential.</li>
-                                 <li><strong>Real-Time Monitoring: </strong>It provides continuous updates on asset status, thus improving customer service by keeping them informed about their goods.</li>
-                              </ul>
-                              <p>
-                                 In essence, the Flex TT60x is a vital tool for fleet managers, aiding in the effective management of trailers and other assets, ensuring they are efficiently used and maintained, and offering up-to-date information for enhanced operational decisions.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
+                      <p>Fleet Halo GO and MyFleet Halo also enable tracking of the location, usage, condition, and maintenance requirements of remote trailer enclosures.</p>
+                    </div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">What are the advantages of using a tracker for a trailer fleet?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>The Flex TT600, a solar-powered asset tracker, employs GPS technology to offer insights into asset utilization and location through the MyGeotab platform. It measures trailer utilization, indicating the proportion of time a trailer is actively employed and generating revenue for your business.</p>
+                      <p>By monitoring utilization rates of trailers, fleet managers can:</p>
+                      <ul>
+                        <li>Strategically plan trailer capacity for seasonal demand fluctuations.</li>
+                        <li>Assess the optimal mix of owned versus rented trailers.</li>
+                        <li>Make informed decisions regarding the acquisition of new trailers based on actual usage data.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">How does the Fleet Halo tracker work on trailers?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>The Flex TT600, a solar-powered asset tracker available on the Geotab Marketplace, gathers data and transmits it through GPS to the MyGeotab platform. This system enables the management of trailer utilization, location, and maintenance data, assisting in making informed decisions about when trailers require repair or replacement.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">Which types of towing vehicles does the Fleet Halo tracking device work on?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo devices are tailored for a broad spectrum of vehicles, encompassing modern light, medium, heavy, and heavy-duty tow trucks, as well as flatbed vehicles. The Fleet Halo RUGGED device, specifically designed for durability, is ideal for heavy-duty vehicles that require an external installation. Key features of these devices include:</p>
+                      <ul>
+                        <li><strong>Precise Location Tracking:</strong> Determine the exact location of tow trucks to dispatch the closest available driver efficiently.</li>
+                        <li><strong>Monitoring Vehicle Health and Maintenance:</strong> Keep tabs on the vehicle's condition and preemptively address maintenance needs.</li>
+                        <li><strong>Driver Behavior Oversight:</strong> Observe and analyze driving patterns including harsh braking, sharp turning, and speeding.</li>
+                        <li><strong>Optimized Routing and Fuel Tracking:</strong> Enhance route planning and monitor fuel usage for efficiency.</li>
+                        <li><strong>Geofencing Functionality:</strong> Ensure that drivers remain within their designated operational zones.</li>
+                      </ul>
+                      <p>In addition, Fleet Halo’s devices are capable of dispatching, routing, and monitoring a wide array of vehicles from heavy transport vehicles and light-duty trucks to passenger cars and SUVs.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">How does trailer fleet management work?</button>
+                  </h2>
+                  <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>The Flex TT60x, a solar-powered asset tracker, equips fleet managers with the ability to monitor their trailers' utilization rates. This feature helps in understanding the extent of trailer usage. Utilizing this data, fleet managers can make informed decisions about relocating trailers for optimal use or phasing out underperforming ones.</p>
+                      <p>Additionally, the tracker's versatility extends to monitoring various assets like containers and generators. Key features of the Flex TT60x include:</p>
+                      <ul>
+                        <li><strong>Durable Design:</strong> It's built tough to withstand the rigors commonly faced by large trailers.</li>
+                        <li><strong>Extended Battery Life:</strong> The solar cell enhances the tracker's longevity, reducing maintenance needs.</li>
+                        <li><strong>Efficient Performance:</strong> The tracker not only helps in maintaining regular checks to prevent breakdowns but also in understanding how trailers are being utilized to their fullest potential.</li>
+                        <li><strong>Real-Time Monitoring: </strong>It provides continuous updates on asset status, thus improving customer service by keeping them informed about their goods.</li>
+                      </ul>
+                      <p>In essence, the Flex TT60x is a vital tool for fleet managers, aiding in the effective management of trailers and other assets, ensuring they are efficiently used and maintained, and offering up-to-date information for enhanced operational decisions.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

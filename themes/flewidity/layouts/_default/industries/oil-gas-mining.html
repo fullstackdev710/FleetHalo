@@ -1,268 +1,210 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>Intelligent Fleet Management to Maintain Continuous Production</h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     FleetHalo enables you to assess the performance of your oil, gas, and mining fleet vehicles and equipment effectively. Gain essential data insights to enhance uptime and improve driver safety. Monitor your equipment consistently, even in areas beyond cellular coverage, using our Iridium satellite solution.
-                  </p>
-                  <p>
-                     The GO9 RUGGED telematics device from FleetHalo, boasting IP68 and IP69K ratings, is tailored for extreme environments or external mounting. It's perfectly suited for monitoring heavy equipment, construction machinery, and powered trailers and assets.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Intelligent Fleet Management to Maintain Continuous Production</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Fleet Halo enables you to assess the performance of your oil, gas, and mining fleet vehicles and equipment effectively. Gain essential data insights to enhance uptime and improve driver safety. Monitor your equipment consistently, even in areas beyond cellular coverage, using our Iridium satellite solution.</p>
+              <p>The GO9 RUGGED telematics device from Fleet Halo, boasting IP68 and IP69K ratings, is tailored for extreme environments or external mounting. It's perfectly suited for monitoring heavy equipment, construction machinery, and powered trailers and assets.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-live.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Live Fleet Tracking</p>
-                     <p>Swiftly and precisely pinpoint the location of your fleet vehicles by monitoring their movements in real-time.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-maintance.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Preventative Maintenance</p>
-                     <p>Minimize maintenance expenses and decrease vehicle downtime through early detection of issues.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-lone.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Lone Worker</p>
-                     <p>Track solitary workers using GPS and get immediate alerts when a worker is in a critical situation.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-live.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Live Fleet Tracking</p>
+                <p>Swiftly and precisely pinpoint the location of your fleet vehicles by monitoring their movements in real-time.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-maintance.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Preventative Maintenance</p>
+                <p>Minimize maintenance expenses and decrease vehicle downtime through early detection of issues.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/oil-gas-mining/icon-lone.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Lone Worker</p>
+                <p>Track solitary workers using GPS and get immediate alerts when a worker is in a critical situation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/agriculture/combine-middle.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           The FleetHalo Edge
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Comprehensive oversight of workforce, assets, and expenditures</li>
-                           <li>The GO9 RUGGED: Durable Telematics Device from FleetHalo</li>
-                           <li>Monitoring of Fuel Consumption and Idling Patterns</li>
-                           <li>Tracking of Engine Hours and Power Take-Off (PTO) Utilization</li>
-                           <li>Implementation of Driver Safety Scorecards</li>
-                           <li>Detailed Dashboard Reporting for Enhanced Analysis</li>
-                           <li>Open Platform Architecture for Seamless Data Integration</li>
-                           <li>Access to Vehicle Maintenance and Engine Diagnostics Information</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/agriculture/combine-middle.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">The Fleet Halo Edge</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Comprehensive oversight of workforce, assets, and expenditures</li>
+                    <li>The GO9 RUGGED: Durable Telematics Device from Fleet Halo</li>
+                    <li>Monitoring of Fuel Consumption and Idling Patterns</li>
+                    <li>Tracking of Engine Hours and Power Take-Off (PTO) Utilization</li>
+                    <li>Implementation of Driver Safety Scorecards</li>
+                    <li>Detailed Dashboard Reporting for Enhanced Analysis</li>
+                    <li>Open Platform Architecture for Seamless Data Integration</li>
+                    <li>Access to Vehicle Maintenance and Engine Diagnostics Information</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              How does fleet management work in the oil, gas and mining industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo assists organizations within the resources industry to gauge the efficiency of their fleet vehicles and equipment, while also tracking their real-time locations. Utilizing the FleetHalo GO device, companies can detect maintenance needs promptly, minimizing vehicle downtime. This device is also capable of monitoring field-based lone workers through GPS, providing immediate notifications in case of emergencies involving either the workers or their vehicles. Specifically designed for durability, the FleetHalo GO RUGGED devices excel in tracking robust machinery and trailers, even in challenging environments.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              Can tracking be carried out for any type of oil, gas and mining transportation?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              Oil, gas, and mining companies operating in harsh environments can benefit from FleetHalo's GO RUGGED device. This device is adept at tracking and monitoring heavy-duty transport trucks, trailers, containers, generators, and other movable assets. It provides detailed insights into location, driver behavior, vehicle health, and fuel usage, ensuring efficient operation even in the most challenging conditions.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              What are the biggest challenges in managing an oil, gas and mining fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Vehicles and equipment in industries like oil, gas, and mining often operate under harsh, remote conditions and require vigilant tracking and monitoring. Preventative maintenance is crucial to maximize performance and productivity. Companies in these sectors need to ensure their drivers adhere to safety standards, work schedules, and designated operational territories.
-                              </p>
-                              <p>
-                                 FleetHalo's telematics solutions are designed to tackle these challenges effectively with robust, GPS-enabled devices offering essential insights. FleetHalo GO devices proficiently pinpoint the locations of vehicles and equipment, assessing their need for maintenance or repairs to ensure optimal operation.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              What are the advantages of using a tracker in the oil, gas and mining industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's telematics solutions empower companies in the resources sector to remotely and in real-time, monitor the health, location, and performance of their vehicles and equipment. The GO RUGGED devices are particularly durable and designed to withstand tough conditions.
-                              </p>
-                              <p>Additional advantages include:</p>
-                              <ul>
-                                 <li>FleetHalo Keyless commands via Bluetooth and cellular connections ensure vehicles are securely locked overnight and remain accessible to all authorized drivers.</li>
-                                 <li>An open data integration platform provides valuable insights into vehicle and equipment productivity and performance.</li>
-                                 <li>The MyFleetHalo portal aggregates and stores data essential for creating driver safety scorecards.</li>
-                                 <li>Capabilities to monitor engine hours, fuel consumption, and idling trends, enhancing operational efficiency.</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-5">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
-                              Which types of oil, gas and mining transportation vehicles does the FleetHalo tracking device work on?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 The FleetHalo GO device is versatile, supporting a wide range of vehicles such as cars, trucks, vans, including both gas-powered and electric models. Fleet managers have the ability to monitor various types of vehicles and equipment – including passenger vehicles, EVs, heavy-duty trucks, agricultural machinery, earthmoving and quarrying equipment, as well as powered trailers – all consolidated on the MyFleetHalo fleet management software dashboard.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-6">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
-                              How can telematics help companies in the oil, gas and mining sector?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              With FleetHalo's fleet monitoring capabilities, you can enhance your services by utilizing our maintenance software. This proactive approach helps prevent major breakdowns, leading to significant savings on repair expenses.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-7">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
-                              How can fleet management software make mining safer?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo ensures the safety of your construction fleets and drivers, maintaining constant monitoring even in areas without coverage. Additionally, by integrating with personal safety systems, FleetHalo keeps track of lone workers using GPS and sends alerts if they are in potentially hazardous situations.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-8">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">
-                              How do FleetHalo's oil, gas and mining solutions work?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo offers specialized solutions for oil, gas, and mining companies, featuring IOX technology. This technology supports the inclusion of alert buttons, adaptors, and harnesses suitable for different vehicle models. Additionally, the GoTalk feature facilitates effortless communication with drivers, while the asset tracking capability enables efficient monitoring of vehicles within the oil companies' fleet.
-                           </div>
-                        </div>
-                     </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">How does fleet management work in the oil, gas and mining industry?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo assists organizations within the resources industry to gauge the efficiency of their fleet vehicles and equipment, while also tracking their real-time locations. Utilizing the Fleet Halo GO device, companies can detect maintenance needs promptly, minimizing vehicle downtime. This device is also capable of monitoring field-based lone workers through GPS, providing immediate notifications in case of emergencies involving either the workers or their vehicles. Specifically designed for durability, the Fleet Halo GO RUGGED devices excel in tracking robust machinery and trailers, even in challenging environments.</div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">Can tracking be carried out for any type of oil, gas and mining transportation?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Oil, gas, and mining companies operating in harsh environments can benefit from Fleet Halo's GO RUGGED device. This device is adept at tracking and monitoring heavy-duty transport trucks, trailers, containers, generators, and other movable assets. It provides detailed insights into location, driver behavior, vehicle health, and fuel usage, ensuring efficient operation even in the most challenging conditions.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">What are the biggest challenges in managing an oil, gas and mining fleet?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Vehicles and equipment in industries like oil, gas, and mining often operate under harsh, remote conditions and require vigilant tracking and monitoring. Preventative maintenance is crucial to maximize performance and productivity. Companies in these sectors need to ensure their drivers adhere to safety standards, work schedules, and designated operational territories.</p>
+                      <p>Fleet Halo's telematics solutions are designed to tackle these challenges effectively with robust, GPS-enabled devices offering essential insights. Fleet Halo GO devices proficiently pinpoint the locations of vehicles and equipment, assessing their need for maintenance or repairs to ensure optimal operation.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">What are the advantages of using a tracker in the oil, gas and mining industry?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's telematics solutions empower companies in the resources sector to remotely and in real-time, monitor the health, location, and performance of their vehicles and equipment. The GO RUGGED devices are particularly durable and designed to withstand tough conditions.</p>
+                      <p>Additional advantages include:</p>
+                      <ul>
+                        <li>Fleet Halo Keyless commands via Bluetooth and cellular connections ensure vehicles are securely locked overnight and remain accessible to all authorized drivers.</li>
+                        <li>An open data integration platform provides valuable insights into vehicle and equipment productivity and performance.</li>
+                        <li>The MyFleet Halo portal aggregates and stores data essential for creating driver safety scorecards.</li>
+                        <li>Capabilities to monitor engine hours, fuel consumption, and idling trends, enhancing operational efficiency.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">Which types of oil, gas and mining transportation vehicles does the Fleet Halo tracking device work on?</button>
+                  </h2>
+                  <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>The Fleet Halo GO device is versatile, supporting a wide range of vehicles such as cars, trucks, vans, including both gas-powered and electric models. Fleet managers have the ability to monitor various types of vehicles and equipment – including passenger vehicles, EVs, heavy-duty trucks, agricultural machinery, earthmoving and quarrying equipment, as well as powered trailers – all consolidated on the MyFleet Halo fleet management software dashboard.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">How can telematics help companies in the oil, gas and mining sector?</button>
+                  </h2>
+                  <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">With Fleet Halo's fleet monitoring capabilities, you can enhance your services by utilizing our maintenance software. This proactive approach helps prevent major breakdowns, leading to significant savings on repair expenses.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">How can fleet management software make mining safer?</button>
+                  </h2>
+                  <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo ensures the safety of your construction fleets and drivers, maintaining constant monitoring even in areas without coverage. Additionally, by integrating with personal safety systems, Fleet Halo keeps track of lone workers using GPS and sends alerts if they are in potentially hazardous situations.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">How do Fleet Halo's oil, gas and mining solutions work?</button>
+                  </h2>
+                  <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo offers specialized solutions for oil, gas, and mining companies, featuring IOX technology. This technology supports the inclusion of alert buttons, adaptors, and harnesses suitable for different vehicle models. Additionally, the GoTalk feature facilitates effortless communication with drivers, while the asset tracking capability enables efficient monitoring of vehicles within the oil companies' fleet.</div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

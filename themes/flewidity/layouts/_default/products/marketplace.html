@@ -1,256 +1,226 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Solve Operational Challenges with the FleetHalo Marketplace</h2>
-                  <p>
-                     FleetHalo stands out with its comprehensive third-party marketplace, enabling effortless integration with current and future systems. Our marketplace offers over 325 vetted solutions, including routing, dispatching, dash cameras, ADAS, and fuel management tools, allowing you to tailor your telematics framework within the FleetHalo ecosystem to meet specific operational goals.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/operation.svg" style="width:100%" alt="Solve Operational Challenges with the FleetHalo Marketplace">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Solve Operational Challenges with the Fleet Halo Marketplace</h2>
+              <p>Fleet Halo stands out with its comprehensive third-party marketplace, enabling effortless integration with current and future systems. Our marketplace offers over 325 vetted solutions, including routing, dispatching, dash cameras, ADAS, and fuel management tools, allowing you to tailor your telematics framework within the Fleet Halo ecosystem to meet specific operational goals.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/operation.svg" style="width: 100%" alt="Solve Operational Challenges with the Fleet Halo Marketplace" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>The Power of Choice</h2>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/Expand.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Expand your Capabilities</p>
-                     <p>
-                        Enhance your product suite by incorporating solutions from the Fleethalo Marketplace, designed to complement and complete your current array of tools
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/Adapt.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Customize to Fit Your Needs</p>
-                     <p>
-                        Shape a fully tailored solution for your fleet using our adaptable strategy.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/Endless.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Endless combinations</p>
-                     <p>
-                        Exercise the power of choice with our growing offering of over 325 different solutions
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <h2 class="text-center">How the Fleet Halo System Works</h2>
-                  <picture data-testid="picture">
-                     <source srcset="/img/how-it-works.svg" media="(max-width: 599.9px)">
-                     <img src="/img/how-it-works.svg" alt="How it works">
-                  </picture>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
-            <nav>
-               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-basic-tab" data-bs-toggle="tab" data-bs-target="#nav-basic" type="button" role="tab" aria-controls="nav-basic" aria-selected="true">Basic</button>
-                  <button class="nav-link" id="nav-standard-tab" data-bs-toggle="tab" data-bs-target="#nav-standard" type="button" role="tab" aria-controls="nav-standard" aria-selected="false">Standard</button>
-                  <button class="nav-link" id="nav-premier-tab" data-bs-toggle="tab" data-bs-target="#nav-premier" type="button" role="tab" aria-controls="nav-premier" aria-selected="false">Premier</button>
-                  <button class="nav-link" id="nav-order-tab" data-bs-toggle="tab" data-bs-target="#nav-order" type="button" role="tab" aria-controls="nav-order" aria-selected="false">Order Now</button>
-               </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-               <div class="tab-pane fade show active" id="nav-basic" role="tabpanel" aria-labelledby="nav-basic-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">Basic Marketplace Partner</p>
-                        <p>
-                           Basic Marketplace Partners utilize FleetHalo's distinctive open platform, comprehensive SDK, and esteemed brand to create an integration. These solutions provide essential functionality but have not been subjected to an extensive review.
-                        </p>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Basic.webp" class="mx-auto" alt="Basic" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-               <div class="tab-pane fade" id="nav-standard" role="tabpanel" aria-labelledby="nav-standard-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">Standard Marketplace Partner</p>
-                        <p>
-                           Standard Marketplace Partners develop integrations that enhance and personalize the core capabilities of the FleetHalo experience. These solutions have passed through thorough legal, technical, and security evaluations.
-                        </p>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Standard.webp" class="mx-auto" alt="Standard" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-               <div class="tab-pane fade" id="nav-premier" role="tabpanel" aria-labelledby="nav-premier-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">Premier Marketplace Partner</p>
-                        <p>
-                           Premier Marketplace Partners provide top-tier solutions that deeply integrate with the FleetHalo platform, delivering significant value to customers. These solutions have been rigorously vetted for legal, technical, and security standards, ensuring they meet industry benchmarks.
-                        </p>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Premier.webp" class="mx-auto" alt="Premier" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-               <div class="tab-pane fade" id="nav-order" role="tabpanel" aria-labelledby="nav-order-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">Order Now Marketplace Partners</p>
-                        <p>
-                           Order Now Marketplace Partners feature solutions that are seamlessly integrated, providing a genuinely native user experience in collaboration with FleetHalo. These solutions have undergone extensive legal, technical, and security vetting to guarantee they surpass quality standards.
-                        </p>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Order-Now.webp" class="mx-auto" alt="Order Now" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
+        <div class="container">
+          <div class="row">
             <div class="heading text-center">
-               <h2>Effortless and Integrated Transportation Management at Your Fingertips</h2>
+              <h2>The Power of Choice</h2>
             </div>
-            <nav>
-               <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-product-tab" data-bs-toggle="tab" data-bs-target="#nav-product" type="button" role="tab" aria-controls="nav-product" aria-selected="true">Product Categories</button>
-                  <button class="nav-link" id="nav-solution-tab" data-bs-toggle="tab" data-bs-target="#nav-solution" type="button" role="tab" aria-controls="nav-solution" aria-selected="false">Solution Types</button>
-                  <button class="nav-link" id="nav-partner-tab" data-bs-toggle="tab" data-bs-target="#nav-partner" type="button" role="tab" aria-controls="nav-partner" aria-selected="false">Choosing the right partner</button>
-               </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-               <div class="tab-pane fade show active" id="nav-product" role="tabpanel" aria-labelledby="nav-product-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">What Operational Needs Do You Have?</p>
-                        <p>
-                           Our FleetHalo Marketplace offers solutions across 13 key categories to meet diverse operational requirements. Explore our marketplace if you need assistance in any of the following areas:
-                        </p>
-                        <ul>
-                           <li>Asset and Trailer Tracking</li>
-                           <li>Cameras and Advanced Driver-Assistance Systems (ADAS)</li>
-                           <li>Compliance Solutions</li>
-                           <li>Integration with Connected Sensors</li>
-                           <li>Driver Management and Training Tools</li>
-                           <li>Electric Vehicle Support</li>
-                           <li>Comprehensive Fleet Management</li>
-                           <li>Efficient Fuel Management Systems</li>
-                           <li>Maintenance and Diagnostics</li>
-                           <li>Enhanced Routing and Dispatch Services</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Categories.svg" class="mx-auto" alt="Product Categories" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-               <div class="tab-pane fade" id="nav-solution" role="tabpanel" aria-labelledby="nav-solution-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">What Kind of Solution Do You Need?</p>
-                        <p>
-                           Our FleetHalo Marketplace offerings are categorized into five distinct types to suit your specific needs:
-                        </p>
-                        <ul>
-                           <li><strong>Software Add-Ins:</strong> Enhancements to the FleetHalo interface for an improved user experience.</li>
-                           <li><strong>Hardware Accessories and Add-Ons:</strong> Devices that enhance in-vehicle functionality and data collection.</li>
-                           <li><strong>Mobile Apps:</strong> Applications for smartphones or tablets that keep your workforce connected and informed.</li>
-                           <li><strong>Integrated Software Solutions:</strong> Systems that utilize data pulled from FleetHalo to streamline and optimize processes.</li>
-                           <li><strong>Custom Reports:</strong> Advanced reporting options that deliver deeper data insights beyond basic fleet analytics.</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/Solution-Types.webp" class="mx-auto" alt="Solution Types" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
-               <div class="tab-pane fade" id="nav-partner" role="tabpanel" aria-labelledby="nav-partner-tab">
-                  <div class="row align-items-center">
-                     <div class="col-md-6">
-                        <p class="text-bigger">Selecting the Ideal Solution for Your Fleet:</p>
-                        <p>
-                           Navigating the FleetHalo Marketplace is straightforward and user-friendly, ensuring you have all the necessary information to make a well-informed choice for your fleet partnership. You can effortlessly search for solutions based on your region, the specific category you're interested in, or the type of solution you need. Each Marketplace Partner has a detailed profile showcasing their offerings, including features, advantages, product images, and more, to aid in your decision-making process.
-                        </p>
-                     </div>
-                     <div class="col-md-6">
-                        <img src="/img/choosing-right-partner.webp" class="mx-auto" alt="Choosing the right partner" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/Expand.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Expand your Capabilities</p>
+                <p>Enhance your product suite by incorporating solutions from the Fleet Halo Marketplace, designed to complement and complete your current array of tools</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/Adapt.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Customize to Fit Your Needs</p>
+                <p>Shape a fully tailored solution for your fleet using our adaptable strategy.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/Endless.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Endless combinations</p>
+                <p>Exercise the power of choice with our growing offering of over 325 different solutions</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-center">How the Fleet Halo System Works</h2>
+              <picture data-testid="picture">
+                <source srcset="/img/how-it-works.svg" media="(max-width: 599.9px)" />
+                <img src="/img/how-it-works.svg" alt="How it works" />
+              </picture>
             </div>
-         </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <nav>
+            <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-basic-tab" data-bs-toggle="tab" data-bs-target="#nav-basic" type="button" role="tab" aria-controls="nav-basic" aria-selected="true">Basic</button>
+              <button class="nav-link" id="nav-standard-tab" data-bs-toggle="tab" data-bs-target="#nav-standard" type="button" role="tab" aria-controls="nav-standard" aria-selected="false">Standard</button>
+              <button class="nav-link" id="nav-premier-tab" data-bs-toggle="tab" data-bs-target="#nav-premier" type="button" role="tab" aria-controls="nav-premier" aria-selected="false">Premier</button>
+              <button class="nav-link" id="nav-order-tab" data-bs-toggle="tab" data-bs-target="#nav-order" type="button" role="tab" aria-controls="nav-order" aria-selected="false">Order Now</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-basic" role="tabpanel" aria-labelledby="nav-basic-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">Basic Marketplace Partner</p>
+                  <p>Basic Marketplace Partners utilize Fleet Halo's distinctive open platform, comprehensive SDK, and esteemed brand to create an integration. These solutions provide essential functionality but have not been subjected to an extensive review.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Basic.webp" class="mx-auto" alt="Basic" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-standard" role="tabpanel" aria-labelledby="nav-standard-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">Standard Marketplace Partner</p>
+                  <p>Standard Marketplace Partners develop integrations that enhance and personalize the core capabilities of the Fleet Halo experience. These solutions have passed through thorough legal, technical, and security evaluations.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Standard.webp" class="mx-auto" alt="Standard" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-premier" role="tabpanel" aria-labelledby="nav-premier-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">Premier Marketplace Partner</p>
+                  <p>Premier Marketplace Partners provide top-tier solutions that deeply integrate with the Fleet Halo platform, delivering significant value to customers. These solutions have been rigorously vetted for legal, technical, and security standards, ensuring they meet industry benchmarks.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Premier.webp" class="mx-auto" alt="Premier" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-order" role="tabpanel" aria-labelledby="nav-order-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">Order Now Marketplace Partners</p>
+                  <p>Order Now Marketplace Partners feature solutions that are seamlessly integrated, providing a genuinely native user experience in collaboration with Fleet Halo. These solutions have undergone extensive legal, technical, and security vetting to guarantee they surpass quality standards.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Order-Now.webp" class="mx-auto" alt="Order Now" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="heading text-center">
+            <h2>Effortless and Integrated Transportation Management at Your Fingertips</h2>
+          </div>
+          <nav>
+            <div class="nav nav-pills nav-fill mb-5" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-product-tab" data-bs-toggle="tab" data-bs-target="#nav-product" type="button" role="tab" aria-controls="nav-product" aria-selected="true">Product Categories</button>
+              <button class="nav-link" id="nav-solution-tab" data-bs-toggle="tab" data-bs-target="#nav-solution" type="button" role="tab" aria-controls="nav-solution" aria-selected="false">Solution Types</button>
+              <button class="nav-link" id="nav-partner-tab" data-bs-toggle="tab" data-bs-target="#nav-partner" type="button" role="tab" aria-controls="nav-partner" aria-selected="false">Choosing the right partner</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-product" role="tabpanel" aria-labelledby="nav-product-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">What Operational Needs Do You Have?</p>
+                  <p>Our Fleet Halo Marketplace offers solutions across 13 key categories to meet diverse operational requirements. Explore our marketplace if you need assistance in any of the following areas:</p>
+                  <ul>
+                    <li>Asset and Trailer Tracking</li>
+                    <li>Cameras and Advanced Driver-Assistance Systems (ADAS)</li>
+                    <li>Compliance Solutions</li>
+                    <li>Integration with Connected Sensors</li>
+                    <li>Driver Management and Training Tools</li>
+                    <li>Electric Vehicle Support</li>
+                    <li>Comprehensive Fleet Management</li>
+                    <li>Efficient Fuel Management Systems</li>
+                    <li>Maintenance and Diagnostics</li>
+                    <li>Enhanced Routing and Dispatch Services</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Categories.svg" class="mx-auto" alt="Product Categories" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-solution" role="tabpanel" aria-labelledby="nav-solution-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">What Kind of Solution Do You Need?</p>
+                  <p>Our Fleet Halo Marketplace offerings are categorized into five distinct types to suit your specific needs:</p>
+                  <ul>
+                    <li><strong>Software Add-Ins:</strong> Enhancements to the Fleet Halo interface for an improved user experience.</li>
+                    <li><strong>Hardware Accessories and Add-Ons:</strong> Devices that enhance in-vehicle functionality and data collection.</li>
+                    <li><strong>Mobile Apps:</strong> Applications for smartphones or tablets that keep your workforce connected and informed.</li>
+                    <li><strong>Integrated Software Solutions:</strong> Systems that utilize data pulled from Fleet Halo to streamline and optimize processes.</li>
+                    <li><strong>Custom Reports:</strong> Advanced reporting options that deliver deeper data insights beyond basic fleet analytics.</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/Solution-Types.webp" class="mx-auto" alt="Solution Types" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-partner" role="tabpanel" aria-labelledby="nav-partner-tab">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <p class="text-bigger">Selecting the Ideal Solution for Your Fleet:</p>
+                  <p>Navigating the Fleet Halo Marketplace is straightforward and user-friendly, ensuring you have all the necessary information to make a well-informed choice for your fleet partnership. You can effortlessly search for solutions based on your region, the specific category you're interested in, or the type of solution you need. Each Marketplace Partner has a detailed profile showcasing their offerings, including features, advantages, product images, and more, to aid in your decision-making process.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/img/choosing-right-partner.webp" class="mx-auto" alt="Choosing the right partner" width="48" height="37" style="width: 100%; max-width: 600px; height: auto; object-fit: cover" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

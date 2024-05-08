@@ -1,273 +1,215 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>Enhance product delivery speed and efficiency, backed by deeper insights.</h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     Ensure timely delivery and customer satisfaction with FleetHalo’s fleet management solution, tailored to adapt swiftly to market changes through custom configurations and a range of integrated apps and accessories. FleetHalo, equipped to integrate with your trucks' temperature gauges or control systems, is ideal for transporting farm produce under climate-controlled conditions, ensuring product safety and integrity. Gain critical insights to uphold food safety standards, maintain traceability, and protect the quality of goods throughout the supply chain.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Enhance product delivery speed and efficiency, backed by deeper insights.</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Ensure timely delivery and customer satisfaction with Fleet Halo’s fleet management solution, tailored to adapt swiftly to market changes through custom configurations and a range of integrated apps and accessories. Fleet Halo, equipped to integrate with your trucks' temperature gauges or control systems, is ideal for transporting farm produce under climate-controlled conditions, ensuring product safety and integrity. Gain critical insights to uphold food safety standards, maintain traceability, and protect the quality of goods throughout the supply chain.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-route.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Route Optimization</p>
-                     <p>Boost operational efficiency by continuously optimizing routes as deliveries progress throughout the day.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-temperature.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Temperature Monitoring</p>
-                     <p>Continuously track temperature and get notified if it deviates from predefined ranges set by the user.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-feedback.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Driver Feedback</p>
-                     <p>Discourage dangerous driving behaviors by sending notifications when a vehicle violates a rule set by the user.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-route.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Route Optimization</p>
+                <p>Boost operational efficiency by continuously optimizing routes as deliveries progress throughout the day.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-temperature.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Temperature Monitoring</p>
+                <p>Continuously track temperature and get notified if it deviates from predefined ranges set by the user.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/food-beverage/icon-feedback.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Driver Feedback</p>
+                <p>Discourage dangerous driving behaviors by sending notifications when a vehicle violates a rule set by the user.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/agriculture/combine-middle.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           The FleetHalo Advantage
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Complete visibility of workforce, assets, and costs.</li>
-                           <li>Track fuel usage and idling trends.</li>
-                           <li>Temperature tracking & tire pressure monitoring.</li>
-                           <li>Route optimisation</li>
-                           <li>High-performance GPS technology.</li>
-                           <li>Advanced dashboard reports.</li>
-                           <li>Open platform for easy data integration.</li>
-                           <li>Marketplace Apps and Add-Ons</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/agriculture/combine-middle.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">The Fleet Halo Advantage</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Complete visibility of workforce, assets, and costs.</li>
+                    <li>Track fuel usage and idling trends.</li>
+                    <li>Temperature tracking & tire pressure monitoring.</li>
+                    <li>Route optimisation</li>
+                    <li>High-performance GPS technology.</li>
+                    <li>Advanced dashboard reports.</li>
+                    <li>Open platform for easy data integration.</li>
+                    <li>Marketplace Apps and Add-Ons</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              What is refrigerated transport?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              Food and beverage fleets transport goods to various outlets such as grocery stores and restaurants. They are responsible for maintaining product integrity and adhering to food safety regulations, which involves ensuring temperature control throughout the cold chain. These fleets typically comprise vehicles equipped with temperature regulation capabilities.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              How can Geotab help your fleet of refrigerated trucks?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              Fleet Halo's technological solutions enable fleet managers to enhance route optimization and boost the operational efficiency of cold chain fleets by dynamically assigning routes to drivers. Fleet managers have the ability to monitor temperature continuously and track risky driving behaviors, offering direct feedback to drivers for promoting safer driving practices.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              What are the benefits of Geotab fleet management software for refrigerated truck fleet management?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Fleet Halo's solutions for food and beverage fleets aid your organization's refrigerated truck operations by:
-                              </p>
-                              <ul>
-                                 <li>Tracking fuel usage and idling patterns</li>
-                                 <li>Providing real-time temperature surveillance</li>
-                                 <li>Managing routing and dispatch</li>
-                                 <li>Among other features</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              How does fleet management work in the food and beverage transportation industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's telematics solutions deliver detailed data and insights to help your food and beverage business protect product quality during delivery, comply with food safety standards, and maintain the traceability of goods throughout the supply chain.
-                              </p>
-                              <p>Other benefits include:</p>
-                              <ul>
-                                 <li><strong>Route Optimization</strong> Enhance operational efficiency by keeping routes optimized as deliveries are completed throughout the day.</li>
-                                 <li><strong>Temperature Monitoring</strong> Monitor temperature in real time and receive alerts if the temperature falls below or rises above user-defined ranges.</li>
-                                 <li><strong>Driver Feedback</strong> Curb unsafe driving habits through alerts when a vehicle breaks an administrator-defined rule.</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-5">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
-                              Can tracking be carried out for any type of food transportation?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's fleet management solutions for food and beverage can monitor truck storage temperature in real-time and send alerts if the temperature deviates from user-defined zones.
-                              </p>
-                              <p>
-                                 FleetHalo’s devices are designed to dispatch, route, and monitor a wide range of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger vehicles like cars and SUVs.
-                              </p>
-                              <p>
-                                 These devices play a crucial role in optimizing routes, ensuring that perishable foods like produce are delivered to the market as quickly as possible. This helps in protecting product quality during delivery, complying with food safety standards, and maintaining the traceability of goods throughout the supply chain.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-6">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
-                              Can the Geotab tracker be used on any type of transportation vehicle?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's devices are capable of dispatching, routing, and monitoring a wide array of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger vehicles such as cars and SUVs.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-7">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
-                              How can fleet management help the food and beverage industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              With the integration of telematics tracking and GPS services for route optimization, coupled with temperature control sensors installed in vehicles, the quality and condition of food items are effectively maintained and monitored.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-8">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">
-                              How does fleet management improve health practices in the food and beverage industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              The temperature control system fitted in vehicles enhances food safety and guarantees that products are delivered in optimal condition.
-                           </div>
-                        </div>
-                     </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">What is refrigerated transport?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Food and beverage fleets transport goods to various outlets such as grocery stores and restaurants. They are responsible for maintaining product integrity and adhering to food safety regulations, which involves ensuring temperature control throughout the cold chain. These fleets typically comprise vehicles equipped with temperature regulation capabilities.</div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">How can Geotab help your fleet of refrigerated trucks?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's technological solutions enable fleet managers to enhance route optimization and boost the operational efficiency of cold chain fleets by dynamically assigning routes to drivers. Fleet managers have the ability to monitor temperature continuously and track risky driving behaviors, offering direct feedback to drivers for promoting safer driving practices.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">What are the benefits of Geotab fleet management software for refrigerated truck fleet management?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's solutions for food and beverage fleets aid your organization's refrigerated truck operations by:</p>
+                      <ul>
+                        <li>Tracking fuel usage and idling patterns</li>
+                        <li>Providing real-time temperature surveillance</li>
+                        <li>Managing routing and dispatch</li>
+                        <li>Among other features</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">How does fleet management work in the food and beverage transportation industry?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's telematics solutions deliver detailed data and insights to help your food and beverage business protect product quality during delivery, comply with food safety standards, and maintain the traceability of goods throughout the supply chain.</p>
+                      <p>Other benefits include:</p>
+                      <ul>
+                        <li><strong>Route Optimization</strong> Enhance operational efficiency by keeping routes optimized as deliveries are completed throughout the day.</li>
+                        <li><strong>Temperature Monitoring</strong> Monitor temperature in real time and receive alerts if the temperature falls below or rises above user-defined ranges.</li>
+                        <li><strong>Driver Feedback</strong> Curb unsafe driving habits through alerts when a vehicle breaks an administrator-defined rule.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">Can tracking be carried out for any type of food transportation?</button>
+                  </h2>
+                  <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's fleet management solutions for food and beverage can monitor truck storage temperature in real-time and send alerts if the temperature deviates from user-defined zones.</p>
+                      <p>Fleet Halo’s devices are designed to dispatch, route, and monitor a wide range of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger vehicles like cars and SUVs.</p>
+                      <p>These devices play a crucial role in optimizing routes, ensuring that perishable foods like produce are delivered to the market as quickly as possible. This helps in protecting product quality during delivery, complying with food safety standards, and maintaining the traceability of goods throughout the supply chain.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">Can the Geotab tracker be used on any type of transportation vehicle?</button>
+                  </h2>
+                  <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's devices are capable of dispatching, routing, and monitoring a wide array of vehicles, including modern heavy transport vehicles, light-duty trucks, and passenger vehicles such as cars and SUVs.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">How can fleet management help the food and beverage industry?</button>
+                  </h2>
+                  <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">With the integration of telematics tracking and GPS services for route optimization, coupled with temperature control sensors installed in vehicles, the quality and condition of food items are effectively maintained and monitored.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse8" aria-expanded="false" aria-controls="faq-collapse8">How does fleet management improve health practices in the food and beverage industry?</button>
+                  </h2>
+                  <div id="faq-collapse8" class="accordion-collapse collapse" aria-labelledby="faq-8" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The temperature control system fitted in vehicles enhances food safety and guarantees that products are delivered in optimal condition.</div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

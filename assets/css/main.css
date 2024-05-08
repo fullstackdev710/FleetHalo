@@ -12,8 +12,7 @@ a.nav-item.nav-link {
   max-width: 640px;
 }
 #heading-breadcrumbs {
-  background: url("../img/blue-smooth-wall-textured-background.webp") center
-    center repeat;
+  background: url("../img/blue-smooth-wall-textured-background.webp") center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
   background-color: #6d747e;
@@ -514,8 +513,7 @@ a.nav-item.nav-link {
 }
 
 section.recentClientSection {
-  background: url("../img/business-people-casual-meeting.jpg") center center
-    repeat;
+  background: url("../img/business-people-casual-meeting.jpg") center center repeat;
   padding: 20px 0 60px 0;
   position: relative;
 }

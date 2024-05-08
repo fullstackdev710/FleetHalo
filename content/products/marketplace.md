@@ -1,5 +1,5 @@
 ---
-title: "Expand Your FleetHalo Capabilities"
+title: "Expand Your Fleet Halo Capabilities"
 backgroundImage: "/img/banners/marketplace-hero.webp"
 backgroundMobileImage: "/img/banners/marketplace-hero.webp"
 intro: "Leverage our ever-expanding ecosystem of more than 325 solutions, designed to propel your fleet to new heights."

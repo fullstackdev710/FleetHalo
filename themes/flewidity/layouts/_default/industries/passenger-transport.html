@@ -1,236 +1,191 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>Enhance product delivery speed and efficiency, backed by deeper insights.</h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     Ensure timely delivery and customer satisfaction with FleetHalo’s fleet management solution, tailored to adapt swiftly to market changes through custom configurations and a range of integrated apps and accessories. FleetHalo, equipped to integrate with your trucks' temperature gauges or control systems, is ideal for transporting farm produce under climate-controlled conditions, ensuring product safety and integrity. Gain critical insights to uphold food safety standards, maintain traceability, and protect the quality of goods throughout the supply chain.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Enhance product delivery speed and efficiency, backed by deeper insights.</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Ensure timely delivery and customer satisfaction with Fleet Halo’s fleet management solution, tailored to adapt swiftly to market changes through custom configurations and a range of integrated apps and accessories. Fleet Halo, equipped to integrate with your trucks' temperature gauges or control systems, is ideal for transporting farm produce under climate-controlled conditions, ensuring product safety and integrity. Gain critical insights to uphold food safety standards, maintain traceability, and protect the quality of goods throughout the supply chain.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-safer.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Safer Passengers</p>
-                     <p>
-                        Actively oversee fleet maintenance for optimal vehicle performance and monitor driver behavior to encourage safer driving practices.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-lower.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Lower operating costs</p>
-                     <p>
-                        Enhance fuel efficiency through clear insights into fuel consumption patterns, engine performance metrics, and inefficient driving behaviors.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-increased.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Increased vehicle uptime</p>
-                     <p>Real-time tracking of vehicle engine data and fault codes facilitates a shift from reactive to proactive maintenance strategies.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-safer.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Safer Passengers</p>
+                <p>Actively oversee fleet maintenance for optimal vehicle performance and monitor driver behavior to encourage safer driving practices.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-lower.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Lower operating costs</p>
+                <p>Enhance fuel efficiency through clear insights into fuel consumption patterns, engine performance metrics, and inefficient driving behaviors.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/passenger-transport/icon-increased.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Increased vehicle uptime</p>
+                <p>Real-time tracking of vehicle engine data and fault codes facilitates a shift from reactive to proactive maintenance strategies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Enhance Driver Safety Management</h2>
-                  <p>
-                     Alleviate driver stress to safeguard passengers and other road users. Ensure the protection of passengers, employees, and vehicles by actively tracking problematic driving behaviors like prolonged idling, over-speeding, harsh braking, and abrupt cornering. Utilize risk and safety reports along with Driver Safety Scorecards to observe trends and pinpoint drivers who could gain from further training.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/passenger-transport/monitor-box.svg" style="width:100%" alt="Enhance Driver Safety Management">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Enhance Driver Safety Management</h2>
+              <p>Alleviate driver stress to safeguard passengers and other road users. Ensure the protection of passengers, employees, and vehicles by actively tracking problematic driving behaviors like prolonged idling, over-speeding, harsh braking, and abrupt cornering. Utilize risk and safety reports along with Driver Safety Scorecards to observe trends and pinpoint drivers who could gain from further training.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/passenger-transport/monitor-box.svg" style="width: 100%" alt="Enhance Driver Safety Management" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6">
-                  <img src="/img/industries/passenger-transport/support-box.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
-               <div class="col-md-6">
-                  <h2>Support for Diverse Passenger Transport Fleets</h2>
-                  <p>
-                     FleetHalo provides top-tier support for a wide range of passenger transport vehicles, encompassing various types, makes, and models, including gas, diesel, and electric vehicles. Effortlessly manage every facet of your passenger fleet assets. Additionally, the comprehensive data capture, analysis, and reporting ensure confident operation of your electric vehicles.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="/img/industries/passenger-transport/support-box.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
             </div>
-         </div>
+            <div class="col-md-6">
+              <h2>Support for Diverse Passenger Transport Fleets</h2>
+              <p>Fleet Halo provides top-tier support for a wide range of passenger transport vehicles, encompassing various types, makes, and models, including gas, diesel, and electric vehicles. Effortlessly manage every facet of your passenger fleet assets. Additionally, the comprehensive data capture, analysis, and reporting ensure confident operation of your electric vehicles.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Navigate Your Fleet's Electrification Transition</h2>
-                  <p>
-                     Boost your fleet's efficiency through continuous monitoring of your electric vehicles' charging processes. Track the operational status and charge levels of your electric buses, and establish tailored alerts to promptly address any charging concerns. With robust charging management for electric buses, you can plan and optimize vehicle utilization both reliably and effortlessly.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/passenger-transport/box.webp" style="width:100%" alt="Enhance Driver Safety Management">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Navigate Your Fleet's Electrification Transition</h2>
+              <p>Boost your fleet's efficiency through continuous monitoring of your electric vehicles' charging processes. Track the operational status and charge levels of your electric buses, and establish tailored alerts to promptly address any charging concerns. With robust charging management for electric buses, you can plan and optimize vehicle utilization both reliably and effortlessly.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/passenger-transport/box.webp" style="width: 100%" alt="Enhance Driver Safety Management" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/passenger-transport/passenger-transport-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           Data-based transit fleet management
-                        </h2>
-                        <p class="text-white">
-                           The user-friendly FleetHalo telematics systems come with a range of expandability options. Our bus and passenger fleet management software, MyFleetHalo, delivers essential data concerning your vehicles' maintenance, aiding in the analysis, processing, and reporting of technical irregularities.
-                        </p>
-                        <ul class="mb-3 text-white">
-                           <li>Detailed breakdown of individual error codes</li>
-                           <li>Information on the condition of brake pads</li>
-                           <li>Tracking of workshop dwell time and availability</li>
-                           <li>Checks for quality of installation</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/passenger-transport/passenger-transport-banner.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">Data-based transit fleet management</h2>
+                  <p class="text-white">The user-friendly Fleet Halo telematics systems come with a range of expandability options. Our bus and passenger fleet management software, MyFleet Halo, delivers essential data concerning your vehicles' maintenance, aiding in the analysis, processing, and reporting of technical irregularities.</p>
+                  <ul class="mb-3 text-white">
+                    <li>Detailed breakdown of individual error codes</li>
+                    <li>Information on the condition of brake pads</li>
+                    <li>Tracking of workshop dwell time and availability</li>
+                    <li>Checks for quality of installation</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              How can FleetHalo's fleet management software help transport operators?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's fleet management software is designed to maintain your fleet in optimal condition while reducing costs, and it enhances driver and passenger safety by providing a clear insight into driver behavior.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              How can FleetHalo help improve the productivity of your bus and passenger transport fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              The FleetHalo solution offers vital vehicle health information crucial for maintenance. By delivering live technical data on faults, it assists in rapidly pinpointing issues. Active error diagnostics and the tracking of error codes through the FleetHalo fleet maintenance software proactively alert you before any unexpected vehicle breakdowns occur. Armed with targeted data on potential savings, you can actively minimize costs.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              How can Fleethalo help you meet your bus fleet's sustainability goals?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo assists in steering your bus and passenger fleet towards heightened sustainability, aligning with social, economic, and environmental objectives to diminish your carbon footprint. Gain insights into your fleet's fuel consumption and access crucial information to enhance fuel efficiency, along with valuable real-time energy management insights. By monitoring driving behavior, you can contribute to your fleet's efficiency through optimized driving styles.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">How can Fleet Halo's fleet management software help transport operators?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's fleet management software is designed to maintain your fleet in optimal condition while reducing costs, and it enhances driver and passenger safety by providing a clear insight into driver behavior.</div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">How can Fleet Halo help improve the productivity of your bus and passenger transport fleet?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The Fleet Halo solution offers vital vehicle health information crucial for maintenance. By delivering live technical data on faults, it assists in rapidly pinpointing issues. Active error diagnostics and the tracking of error codes through the Fleet Halo fleet maintenance software proactively alert you before any unexpected vehicle breakdowns occur. Armed with targeted data on potential savings, you can actively minimize costs.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">How can Fleet Halo help you meet your bus fleet's sustainability goals?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo assists in steering your bus and passenger fleet towards heightened sustainability, aligning with social, economic, and environmental objectives to diminish your carbon footprint. Gain insights into your fleet's fuel consumption and access crucial information to enhance fuel efficiency, along with valuable real-time energy management insights. By monitoring driving behavior, you can contribute to your fleet's efficiency through optimized driving styles.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

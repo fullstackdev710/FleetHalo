@@ -6,6 +6,7 @@
 node_modules/*
 111/*
 config.toml
+public/*
 
 # Other common ignores
 .DS_Store

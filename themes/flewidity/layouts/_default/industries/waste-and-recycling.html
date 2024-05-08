@@ -1,194 +1,156 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>
-                     Real-time insights for advanced fleet management
-                  </h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     Minimize expenses and enhance efficiency, all while maintaining customer satisfaction using FleetHalo's open telematics platform. Achieve the necessary insights for exceptional productivity and sustainability through the FleetHalo Marketplace, an exclusive ecosystem of business-oriented telematics apps and integrated solutions.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Real-time insights for advanced fleet management</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Minimize expenses and enhance efficiency, all while maintaining customer satisfaction using Fleet Halo's open telematics platform. Achieve the necessary insights for exceptional productivity and sustainability through the Fleet Halo Marketplace, an exclusive ecosystem of business-oriented telematics apps and integrated solutions.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-route.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Route Optimization</p>
-                     <p>
-                        Make certain your fleet adheres to the most efficient paths by optimizing vehicle routes in MyFleetHalo.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-camera.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Camera Integration</p>
-                     <p>Effortlessly integrate dashcams with MyFleetHalo to stream video in real-time, accessible both through desktop and mobile app.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-fuel.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Reduce Fuel Costs</p>
-                     <p>Track fuel consumption, idling patterns, and risky driving habits to pinpoint opportunities for reducing fuel expenses.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-route.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Route Optimization</p>
+                <p>Make certain your fleet adheres to the most efficient paths by optimizing vehicle routes in MyFleet Halo.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-camera.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Camera Integration</p>
+                <p>Effortlessly integrate dashcams with MyFleet Halo to stream video in real-time, accessible both through desktop and mobile app.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/waste-and-recycling/icon-fuel.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Reduce Fuel Costs</p>
+                <p>Track fuel consumption, idling patterns, and risky driving habits to pinpoint opportunities for reducing fuel expenses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/utilities/utilities-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           The Geotab Advantage
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Monitor fuel consumption and idling patterns</li>
-                           <li>Measure CNG fuel pressure and temperature for precise fuel usage tracking</li>
-                           <li>Observe engine hours and PTO activity</li>
-                           <li>Utilize geofencing and optimize routing</li>
-                           <li>Supervise large waste and recycling bins, including curbside containers</li>
-                           <li>Implement proof of service functionalities</li>
-                           <li>Integrate with various load or axle scale systems</li>
-                           <li>Enhance regulatory compliance using Geotab ELD</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/utilities/utilities-banner.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">The Geotab Advantage</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Monitor fuel consumption and idling patterns</li>
+                    <li>Measure CNG fuel pressure and temperature for precise fuel usage tracking</li>
+                    <li>Observe engine hours and PTO activity</li>
+                    <li>Utilize geofencing and optimize routing</li>
+                    <li>Supervise large waste and recycling bins, including curbside containers</li>
+                    <li>Implement proof of service functionalities</li>
+                    <li>Integrate with various load or axle scale systems</li>
+                    <li>Enhance regulatory compliance using Geotab ELD</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              What waste and recycling fleet management solutions does FeetHalo offer?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Boost efficiency by refining routes and cutting down on fuel expenses through detailed usage reports, enabling you to uncover cost-saving opportunities via driver behavior analysis and route selection.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              How can telematics help businesses in the waste and recycling industry?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 Enhance service speed and efficiency by supplying optimized routes.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              How does the vehicle waste monitoring software work?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 The waste monitoring software operates by tracking truck fleets and implementing scales to regulate container weight, preventing machinery overloading, and deploying cameras to guarantee worker safety.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">What waste and recycling fleet management solutions does FeetHalo offer?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Boost efficiency by refining routes and cutting down on fuel expenses through detailed usage reports, enabling you to uncover cost-saving opportunities via driver behavior analysis and route selection.</p>
+                    </div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">How can telematics help businesses in the waste and recycling industry?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Enhance service speed and efficiency by supplying optimized routes.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">How does the vehicle waste monitoring software work?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>The waste monitoring software operates by tracking truck fleets and implementing scales to regulate container weight, preventing machinery overloading, and deploying cameras to guarantee worker safety.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

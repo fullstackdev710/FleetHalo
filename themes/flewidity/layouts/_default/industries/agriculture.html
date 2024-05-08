@@ -1,257 +1,212 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Agriculture Fleet Management Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Agriculture Fleet Management Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/track-assets-agri-icon.svg" | relURL }}' />
-                     </div>
-                     <p>Monitor both active and idle agricultural assets in real-time in the field using farm equipment tracking devices.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/continue-agri-icon.svg" | relURL }}' />
-                     </div>
-                     <p>Maintain consistent tracking within and beyond mobile coverage areas for enhanced remote safety.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/icons/routing.svg" | relURL }}' />
-                     </div>
-                     <p>Optimize routes to minimize fuel consumption and reduce expenses.</p>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/track-assets-agri-icon.svg" | relURL }}' />
+                </div>
+                <p>Monitor both active and idle agricultural assets in real-time in the field using farm equipment tracking devices.</p>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/continue-agri-icon.svg" | relURL }}' />
+                </div>
+                <p>Maintain consistent tracking within and beyond mobile coverage areas for enhanced remote safety.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/icons/routing.svg" | relURL }}' />
+                </div>
+                <p>Optimize routes to minimize fuel consumption and reduce expenses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Connect through mobile networks, or opt for satellite connectivity in remote areas.</h2>
-                  <p>
-                     In the agricultural sector, where operations span extensive areas, different connectivity needs arise. For many, mobile network-based fleet tracking suffices. However, some agribusinesses operate in such remote locations that satellite connectivity becomes essential for ensuring driver safety. FleetHalo provides both solutions. Integrating a satellite modem with your agricultural vehicle tracking devices through FleetHalo ensures comprehensive coverage. This setup includes additional man-down alerts, a crucial feature for scenarios where workers are beyond the reach of standard service ranges.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/agriculture-connected.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Connect through mobile networks, or opt for satellite connectivity in remote areas.</h2>
+              <p>In the agricultural sector, where operations span extensive areas, different connectivity needs arise. For many, mobile network-based fleet tracking suffices. However, some agribusinesses operate in such remote locations that satellite connectivity becomes essential for ensuring driver safety. Fleet Halo provides both solutions. Integrating a satellite modem with your agricultural vehicle tracking devices through Fleet Halo ensures comprehensive coverage. This setup includes additional man-down alerts, a crucial feature for scenarios where workers are beyond the reach of standard service ranges.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/agriculture-connected.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/telematics-infographics.svg" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
-               <div class="col-md-6">
-                  <h2>Agriculture telematics aid in planning efficient routes from the farm to the point of delivery.</h2>
-                  <p>
-                     Agricultural fleets cover extensive areas, making it crucial to optimize their travel paths using GPS trackers for equipment like tractors and harvesters. With FleetHalo's sophisticated fleet management software, you have the capability to design efficient routes and generate detailed reports on the paths traversed. Minimize idle time in traffic and conserve fuel with FleetHalo's solutions.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/telematics-infographics.svg" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
             </div>
-         </div>
+            <div class="col-md-6">
+              <h2>Agriculture telematics aid in planning efficient routes from the farm to the point of delivery.</h2>
+              <p>Agricultural fleets cover extensive areas, making it crucial to optimize their travel paths using GPS trackers for equipment like tractors and harvesters. With Fleet Halo's sophisticated fleet management software, you have the capability to design efficient routes and generate detailed reports on the paths traversed. Minimize idle time in traffic and conserve fuel with Fleet Halo's solutions.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Integrate solutions for produce safety</h2>
-                  <p>
-                     Farm produce frequently requires climate-controlled conditions during transportation. FleetHalo can be integrated with your trucks’ temperature gauges or other control systems to monitor produce safety and ensure the integrity of your deliveries.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/fruit-truck.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Integrate solutions for produce safety</h2>
+              <p>Farm produce frequently requires climate-controlled conditions during transportation. Fleet Halo can be integrated with your trucks’ temperature gauges or other control systems to monitor produce safety and ensure the integrity of your deliveries.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/fruit-truck.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/agriculture/combine-middle.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           Why use FleetHalo’s Agriculture Fleet Tracking
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Efficiently Map Out Routes for Timely and Seamless Produce Delivery</li>
-                           <li>Maintain Produce Integrity and Optimal Cold Chain Conditions with Integrated Inventory Management Systems</li>
-                           <li>Forecast and Implement Regular Maintenance Plans for Continuous Fleet Operation</li>
-                           <li>Oversee the Fleet Utilizing Cellular Networks, with Extended Reach Through Satellite Connectivity</li>
-                           <li>Incorporate Heavy-Duty Agricultural Equipment in Comprehensive Fleet Performance Analyses to Maximize GPS Tracking Advantages in Agriculture</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
+        <div class="bg-image" style="background-image: url('/img/industries/agriculture/combine-middle.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">Why use Fleet Halo’s Agriculture Fleet Tracking</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Efficiently Map Out Routes for Timely and Seamless Produce Delivery</li>
+                    <li>Maintain Produce Integrity and Optimal Cold Chain Conditions with Integrated Inventory Management Systems</li>
+                    <li>Forecast and Implement Regular Maintenance Plans for Continuous Fleet Operation</li>
+                    <li>Oversee the Fleet Utilizing Cellular Networks, with Extended Reach Through Satellite Connectivity</li>
+                    <li>Incorporate Heavy-Duty Agricultural Equipment in Comprehensive Fleet Performance Analyses to Maximize GPS Tracking Advantages in Agriculture</li>
+                  </ul>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Include heavy machinery in your agricultural vehicle tracking</h2>
-                  <p>
-                     FleetHalo enhances agricultural fleet management by including farm equipment that might otherwise be overlooked. This comprehensive approach ensures seamless integration with various types of machinery. With FleetHalo, you can effectively monitor engine hours and upkeep schedules for your farm machinery using specialized maintenance software. Additionally, the system offers agriculture GPS tracking capabilities to efficiently map out work zones and ensure consistent coverage for all vehicles and equipment.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/heavy-machinery.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Include heavy machinery in your agricultural vehicle tracking</h2>
+              <p>Fleet Halo enhances agricultural fleet management by including farm equipment that might otherwise be overlooked. This comprehensive approach ensures seamless integration with various types of machinery. With Fleet Halo, you can effectively monitor engine hours and upkeep schedules for your farm machinery using specialized maintenance software. Additionally, the system offers agriculture GPS tracking capabilities to efficiently map out work zones and ensure consistent coverage for all vehicles and equipment.</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/heavy-machinery.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/predict-maintenance.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
-               <div class="col-md-6">
-                  <h2>Anticipate maintenance needs and track fault codes to ensure the continuous operation of your agricultural fleet.</h2>
-                  <p>
-                     Mechanical failures in vehicles can have significant consequences in the agricultural sector, where time-sensitive produce requires uninterrupted delivery. Employing tracking devices for farm equipment enables proactive maintenance, helping to maintain fleet efficiency and prevent delays by identifying and addressing engine fault codes before they lead to operational disruptions.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/predict-maintenance.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
             </div>
-         </div>
+            <div class="col-md-6">
+              <h2>Anticipate maintenance needs and track fault codes to ensure the continuous operation of your agricultural fleet.</h2>
+              <p>Mechanical failures in vehicles can have significant consequences in the agricultural sector, where time-sensitive produce requires uninterrupted delivery. Employing tracking devices for farm equipment enables proactive maintenance, helping to maintain fleet efficiency and prevent delays by identifying and addressing engine fault codes before they lead to operational disruptions.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Manage your off-road fuel tax for money back to your budget</h2>
-                  <p>
-                     Fuels such as gasoline or diesel are typically taxed at the point of purchase, yet when used off-road, they may qualify for tax rebates. Collaborating with Prism, a FleetHalo Marketplace partner, FleetHalo assists agricultural fleets in gathering the necessary data to claim tax refunds from the Australian Taxation Office, providing a direct financial benefit to your business."
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/agriculture/fuel-tax.webp" style="width:100%" alt="Powering safe, sustainable, and efficient connected fleets and assets">
-               </div>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Manage your off-road fuel tax for money back to your budget</h2>
+              <p>Fuels such as gasoline or diesel are typically taxed at the point of purchase, yet when used off-road, they may qualify for tax rebates. Collaborating with Prism, a Fleet Halo Marketplace partner, Fleet Halo assists agricultural fleets in gathering the necessary data to claim tax refunds from the Australian Taxation Office, providing a direct financial benefit to your business."</p>
             </div>
-         </div>
+            <div class="col-md-6">
+              <img src="/img/industries/agriculture/fuel-tax.webp" style="width: 100%" alt="Powering safe, sustainable, and efficient connected fleets and assets" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              How do I track a farming vehicle?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              Agricultural vehicles can be monitored through the installation of a telematics device, which then communicates over mobile or satellite networks based on the geographical area. By integrating a satellite modem into your agricultural fleet management system, you achieve comprehensive coverage and seamless integration, including man-down alerts for added safety in case of emergencies during field operations.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              How can agricultural fleet tracking improve efficiency and help save money?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              As agricultural fleets cover extensive distances, optimizing both the fleet and the dispatch routes they follow can lead to significant time and cost savings. With FleetHalo's extensive fleet management software, you can plot routes and access detailed reports on the paths taken. FleetHalo enables you to minimize idle time in traffic, thereby saving on fuel expenses.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              What is the future of agricultural fleet tracking?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              The future of agricultural fleet tracking is being shaped by the customers who demand it. At FleetHalo, we are dedicated to continuous innovation and improvement of our solutions, particularly for industries that might be overlooked in the realm of telematics. Our future endeavors at FleetHalo include advancing our capabilities in ensuring comprehensive vehicle coverage. This includes enhanced monitoring of engine hours and machinery maintenance, utilizing GPS for zone mapping to efficiently manage workloads, and maintaining vigilant oversight on engine hours and the overall maintenance of the fleet.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              Which type of agricultural vehicles is Geotab's software able to track and monitor?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's fleet management software is equipped to monitor a wide range of agricultural vehicles. Whether it's tractors, ploughs, or spreaders, your agricultural machinery can be effectively tracked using FleetHalo's technology.
-                           </div>
-                        </div>
-                     </div>
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">How do I track a farming vehicle?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Agricultural vehicles can be monitored through the installation of a telematics device, which then communicates over mobile or satellite networks based on the geographical area. By integrating a satellite modem into your agricultural fleet management system, you achieve comprehensive coverage and seamless integration, including man-down alerts for added safety in case of emergencies during field operations.</div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">How can agricultural fleet tracking improve efficiency and help save money?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">As agricultural fleets cover extensive distances, optimizing both the fleet and the dispatch routes they follow can lead to significant time and cost savings. With Fleet Halo's extensive fleet management software, you can plot routes and access detailed reports on the paths taken. Fleet Halo enables you to minimize idle time in traffic, thereby saving on fuel expenses.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">What is the future of agricultural fleet tracking?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The future of agricultural fleet tracking is being shaped by the customers who demand it. At Fleet Halo, we are dedicated to continuous innovation and improvement of our solutions, particularly for industries that might be overlooked in the realm of telematics. Our future endeavors at Fleet Halo include advancing our capabilities in ensuring comprehensive vehicle coverage. This includes enhanced monitoring of engine hours and machinery maintenance, utilizing GPS for zone mapping to efficiently manage workloads, and maintaining vigilant oversight on engine hours and the overall maintenance of the fleet.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">Which type of agricultural vehicles is Geotab's software able to track and monitor?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's fleet management software is equipped to monitor a wide range of agricultural vehicles. Whether it's tractors, ploughs, or spreaders, your agricultural machinery can be effectively tracked using Fleet Halo's technology.</div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            {{- partial "industries/industry-cta.html" . -}}
-         </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">{{- partial "industries/industry-cta.html" . -}}</div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>

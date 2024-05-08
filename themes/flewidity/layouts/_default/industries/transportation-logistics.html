@@ -1,359 +1,297 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{- partial "head.html" . -}}
-{{ if or (.Params.math) (.Site.Params.math) }}
-{{- partial "math.html" . -}}
-{{ end }}
+  {{- partial "head.html" . -}} {{ if or (.Params.math) (.Site.Params.math) }} {{- partial "math.html" . -}} {{ end }}
 
-<head>
-   {{ partial "header.html" . }}
-</head>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
 
-<body>
-   <div id="all">
+  <body>
+    <div id="all">
       {{ partial "breadcrumbs.html" . }}
 
       <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>
-                     Solutions with an open platform for sustained, long-term success.
-                  </h2>
-               </div>
-               <div class="col-md-6">
-                  <p>
-                     Access a comprehensive suite of fleet management solutions under one roof. Maintain your vehicles in top condition and minimize operating expenses. Our services empower you with data-driven insights, enabling you to enhance your overall operations.
-                  </p>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Solutions with an open platform for sustained, long-term success.</h2>
             </div>
-            <hr>
-         </div>
+            <div class="col-md-6">
+              <p>Access a comprehensive suite of fleet management solutions under one roof. Maintain your vehicles in top condition and minimize operating expenses. Our services empower you with data-driven insights, enabling you to enhance your overall operations.</p>
+            </div>
+          </div>
+          <hr />
+        </div>
       </section>
 
       <section class="bar background-white">
-         <div class="container">
-            <div class="row">
-               <div class="heading text-center">
-                  <h2>Key Features</h2>
-               </div>
+        <div class="container">
+          <div class="row">
+            <div class="heading text-center">
+              <h2>Key Features</h2>
             </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-improve.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Enhancing Road Safety for All</p>
-                     <ul class="text-start">
-                        <li>Utilize Advanced AI Video Safety Technology</li>
-                        <li>Implement Real-Time In-Vehicle Coaching with Customizable Alerts and Rules</li>
-                        <li>Comprehensive Collision Reconstruction for Clear Insight</li>
-                        <li>Lowering Commercial Fleet Insurance Costs with Proven Safe Driving Records</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-reduce.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Minimizing Fuel Consumption and Emissions</p>
-                     <ul class="text-start">
-                        <li>Monitor, Analyze, and Report Fleet CO2 Emissions for Benchmarking</li>
-                        <li>Identify and Address Key Contributors to Excessive Fuel Usage</li>
-                        <li>Pinpoint Drivers, Routes, and Locations Associated with High Idling Rates</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-guesswork.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Streamlining Fleet Compliance with Confidence</p>
-                     <ul class="text-start">
-                        <li>Hassle-Free ELD Solutions, Certified in the U.S. and Canada</li>
-                        <li>Gain a Complete Overview of Driver Availability and Duty Status Recaps</li>
-                        <li>Efficient Management of Unassigned Driving Logs</li>
-                        <li>Tailor Defect Lists to Suit Your Fleet’s Specific Requirements</li>
-                     </ul>
-                  </div>
-               </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-improve.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Enhancing Road Safety for All</p>
+                <ul class="text-start">
+                  <li>Utilize Advanced AI Video Safety Technology</li>
+                  <li>Implement Real-Time In-Vehicle Coaching with Customizable Alerts and Rules</li>
+                  <li>Comprehensive Collision Reconstruction for Clear Insight</li>
+                  <li>Lowering Commercial Fleet Insurance Costs with Proven Safe Driving Records</li>
+                </ul>
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-reduce.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Minimizing Fuel Consumption and Emissions</p>
+                <ul class="text-start">
+                  <li>Monitor, Analyze, and Report Fleet CO2 Emissions for Benchmarking</li>
+                  <li>Identify and Address Key Contributors to Excessive Fuel Usage</li>
+                  <li>Pinpoint Drivers, Routes, and Locations Associated with High Idling Rates</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-guesswork.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Streamlining Fleet Compliance with Confidence</p>
+                <ul class="text-start">
+                  <li>Hassle-Free ELD Solutions, Certified in the U.S. and Canada</li>
+                  <li>Gain a Complete Overview of Driver Availability and Duty Status Recaps</li>
+                  <li>Efficient Management of Unassigned Driving Logs</li>
+                  <li>Tailor Defect Lists to Suit Your Fleet’s Specific Requirements</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-maximize.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Boosting Productivity While Controlling Costs</p>
-                     <ul class="text-start">
-                        <li>Derive Valuable Insights for Precise Fuel Usage Tracking and Management</li>
-                        <li>Enhance Efficiency in Route Planning and Dispatch Operations</li>
-                        <li>Optimize Vehicle Uptime Through Predictive Maintenance Strategies</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-powerful.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">Harnessing Data for Impactful Insights</p>
-                     <ul class="text-start">
-                        <li>Utilize Patented Technology to Convert Data into Meaningful Insights</li>
-                        <li>Access and Customize Data Views with Unrestricted Access to All Collected Information</li>
-                        <li>Compare Performance with Similar Fleets, Set Goals, and Precisely Monitor Your Progress</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box-simple">
-                     <div class="mb-3">
-                        <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-platform.svg" | relURL }}' />
-                     </div>
-                     <p class="text-bigger">A Single Platform with Endless Customization Possibilities</p>
-                     <ul class="text-start">
-                        <li>Tailor Rules and Alerts to Perfectly Align with Your Fleet's Needs</li>
-                        <li>Create Custom Integrations Utilizing Open APIs and an SDK Toolkit</li>
-                        <li>Select from Over 200 Integrated, Fleet-Specific Hardware and Software Solutions on the FleetHalo Marketplace</li>
-                     </ul>
-                  </div>
-               </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-maximize.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Boosting Productivity While Controlling Costs</p>
+                <ul class="text-start">
+                  <li>Derive Valuable Insights for Precise Fuel Usage Tracking and Management</li>
+                  <li>Enhance Efficiency in Route Planning and Dispatch Operations</li>
+                  <li>Optimize Vehicle Uptime Through Predictive Maintenance Strategies</li>
+                </ul>
+              </div>
             </div>
-         </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-powerful.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">Harnessing Data for Impactful Insights</p>
+                <ul class="text-start">
+                  <li>Utilize Patented Technology to Convert Data into Meaningful Insights</li>
+                  <li>Access and Customize Data Views with Unrestricted Access to All Collected Information</li>
+                  <li>Compare Performance with Similar Fleets, Set Goals, and Precisely Monitor Your Progress</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-simple">
+                <div class="mb-3">
+                  <img class="feature-icon" src='{{ "img/industries/transportation-logistics/icon-platform.svg" | relURL }}' />
+                </div>
+                <p class="text-bigger">A Single Platform with Endless Customization Possibilities</p>
+                <ul class="text-start">
+                  <li>Tailor Rules and Alerts to Perfectly Align with Your Fleet's Needs</li>
+                  <li>Create Custom Integrations Utilizing Open APIs and an SDK Toolkit</li>
+                  <li>Select from Over 200 Integrated, Fleet-Specific Hardware and Software Solutions on the Fleet Halo Marketplace</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="m-0">
-         <div class="bg-image" style="
-                  background-image: url('/img/industries/transportation-logistics/transportation-logistics-banner.webp');
-                  min-height: 600px;
-                  margin-top: 0;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  ">
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px;">
-               <div class="herotitlesection">
-                  <div class="container">
-                     <div class="home-hero-block">
-                        <h2 class="mb-3 text-white">
-                           Discover Why FleetHalo Leads the World in Telematics
-                        </h2>
-                        <ul class="mb-3 text-white">
-                           <li>Processing 55 Billion Data Points Daily</li>
-                           <li>Over 3.2 Million Subscribers Worldwide</li>
-                           <li>Active Operations in More Than 152 Countries</li>
-                           <li>Utilizing the Patented Curve Logic Algorithm for Enhanced Data Accuracy and Precision</li>
-                           <li>Consistently Ranked as the #1 Commercial Telematics Vendor for Three Consecutive Years by ABI Research</li>
-                           <li>Backed by Over 22 Years of Expertise in Fleet Management</li>
-                           <li>Providing Support for More Than 9,000 Vehicle Makes and Models</li>
-                           <li>Marketplace Apps and Add-Ons</li>
-                        </ul>
-                        <div class="mb-3 btnsectHero">
-                           <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
-                           <a class="link-default-white" href="/request-demo">Get a demo</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6">
-                  <img src="/img/industries/transportation-logistics/transportation-logistics-1.webp" style="width:100%" alt="Tailored Solutions for Your Fleet's Specific Needs">
-               </div>
-               <div class="col-md-6">
-                  <h2>Tailored Solutions for Your Fleet's Specific Needs</h2>
-                  <p>
-                     Customize and integrate seamlessly with your existing systems. Leverage the FleetHalo Software Development Kit (SDK) and API to connect your company's Transportation Management System (TMS), Enterprise Resource Planning (ERP), or other operational systems with third-party programs. This integration is designed to ensure that your fleet's unique requirements are met, enhancing efficiency and streamlining your operations.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <section>
-         <div class="container">
-            <div class="row align-items-center mobile-column-reverse">
-               <div class="col-md-6">
-                  <h2>Embrace the Power of Choice</h2>
-                  <p>
-                     Gain access to a diverse range of over 200 integrated third-party hardware and software solutions, crafted by top industry experts.
-                  </p>
-                  <ul>
-                     <li>Cameras & Advanced Driver-Assistance Systems (ADAS)</li>
-                     <li>Electronic Logging Devices (ELD), Driver Vehicle Inspection Reports (DVIR) & International Fuel Tax Agreement (IFTA) Compliance</li>
-                     <li>Maintenance & Diagnostics Tools</li>
-                     <li>Efficient Workflow Management Systems</li>
-                     <li>Asset & Trailer Tracking Technologies</li>
-                     <li>Driver Management & Training Programs</li>
+        <div class="bg-image" style="background-image: url('/img/industries/transportation-logistics/transportation-logistics-banner.webp'); min-height: 600px; margin-top: 0; background-repeat: no-repeat; background-position: center; background-size: cover">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); min-height: 600px">
+            <div class="herotitlesection">
+              <div class="container">
+                <div class="home-hero-block">
+                  <h2 class="mb-3 text-white">Discover Why Fleet Halo Leads the World in Telematics</h2>
+                  <ul class="mb-3 text-white">
+                    <li>Processing 55 Billion Data Points Daily</li>
+                    <li>Over 3.2 Million Subscribers Worldwide</li>
+                    <li>Active Operations in More Than 152 Countries</li>
+                    <li>Utilizing the Patented Curve Logic Algorithm for Enhanced Data Accuracy and Precision</li>
+                    <li>Consistently Ranked as the #1 Commercial Telematics Vendor for Three Consecutive Years by ABI Research</li>
+                    <li>Backed by Over 22 Years of Expertise in Fleet Management</li>
+                    <li>Providing Support for More Than 9,000 Vehicle Makes and Models</li>
+                    <li>Marketplace Apps and Add-Ons</li>
                   </ul>
-               </div>
-               <div class="col-md-6">
-                  <img src="/img/industries/transportation-logistics/transportation-logistics-2.webp" style="width:100%" alt="Embrace the Power of Choice">
-               </div>
+                  <div class="mb-3 btnsectHero">
+                    <a class="btn-default" href="/products/software-plan/">View Subscription Plans</a>
+                    <a class="link-default-white" href="/request-demo">Get a demo</a>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="/img/industries/transportation-logistics/transportation-logistics-1.webp" style="width: 100%" alt="Tailored Solutions for Your Fleet's Specific Needs" />
+            </div>
+            <div class="col-md-6">
+              <h2>Tailored Solutions for Your Fleet's Specific Needs</h2>
+              <p>Customize and integrate seamlessly with your existing systems. Leverage the Fleet Halo Software Development Kit (SDK) and API to connect your company's Transportation Management System (TMS), Enterprise Resource Planning (ERP), or other operational systems with third-party programs. This integration is designed to ensure that your fleet's unique requirements are met, enhancing efficiency and streamlining your operations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row align-items-center mobile-column-reverse">
+            <div class="col-md-6">
+              <h2>Embrace the Power of Choice</h2>
+              <p>Gain access to a diverse range of over 200 integrated third-party hardware and software solutions, crafted by top industry experts.</p>
+              <ul>
+                <li>Cameras & Advanced Driver-Assistance Systems (ADAS)</li>
+                <li>Electronic Logging Devices (ELD), Driver Vehicle Inspection Reports (DVIR) & International Fuel Tax Agreement (IFTA) Compliance</li>
+                <li>Maintenance & Diagnostics Tools</li>
+                <li>Efficient Workflow Management Systems</li>
+                <li>Asset & Trailer Tracking Technologies</li>
+                <li>Driver Management & Training Programs</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <img src="/img/industries/transportation-logistics/transportation-logistics-2.webp" style="width: 100%" alt="Embrace the Power of Choice" />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="faq">
-         <div class="container">
-            <div class="row">
-               <div class="row align-items-center" id="faq-wrapper">
-                  <h1>
-                     Frequently asked questions
-                  </h1>
-                  <div class="accordion accordion-flush">
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-1">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">
-                              What is transportation & logistics fleet management?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              FleetHalo's transportation and logistics fleet management takes you beyond mere GPS location tracking, offering a more profound comprehension of your fleet's dynamics. Utilize it to keep tabs on vehicle health, optimize route and dispatch efficiency, analyze driver behavior patterns, monitor fuel levels, and much more.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">
-                              What are the advantages of using FleetHalo in the transportation & logistics market?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 At FleetHalo, we are acutely aware of the distinct challenges faced by businesses in this market and are dedicated to continually innovating and broadening our offerings to address these needs. FleetHalo solutions empower transportation and logistics businesses to achieve their objectives in workforce, vehicle and cost management, vehicle uptime, compliance, sustainability, driver performance, and safety.
-                              </p>
-                              <p>
-                                 FleetHalo stands apart from generic, one-size-fits-all solutions by providing customizable and scalable options tailored to meet the diverse requirements of businesses, regardless of their size. Our open platform, software development kit, APIs, IOX expandability, and a vast ecosystem of partner solutions ensure that customers have the flexibility to find and/or tailor solutions that perfectly align with their specific business needs.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">
-                              How is a transportation & logistics fleet managed?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo recognizes that every fleet is unique, with distinct management processes and requirements. These companies are tasked with ensuring the safe and efficient transportation of goods, whether for regional or cross-country deliveries. FleetHalo solutions enable fleet managers to make informed, data-driven decisions about their vehicles, helping them meet specific business objectives such as compliance, customer satisfaction, driver safety, profitability, cost control, and reducing their carbon footprint.
-                              </p>
-                              <p>
-                                 FleetHalo's fleet management solutions are crafted with our five pillars of innovation at the forefront:
-                              </p>
-                              <ul>
-                                 <li>Productivity</li>
-                                 <li>Safety</li>
-                                 <li>Fleet Optimization</li>
-                                 <li>Compliance</li>
-                                 <li>Scalability</li>
-                                 <li>Sustainability</li>
-                              </ul>
-                              <p>
-                                 Since the inception of FleetHalo over 20 years ago, we have consistently aligned our priorities with those of our customers, understanding their unique challenges and adapting our solutions to meet their evolving needs.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-4">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">
-                              How can I achieve and maintain fleet compliance with FleetHalo?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's compliance management solution helps you achieve and sustain fleet compliance effortlessly. Our comprehensive solution includes an Electronic Logging Device (ELD) that guarantees adherence to Hours of Service (HOS) regulations, Driver Vehicle Inspection Reporting (DVIR), IFTA Reporting, and driver identification requirements. FleetHalo's ELD solution is officially certified in both the United States and Canada, ensuring reliable and compliant operations across North America.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-5">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">
-                              How can FleetHalo's fleet software help your fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              <p>
-                                 FleetHalo's fleet management software is designed to assist in keeping your fleet in optimal condition while also minimizing costs. We focus on enhancing driver safety by monitoring instances of speeding and harsh braking. Keep a close watch on vehicle health through the tracking of vehicle fault codes, and efficiently manage compliance using the FleetHalo Drive mobile app.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-6">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">
-                              What is the best way to manage a fleet?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              Managing a fleet becomes significantly more straightforward with technologies tailored to fleet requirements. FleetHalo's telematics system extends beyond basic GPS location tracking, providing enhanced control over your fleet's movements. It also enables you to monitor various aspects such as vehicle health, driver behavior patterns, fuel levels, and more, offering a comprehensive view of your fleet operations.
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="faq-7">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">
-                              What are the benefits of choosing FleetHalo?
-                           </button>
-                        </h2>
-                        <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                              As the leading commercial fleet telematics provider worldwide, FleetHalo serves a diverse range of businesses globally. FleetHalo's secure, open-platform technology offers comprehensive visibility into vehicle movements, engine health, fuel consumption, and more. Armed with this vital business intelligence, you can make informed, data-driven decisions to enhance various aspects of your business operations.
-                           </div>
-                        </div>
-                     </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="row align-items-center" id="faq-wrapper">
+              <h1>Frequently asked questions</h1>
+              <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1" aria-expanded="false" aria-controls="faq-collapse1">What is transportation & logistics fleet management?</button>
+                  </h2>
+                  <div id="faq-collapse1" class="accordion-collapse collapse" aria-labelledby="faq-1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fleet Halo's transportation and logistics fleet management takes you beyond mere GPS location tracking, offering a more profound comprehension of your fleet's dynamics. Utilize it to keep tabs on vehicle health, optimize route and dispatch efficiency, analyze driver behavior patterns, monitor fuel levels, and much more.</div>
                   </div>
-               </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse2" aria-expanded="false" aria-controls="faq-collapse2">What are the advantages of using Fleet Halo in the transportation & logistics market?</button>
+                  </h2>
+                  <div id="faq-collapse2" class="accordion-collapse collapse" aria-labelledby="faq-2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>At Fleet Halo, we are acutely aware of the distinct challenges faced by businesses in this market and are dedicated to continually innovating and broadening our offerings to address these needs. Fleet Halo solutions empower transportation and logistics businesses to achieve their objectives in workforce, vehicle and cost management, vehicle uptime, compliance, sustainability, driver performance, and safety.</p>
+                      <p>Fleet Halo stands apart from generic, one-size-fits-all solutions by providing customizable and scalable options tailored to meet the diverse requirements of businesses, regardless of their size. Our open platform, software development kit, APIs, IOX expandability, and a vast ecosystem of partner solutions ensure that customers have the flexibility to find and/or tailor solutions that perfectly align with their specific business needs.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3" aria-expanded="false" aria-controls="faq-collapse3">How is a transportation & logistics fleet managed?</button>
+                  </h2>
+                  <div id="faq-collapse3" class="accordion-collapse collapse" aria-labelledby="faq-3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo recognizes that every fleet is unique, with distinct management processes and requirements. These companies are tasked with ensuring the safe and efficient transportation of goods, whether for regional or cross-country deliveries. Fleet Halo solutions enable fleet managers to make informed, data-driven decisions about their vehicles, helping them meet specific business objectives such as compliance, customer satisfaction, driver safety, profitability, cost control, and reducing their carbon footprint.</p>
+                      <p>Fleet Halo's fleet management solutions are crafted with our five pillars of innovation at the forefront:</p>
+                      <ul>
+                        <li>Productivity</li>
+                        <li>Safety</li>
+                        <li>Fleet Optimization</li>
+                        <li>Compliance</li>
+                        <li>Scalability</li>
+                        <li>Sustainability</li>
+                      </ul>
+                      <p>Since the inception of Fleet Halo over 20 years ago, we have consistently aligned our priorities with those of our customers, understanding their unique challenges and adapting our solutions to meet their evolving needs.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse4" aria-expanded="false" aria-controls="faq-collapse4">How can I achieve and maintain fleet compliance with Fleet Halo?</button>
+                  </h2>
+                  <div id="faq-collapse4" class="accordion-collapse collapse" aria-labelledby="faq-4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's compliance management solution helps you achieve and sustain fleet compliance effortlessly. Our comprehensive solution includes an Electronic Logging Device (ELD) that guarantees adherence to Hours of Service (HOS) regulations, Driver Vehicle Inspection Reporting (DVIR), IFTA Reporting, and driver identification requirements. Fleet Halo's ELD solution is officially certified in both the United States and Canada, ensuring reliable and compliant operations across North America.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse5" aria-expanded="false" aria-controls="faq-collapse5">How can Fleet Halo's fleet software help your fleet?</button>
+                  </h2>
+                  <div id="faq-collapse5" class="accordion-collapse collapse" aria-labelledby="faq-5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Fleet Halo's fleet management software is designed to assist in keeping your fleet in optimal condition while also minimizing costs. We focus on enhancing driver safety by monitoring instances of speeding and harsh braking. Keep a close watch on vehicle health through the tracking of vehicle fault codes, and efficiently manage compliance using the Fleet Halo Drive mobile app.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse6" aria-expanded="false" aria-controls="faq-collapse6">What is the best way to manage a fleet?</button>
+                  </h2>
+                  <div id="faq-collapse6" class="accordion-collapse collapse" aria-labelledby="faq-6" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Managing a fleet becomes significantly more straightforward with technologies tailored to fleet requirements. Fleet Halo's telematics system extends beyond basic GPS location tracking, providing enhanced control over your fleet's movements. It also enables you to monitor various aspects such as vehicle health, driver behavior patterns, fuel levels, and more, offering a comprehensive view of your fleet operations.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="faq-7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse7" aria-expanded="false" aria-controls="faq-collapse7">What are the benefits of choosing Fleet Halo?</button>
+                  </h2>
+                  <div id="faq-collapse7" class="accordion-collapse collapse" aria-labelledby="faq-7" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">As the leading commercial fleet telematics provider worldwide, Fleet Halo serves a diverse range of businesses globally. Fleet Halo's secure, open-platform technology offers comprehensive visibility into vehicle movements, engine health, fuel consumption, and more. Armed with this vital business intelligence, you can make informed, data-driven decisions to enhance various aspects of your business operations.</div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
-      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat;">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-12">
-                  <h1 class="text-center text-white">
-                     Ready to optimize your fleet?
-                  </h1>
-                  <p class="text-white text-center">
-                     Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.
-                  </p>
-                  <div class="d-flex flex-wrap justify-content-center">
-                     <a href="/request-demo" class="btn-default">Get a Demo</a>
-                     <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
-                  </div>
-               </div>
+      <section class="py-5 my-0" style="background: linear-gradient(rgba(37, 71, 123, 0.95), rgba(0, 120, 211, 0.95)), center center / cover no-repeat">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <h1 class="text-center text-white">Ready to optimize your fleet?</h1>
+              <p class="text-white text-center">Discover how easy it is to utilize our web-based software and fleet tracking devices for effective management of your construction fleet.</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a href="/request-demo" class="btn-default">Get a Demo</a>
+                <a href="/products/hardware/" class="btn-default">See Subscription Plans</a>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       {{- partial "footer.html" . -}}
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>
